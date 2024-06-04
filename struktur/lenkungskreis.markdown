@@ -8,7 +8,7 @@ Der Lenkungskreis ist das für projektbezogene Fragen zuständige Entscheidungso
 
 Er besteht aus neun ordentlichen Mitgliedern:
 
-* Je eine:m Vertreter:in jede:r der sechs Kooperationspartner:innen
+* Je ein:e Vertreter:in jeder der sechs Kooperationspartner
 * Dem CIO der Kunst- und Musikhochschulen NRW
 * Ein:er Vertreter:in der AG Kunst- und Musikhochschulbibliotheken
 * Ein:er Vertreter:in des hbz
