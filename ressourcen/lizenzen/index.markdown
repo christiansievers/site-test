@@ -24,7 +24,7 @@ Entwürfe zu einzelnen Lizenz-Erklärungen (Deeds) finden sie hier:
 
   * [Digi-Kunst-A (Entwurf)]()
   * [Digi-Kunst-A+B (Entwurf)]()
-  * [Digi-Kunst-A+B+C (Entwurf)](digi-kunst-a+b+c)
+  * [Digi-Kunst-A+B+C (Entwurf)]({{ site.baseurl }}/ressourcen/lizenzen/digi-kunst-a+b+c)
 
 Einen Überblick, wie die Rechteabfrage in Digi-Kunst.nrw funktionieren soll, finden Sie darüber hinaus im folgeden Entscheidungsbaum:
 

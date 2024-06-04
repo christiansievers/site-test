@@ -137,18 +137,18 @@ flowchart LR;
 
 Projektkategorien geben die Kunstgattung, das Gebiet oder das Genre eines Projekts an. Dafür verwenden wir keine einfache Liste, sondern eine sogenannte Taxonomie (griechisch für „Ordnung“), in der die Kategorien stets in einem gewissen Kontext abgebildet werden. Am besten lässt sich das an einem Beispiel erklären. Für ein Projekt wurde die Projektkategorie „Industrial Design“ vergeben. In unserem System taucht diese Projektkategorie dann wie folgt auf:
 
-<a href="/assets/images/Beispiel_Breadcrumb_Projektkategorien.png"><img src="/assets/images/Beispiel_Breadcrumb_Projektkategorien.png" class="center-image" style="width: 400px;"/></a>
+<a href="{{ site.baseurl }}/assets/images/Beispiel_Breadcrumb_Projektkategorien.png"><img src="{{ site.baseurl }}/assets/images/Beispiel_Breadcrumb_Projektkategorien.png" class="center-image" style="width: 400px;"/></a>
 
 Alle drei Kategorisierungen werden dann zu dem entsprechenden Projekt gespeichert. Man kann dieses dann also auch unter dem Begriff "Angewandte Kunst" wiederfinden. Zsätzlich sind die Kategorien mit Synonymen angereichert, sodass eine noch bessere Auffindbarkeit gewährleistet wird. 
 
-Es können beliebig viele Kategorien zu einem Projekt vergeben werden, sodass auch Projekte beschrieben werden können, die in mehr als eine Kategorie fallen. Einen Überblick, mit welchen Digi-Kunst.nrw gestartet ist, lässt sich in unserem [Projektkategorien-Grundset](projektkategorien-grundset) finden. 
+Es können beliebig viele Kategorien zu einem Projekt vergeben werden, sodass auch Projekte beschrieben werden können, die in mehr als eine Kategorie fallen. Einen Überblick, mit welchen Digi-Kunst.nrw gestartet ist, lässt sich in unserem [Projektkategorien-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/projektkategorien-grundset) finden. 
 
 Jede Projektkategorie enthält mindestens auch noch den Link zu einem Begriff des kontrollierten Vokabulars der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de). „Kontrolliert“ wird ein Vokabular dann genannt, wenn für eine Sache (ein Konzept) jeweils nur ein einziger Eintrag existiert; es also keine „Teekesselchen“ gibt, die für Unklarheiten in einem System sorgen könnten. Außerdem ist die Kategorie damit besser im Internet identifizierbar und austauschfähig. Oft enthält eine Projektkategorie ein ganzes Set von Links zu großen kontrollierten Vokabularen: dem Vokabular der Deutschen Nationalbibliothek, dem Vokabular des Getty Art & Architecture Thesaurus und dem Vokabular des Filmportals.de.
 
 Die Schlagwörter, mit denen Digi-Kunst.nrw arbeitet, stammen aus der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de). Die Informationen können direkt von dort aus nach Digi-Kunst.nrw importiert werden. Diese Methode hat den Vorteil, dass das Schlagwortvokabular von Digi-Kust.nrw stetig erweitert und verbessert werden kann. Damit ein Schlagwort allerdings in unser System geladen werden kann, benötigt es mindestens einen deutschen und englischen Eintrag mit zugehöriger Beschreibung auf der Wikidata. Ebenso werden – falls sie vorhanden sind – Synonyme, die auf der Wikidata stehen, ebenfalls mitgeladen, um die weiter die Auffindbarkeit der Projekte zu gewährleisten.
 
-<a href="/assets/images/schlagwort_auslesen.png"><img src="/assets/images/schlagwort_auslesen.png" class="center-image" style="margin-top: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
-<a href="/assets/images/ausgelesenes_schlagwort.png"><img src="/assets/images/ausgelesenes_schlagwort.png" class="center-image" style="margin-bottom: 8%; border: 1px solid black;"/></a>
+<a href="{{ site.baseurl }}/assets/images/schlagwort_auslesen.png"><img src="{{ site.baseurl }}/assets/images/schlagwort_auslesen.png" class="center-image" style="margin-top: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
+<a href="{{ site.baseurl }}/assets/images/ausgelesenes_schlagwort.png"><img src="{{ site.baseurl }}/assets/images/ausgelesenes_schlagwort.png" class="center-image" style="margin-bottom: 8%; border: 1px solid black;"/></a>
 
 ----
 
@@ -223,7 +223,7 @@ Damit eine einliefernde Hochschule ein Projekt in die Langzeitverfügbarkeit üb
 Digi-Kunst.nrw erfasst dafür zunächst bestimmte Rechte für das Projekt. Das kann auf zweierlei Arten passieren:
 
 * Zum einen kann bereits ein Nutzungsvertrag zwischen den Rechteinhaber:innen und der Hochschule bestehen, mit welchem bereits verschiedene Erhaltungsschritte erlaubt sind. Zum Beispiel kann es sein, dass die Archivierung eines Projekts bereits Bestandteil einer vorherigen Vereinbarung war. In diesen Fällen ist zu klären, ob Digi-Kunst.nrw bereits verschiedene Arbeitsschritte ausführen darf, beispielsweise die Projekte zu verzeichnen und die Dateien in die Langzeitverfügbarkeit zu überführen.
-* Zum anderen kann über Digi-Kunst.nrw ein neuer Lizenzvertrag geschlossen werden, falls noch keiner vorliegt oder der bereits bestehende Lizenzvertrag erweitert werden soll. Digi-Kunst.nrw stellt dafür eine speziell für diesen Zweck erstellte Modularlizenz zur Verfügung. Details hierzu finden sich auf der Seite [**Lizenzen**](/ressourcen/lizenzen/).
+* Zum anderen kann über Digi-Kunst.nrw ein neuer Lizenzvertrag geschlossen werden, falls noch keiner vorliegt oder der bereits bestehende Lizenzvertrag erweitert werden soll. Digi-Kunst.nrw stellt dafür eine speziell für diesen Zweck erstellte Modularlizenz zur Verfügung. Details hierzu finden sich auf der Seite [**Lizenzen**]({{ site.baseurl }}/ressourcen/lizenzen).
 
 <pre class="mermaid">
 flowchart TB;
@@ -241,7 +241,7 @@ Außerdem gibt es noch einige Sonderfälle, die im Einzelfall geprüft werden m�
 
 ## Ereignis: Ereignistypen
 
-Ereignisse können ebenso kategorisiert werden wie Projekte. Ein Ereignis kann ein Ankauf sein, eine musikalische Komposition, eine Ursendung oder ein Rundgang. Ein Ereignis muss daher eine Zuordnung haben, zu welchem Ereigsnistyp es gehört. Eine Übersicht über die Ereignistypen, die den Grundstock von Digi-Kunst.nrw bilden, finden Sie in unserem [**Ereignistypen-Grundset**](ereignistypen-grundset). Ein Ereignistyp hat mindestens einen Wikidata-Link und kann zusätzlich einen GND-Link, einen AAT-Link und einen Link zu einem Ereignis aus der LIDO-Terminologie haben.
+Ereignisse können ebenso kategorisiert werden wie Projekte. Ein Ereignis kann ein Ankauf sein, eine musikalische Komposition, eine Ursendung oder ein Rundgang. Ein Ereignis muss daher eine Zuordnung haben, zu welchem Ereigsnistyp es gehört. Eine Übersicht über die Ereignistypen, die den Grundstock von Digi-Kunst.nrw bilden, finden Sie in unserem [**Ereignistypen-Grundset**]({{ site.baseurl }}/dokumentation/datenmodell/ereignistypen-grundset). Ein Ereignistyp hat mindestens einen Wikidata-Link und kann zusätzlich einen GND-Link, einen AAT-Link und einen Link zu einem Ereignis aus der LIDO-Terminologie haben.
 
 <pre class="mermaid">
 flowchart LR;
@@ -282,11 +282,11 @@ flowchart TB;
 ## Ereignis: Orte
 Ein Ereignis kann an mehreren Orten stattgefunden haben. Orte laden wir, ebenso wie Schlagwörter, aus der Wikidata. Bei Orten wird aber im Hintergrund eine komplexere Abfrage gestellt, die mit der Abfragesprache SPARQL ausgeführt wird. SPARQL-Anfragen werden im Grunde wie Sätze formuliert: Finde alle „Orte“ „die übergeordnet sind“ „zum eingegebenen Ort“. Unsere Ort-Abfrage ist somit in der Lage, einen eingegebenen Ort direkt in seinen geografischen Kontext zu setzen. Es muss nur die Wikidata-ID eingegeben werden und das System übernimmt diese Einordnung. Bei uns werden Orte auf 6 Ebenen erfasst. Diese sind: **Kontinent** > **Land** > **Staat/Region/Bundesland** > **Stadt** > **Genauer Ort** > **Interner Ort**.
 
-<a href="/assets/images/wikidata_ort.png"><img src="/assets/images/wikidata_ort.png" class="center-image" style="margin-top: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
+<a href="{{ site.baseurl }}/assets/images/wikidata_ort.png"><img src="{{ site.baseurl }}/assets/images/wikidata_ort.png" class="center-image" style="margin-top: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
 
-<a href="/assets/images/adm_ort_importieren.png"><img src="/assets/images/adm_ort_importieren.png" class="center-image-small" style="margin-bottom: 8%;"/></a>
+<a href="{{ site.baseurl }}/assets/images/adm_ort_importieren.png"><img src="{{ site.baseurl }}/assets/images/adm_ort_importieren.png" class="center-image-small" style="margin-bottom: 8%;"/></a>
 
-<a href="/assets/images/adm_ort_angelegt.png"><img src="/assets/images/adm_ort_angelegt.png" class="center-image" style="margin-bottom: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
+<a href="{{ site.baseurl }}/assets/images/adm_ort_angelegt.png"><img src="{{ site.baseurl }}/assets/images/adm_ort_angelegt.png" class="center-image" style="margin-bottom: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
 
 ----
 
@@ -340,7 +340,7 @@ flowchart LR;
 | Kontakt (Telefon) | Contact (Phone) | 0-u | Ein oder mehrere mögliche Telefonkontakte. Diese werden gelöscht, wenn sie nicht mehr benötigt werden |
 | Kontakt (Postanschrift) | Contact (Postal Address) | 0-1 | Eine mögliche Postanschrift. Diese wird gelöscht, wenn sie nicht mehr benötigt wird |
 
-Innerhalb eines Projekts kann ein/eine Akteur:in mehrere Rollen haben. Dieselbe Rolle kann auf unterschiedliche Akteur:innen angewendet werden. Rollen stammen bei uns aus einer eigenen Entität. Eine Rolle hat einen deutschen und einen englischen Namen und einen Wikidata-Link. Zusätzlich können Rollen auch einen rollenspezifischen „Gemeinsame Normdatei“-Link und einen „Getty Art and Architecture Thesaurus“-Link haben. Zur besseren Auffindbarkeit von Akteur:innen kann eine Rolle auch noch mit deutschen und englischen Synonymen angereichert werden. Eine Übersicht, mit welchen Rollen Digi-Kunst.nrw gestartet ist, finden sie in unserem [**Rollen-Grundset**](/dokumentation/datenmodell/rollen-grundset).
+Innerhalb eines Projekts kann ein/eine Akteur:in mehrere Rollen haben. Dieselbe Rolle kann auf unterschiedliche Akteur:innen angewendet werden. Rollen stammen bei uns aus einer eigenen Entität. Eine Rolle hat einen deutschen und einen englischen Namen und einen Wikidata-Link. Zusätzlich können Rollen auch einen rollenspezifischen „Gemeinsame Normdatei“-Link und einen „Getty Art and Architecture Thesaurus“-Link haben. Zur besseren Auffindbarkeit von Akteur:innen kann eine Rolle auch noch mit deutschen und englischen Synonymen angereichert werden. Eine Übersicht, mit welchen Rollen Digi-Kunst.nrw gestartet ist, finden sie in unserem [**Rollen-Grundset**]({{ site.baseurl }}/dokumentation/datenmodell/rollen-grundset).
 
 <pre class="mermaid">
 flowchart TB;
@@ -359,8 +359,8 @@ Ganz speziell in der Entität Rolle sind die beiden Felder „steuert 'ist Urheb
 In einem Ereignis kann verschiedenes Equipment & Software zum Einsatz kommen. Ein Equipment-Teil und eine Software kann in vielen Ereignissen vorkommen. Equipment ist von verschiedener Art. Einen Beispielfundus an Equipmentarten findet man wie folgt in unserem Datenmodell.
 
 
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> 2024-05-equipmentarten-grundset.xlsx](/assets/documents/2024-05-equipmentarten-grundset.xlsx) (13,5 KB)  
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> 2024-05-equipmentarten-grundset.pdf](/assets/documents/2024-05-equipmentarten-grundset.pdf) (59 KB)
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> 2024-05-equipmentarten-grundset.xlsx]({{ site.baseurl }}/assets/documents/2024-05-equipmentarten-grundset.xlsx) (13,5 KB)  
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> 2024-05-equipmentarten-grundset.pdf]({{ site.baseurl }}/assets/documents/2024-05-equipmentarten-grundset.pdf) (59 KB)
 
 | Deutscher Name der Equipmentart | Englischer Name der Equipmentart | Wikidata-Link | GND-Link | AAT-Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -419,7 +419,7 @@ In einem Ereignis können beliebig viele physische Objekte beschrieben werden. D
 
 ## Ereignis: Informationsträger
 
-Informationsträger sind eine besondere Form von physischen Objekten, weswegen wir sie auch eigenständig führen. Dabei handelt es sich um die Trägermedien, die Grundlage oder Speicher für die bei uns gesichertenen Informationen oder Dateien sind. Das kann z. B. sein: eine Schallplatte, eine Diskette, eine Festplatte oder ähnliches. Wir nennen diese Eigenschaft, zu welcher Art ein Informationsträger gehört, Informationsträgertyp. Die [**Taxonomie der Informationsträgertypen**](/dokumentation/datenmodell/informationstraegertypen-grundset) kann bei Bedarf im Erfassungsportal erweitert werden. Neben den Felder, die auch das Physische Objekt besitzt, können bei einem Informationsträger die folgenden Informationen eingegeben werden:
+Informationsträger sind eine besondere Form von physischen Objekten, weswegen wir sie auch eigenständig führen. Dabei handelt es sich um die Trägermedien, die Grundlage oder Speicher für die bei uns gesichertenen Informationen oder Dateien sind. Das kann z. B. sein: eine Schallplatte, eine Diskette, eine Festplatte oder ähnliches. Wir nennen diese Eigenschaft, zu welcher Art ein Informationsträger gehört, Informationsträgertyp. Die [**Taxonomie der Informationsträgertypen**]({{ site.baseurl }}/dokumentation/datenmodell/informationstraegertypen-grundset) kann bei Bedarf im Erfassungsportal erweitert werden. Neben den Felder, die auch das Physische Objekt besitzt, können bei einem Informationsträger die folgenden Informationen eingegeben werden:
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
@@ -454,7 +454,7 @@ Digi-Kunst.nrw definiert ein Digitales Objekt als eine Datei sowie ihre zugehör
   * **Bei Code: Welche Systemvorraussetzungen sind notwendig, damit das Programm ausgeführt werden kann?**
   * **Worum handelt es sich bei der Datei in einem langzeitarchivarischen Sinn?** Um einen "Preservation Master" (ein Original oder eine nach bestimmten Richtlinien hergestellte Kopie), um einen "Modified Master" (meist eine bereits langzeitstabile Kopie, von der besser Abzüge gemacht werden können) oder um eine "Derivative Copy" (um ein Nutzerformat, dass keinen archivarischen Zweck erfüllt)?
   * **Die wievielte Nutzerkopie dieser Datei ist es?**
-  * **Welchen Urheberrechts- und Lizenzstatus hat die Datei?** Neben unseren eigenen Lizenzen können auf die Dateien auch die Lizenzen von Creative Commons vergeben werden. Weiter Informationen zu den Auswahlmöglichkeiten erhalten sie auf der Seite [**Lizenzen**](/ressourcen/lizenzen/)
+  * **Welchen Urheberrechts- und Lizenzstatus hat die Datei?** Neben unseren eigenen Lizenzen können auf die Dateien auch die Lizenzen von Creative Commons vergeben werden. Weiter Informationen zu den Auswahlmöglichkeiten erhalten sie auf der Seite [**Lizenzen**]({{ site.baseurl }}/ressourcen/lizenzen/)
   * **Soll die Datei öffentlich angezeigt werden oder nicht?**
   * Zudem wird **automatisch ausgelesen, wie groß die Datei ist, zu welchem Dateityp sie gehört und wann sie zuletzt verändert wurde**.
 

@@ -10,28 +10,21 @@ Die folgenden Datenquellen werden zur Zeit für die Einlieferung nach Digi-Kunst
 
 ## Folkwang Universität der Künste
 
-Seit ihrer Gründung im Jahr 1927 vereint die Folkwang Universität der Künste eine Vielzahl künstlerischer Disziplinen unter einem Dach und ist bekannt für ihre lebendige, interdisziplinäre Zusammenarbeit in den Bereichen Musik, Theater, Tanz, Gestaltung und Wissenschaft. Sie ist fest in der Kulturszene des Ruhrgebiets verankert und bietet eine breite Palette an Studiengängen und Forschungsinitiativen.
+Seit ihrer Gründung im Jahr 1927 vereint die Folkwang Universität der Künste eine Vielzahl künstlerischer Disziplinen unter einem Dach und ist bekannt für ihre lebendige, interdisziplinäre Zusammenarbeit in den Bereichen Musik, Theater, Tanz, Gestaltung und Wissenschaft. Sie ist fest in der Kulturszene des Ruhrgebiets verankert und bietet eine breite Palette an Studiengängen und Forschungsinitiativen.  
 
-**Institut für Zeitgenössischen Tanz (IZT):**
-
+**Institut für Zeitgenössischen Tanz (IZT):**  
 * Archivierung und Digitalisierung von Tanzstücken und Trainingsmaterialien in Kooperation mit der Pina Bausch Foundation und dem Deutschen Tanzarchiv Köln.
 * Entwicklung eigener Tanzproduktionen mit internationalen Choreographen im Folkwang Tanzstudio.
-* Erhaltung und Zugänglichmachung vergangener und zukünftiger Tanzstücke durch fortlaufende digitale Dokumentation.
-
-**Institut für Computermusik und elektronische Medien (ICEM):**
-
+* Erhaltung und Zugänglichmachung vergangener und zukünftiger Tanzstücke durch fortlaufende digitale Dokumentation.  
+**Institut für Computermusik und elektronische Medien (ICEM):**  
 * Archivierung elektronischer Musikwerke seit 1971 zur Langzeitsicherung im Rahmen von Digi-Kunst.nrw.
 * Einsatz und Förderung von elektronischen Medien in interdisziplinären Projekten.
-* Entwicklung von Analysetools und digitalen Formaten für die Musikwissenschaft und Komposition.
-
-**Institut für Kunst- und Designwissenschaft:**
-
+* Entwicklung von Analysetools und digitalen Formaten für die Musikwissenschaft und Komposition.  
+**Institut für Kunst- und Designwissenschaft:**  
 * Digitale Dokumentation und Präsentation von Studienarbeiten im Bereich Industrial Design und Fotografie.
 * Erfassung und Archivierung historischer Fotografien und studentischer Arbeiten im Fotografie-Archiv.
-* Förderung der interdisziplinären Gestaltung in Kommunikationsdesign durch Projekte, die Bild, Text und Code integrieren.
-
-**Institut für Pop-Musik:**
-
+* Förderung der interdisziplinären Gestaltung in Kommunikationsdesign durch Projekte, die Bild, Text und Code integrieren.  
+**Institut für Pop-Musik:**  
 * Verknüpfung von Popmusik mit aktuellen Kunstformen zur Förderung innovativer künstlerischer Ausdrücke.
 * Interdisziplinäre Projekte zur Integration von Musik, Kunst und Wirtschaft.
 * Unterstützung junger Künstler durch bereichsübergreifende Bildungs- und Forschungsangebote.

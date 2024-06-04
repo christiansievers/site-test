@@ -6,7 +6,7 @@ order: 2.4.3
 
 ----
 
-URI: [https://github.com/christiansievers/site-test/resolver/digi-kunst-a+b+c](https://github.com/christiansievers/site-test/resolver/digi-kunst-a+b+c)
+URI: [https://christiansievers.github.io/site-test/ressourcen/lizenzen/digi-kunst-a+b+c](https://christiansievers.github.io/site-test/ressourcen/lizenzen/digi-kunst-a+b+c)
 
 ----
 

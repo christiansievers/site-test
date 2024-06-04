@@ -12,7 +12,7 @@ Hier finden Sie einen Überblick über die Grundkonzepte von Digi-Kunst.nrw.
 
 Das Datenmodell definiert, wie die heterogenen Rohinformationen der unterschiedlichen Einliefernden in ein logisches Verhältnis gebracht und integriert werden, und in welchen Entitäten (Tabellen) und Attributen (Feldern) die einzelnen Metadaten erfasst und verfügbar gemacht werden. Dieses Diagramm zeigt in vereinfachter Form, wie sich die Entitäten (Tabellen) und Attribute (Felder) zueinander verhalten:
 
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> 2024-04-24_datenmodellierung_vereinfacht.pdf](/assets/documents/2024-04-24_datenmodellierung_vereinfacht.pdf) (20,3 KB)  
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> 2024-04-24_datenmodellierung_vereinfacht.pdf]({{ site.baseurl}}/assets/documents/2024-04-24_datenmodellierung_vereinfacht.pdf) (20,3 KB)  
 
 | **Projekt**  | Im Zentrum steht das Projekt, meistens ein künstlerisches Werk. Es sind aber auch z. B. Aufzeichnungen von Veranstaltungen erfassbar. Das Projekt hat einen oder mehrere Titel, es lässt sich kategorisieren und inhaltlich beschreiben. |
 | **Organisationseinheit** | Projekte entstehen üblicherweise aus dem Zusammenhang eines Studiengangs oder einer Hochschuleinrichtung. Diese erfassen wir in der Entität Organisationseinheit |
@@ -22,7 +22,7 @@ Das Datenmodell definiert, wie die heterogenen Rohinformationen der unterschiedl
 | **Lizenz** | Digitalen Objekten kann eine Lizenz zur Veröffentlichung zugewiesen werden. Es ist möglich, auf Wunsch alle oder nur einzelne digitale Objekte eines Projekts (bzw. eines Ereignisses) zu veröffentlichen. Nicht veröffentlichte digitale Objekte bleiben für die Öffentlichkeit unzugänglich und werden nur in die Langzeitverfügbarkeit-Sicherung des hbz gegeben. |
 | **Weitere Entitäten** | Weitere optionale Entitäten sind *physisches Objekt*, verwendetes *Equipment und Software* und *Informationsträger* – siehe Diagramm. |
 
-Eine detailiertere Einführung in das Datenmodell finden sie [hier](/dokumentation/datenmodell).
+Eine detailiertere Einführung in das Datenmodell finden sie [hier]({{ site.baseurl}}/dokumentation/datenmodell).
 
 ----
 
@@ -31,13 +31,13 @@ Eine detailiertere Einführung in das Datenmodell finden sie [hier](/dokumentati
 ### 1: Die Grundlagen
 
 <video width="100%" controls>
-    <source src="/assets/documents/2024-04_datenmodellierung_1_grundlagen.mp4" type="video/mp4">
+    <source src="{{ site.baseurl}}/assets/documents/2024-04_datenmodellierung_1_grundlagen.mp4" type="video/mp4">
 </video>
 
 ### 2: Verzeichnung eines einfachen Projekts
 
 <video width="100%" controls>
-    <source src="/assets/documents/2024-04_datenmodellierung_2_einfaches_beispiel.mp4" type="video/mp4">
+    <source src="{{ site.baseurl}}/assets/documents/2024-04_datenmodellierung_2_einfaches_beispiel.mp4" type="video/mp4">
 </video>
 
 ----
@@ -78,9 +78,9 @@ Um eine einheitliche Erschließung und Verzeichnung zu gewährleisten, benutzt D
 
 In der technischen Dokumentation finden Sie die Inhalte aller von Digi-Kunst erstellten kontrollierten Vokabulare und Taxonomien:
 
-  * [Ereignistypen](/ereignistypen-grundset)
-  * die [Taxonomie der Projektkategorien](/projektkategorien-grundset) umfasst etwa 280 Einträge aus allen Gattungen der Künste. Die Anbindung an Wikidata ermöglicht eine Ausweitung der Suchfunktion auf Synonyme und eine erweiterte Mehrsprachigkeit.
-  * [Rollen](/rollen-grundset) von Akteur:innen in Ereignissen
+  * [Ereignistypen]({{ site.baseurl}}/dokumentation/datenmodell/ereignistypen-grundset)
+  * die [Taxonomie der Projektkategorien]({{ site.baseurl}}/dokumentation/datenmodell/projektkategorien-grundset) umfasst etwa 280 Einträge aus allen Gattungen der Künste. Die Anbindung an Wikidata ermöglicht eine Ausweitung der Suchfunktion auf Synonyme und eine erweiterte Mehrsprachigkeit.
+  * [Rollen]({{ site.baseurl}}/dokumentation/datenmodell/rollen-grundset) von Akteur:innen in Ereignissen
   * Projektarten
   * Informationsträgertypen
   * Sprachen

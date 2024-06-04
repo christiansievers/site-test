@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', initialize_search);
 var idx;
 
 function initialize_search() {
-    fetch('/search.json')
+    fetch('https://christiansievers.github.io/site-test/search.json')
         .then(response => response.json())
         .then(searchData => {
         
@@ -447,7 +447,7 @@ document.addEventListener('DOMContentLoaded', initialize_mobile_search);
 var idx_mobile;
 
 function initialize_mobile_search() {
-    fetch('/search.json')
+    fetch('https://christiansievers.github.io/site-test/search.json')
         .then(response => response.json())
         .then(searchData => {
             idx_mobile = lunr(function () {
