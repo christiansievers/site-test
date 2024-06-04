@@ -4,35 +4,37 @@ title: Datenmodell
 order: 3.1
 ---
 
-Das Datenmodell ist in vielfältiger Hinsicht die fachliche wie technische Grundlage für Digi-Kunst.nrw:
+Das Datenmodell ist in die fachliche und technische Grundlage für Digi-Kunst.nrw:
 
 * Es bestimmt die Form, nach der wir unsere Daten strukturieren und einheitlich speichern.
 * Es zeigt an, wie und welchem Verhältnis (in welcher Kardinalität) die verschiedenen Teile dieses Modells miteinander verknüpft sind.
 * Es umfasst Wertelisten und Taxonomien, die den Kern Kern unseres kontrollierten Vokabulars bilden.
 
-Unser Datenmodell ist in einer ständigen Entwicklung, weswegen es von vom gesamten Team kollaborativ gepflegt wird.
-
 ----
 
 ## Zentrale Entitäten
-Um einen besseren Einstieg in unser System zu ermöglichen, soll der Blick zunächst auf die für uns ganz zentralen Bausteine unseres Systems gerichtet werden. Diese Bausteine eines Datenmodells nennen sich Entitäten. Der Begriff leitet sich vom lateinischen Wort für „Ding“ ab. Entitäten bieten dementsprechend jeweils einen Rahmen, dass in ihnen genau eine Art von Ding verzeichnet werden kann. Diese Entitäten haben dann wiederum verschiedene Eigenschaften, sogenannte Attribute.
+Die Bausteine eines Datenmodells nennen sich Entitäten. Der Begriff leitet sich vom lateinischen Wort für „Ding“ ab. Entitäten bieten dementsprechend jeweils einen Rahmen, dass in ihnen genau eine Art von Ding verzeichnet werden kann. Diese Entitäten haben dann wiederum verschiedene Eigenschaften, sogenannte Attribute.
 
-Die zwei zentralsten Entitäten in unserem System sind **Projekte** und **Ereignisse**.
+Die zwei zentralen Entitäten in unserem System sind **Projekte** und **Ereignisse**.
 
-Ein Projekt ist die zentrale Verzeichnungseinheit von Digi-Kunst.nrw. Es enthält in der Regel die Daten über ein Kunstwerk: ein Musikstück, ein Film, ein Designobjekt, ein Buch, eine digitale Animation, eine Performance, ein Theaterstück oder eine Installation – eben über etwas aus dem gesamten künstlerischen Spektrum. Das Konzept Projekt ist bei uns aber bewusst weiter gefasst und bietet die Möglichkeit, auch andere im Hochschulkontext entstandene Dinge dort zu verzeichnen: das Video eines künstlerischen Vortrags oder ein Dokument zu einer Meisterklasse.
+## Projekt
 
-Die zweite zentrale Einheit sind Ereignisse. Ereignisse bilden die historische Entwicklung eines Projekts ab:
+Ein Projekt ist die zentrale Verzeichnungseinheit von Digi-Kunst.nrw. Es enthält in der Regel die Daten über ein Kunstwerk: ein Musikstück, ein Film, ein Designobjekt, ein Buch, eine digitale Animation, eine Performance, ein Theaterstück oder eine Installation – eben über etwas aus dem gesamten künstlerischen Spektrum. Das Konzept Projekt ist bei uns aber bewusst weiter gefasst und bietet die Möglichkeit, auch andere im Hochschulkontext entstandene Dinge dort zu verzeichnen, z. B. das Video eines kunsttheoretischen Vortrags oder die Aufzeichnung einer Meisterklasse.
 
-* Ereignisse sind von verschiedenster Art. Einem Kunstwerk geht beispielsweise eine geistige Schöpfung voraus, es wird hergestellt, es wird auf Festivals aufgeführt, es wird durch ein Feuer zerstört.
-* Ereignisse haben in der Regel ein Beginn und ein Ende.
-* Ereignisse finden an bestimmten Orten statt.
-* Es wurde von verschiedenen Personen, Gruppen oder Institutionen gemacht und performed, womit bestimmte rechtliche Ansprüche verbunden sind.
-* Es wurde verschiedenste Software und Equipment dabei verwendet.
-* Bei diesen Ereignissen sind bestimmte physische Objekte entstanden.
-* Es ist manifestiert oder dokumentiert in den Dateien, die wir in die Langzeitverfügbarkeit überführen.
-* Diese Dateien entspringen einem Informationsträger.
+## Ereignis
+Als zweite zentrale Einheit bilden Ereignisse die historische Entwicklung eines Projekts ab:
 
-All diese Dinge werden bei uns in einem Ereignis gebündelt. Ein Projekt kann mit beliebig vielen Ereignissen verknüpft sein, dasselbe Ereignis kann in beliebig vielen Projekten auftauchen.
+* Es gibt viele Typen von Ereignissen: Ein Kunstwerk entsteht beispielsweise mit dem Ereignis der geistigen Schöpfung oder der Herstellung, später gibt es eine Aufführung, eine Ausstellung oder Filmpremiere. [TODO Link zu Ereignistypen]
+* Ereignisse haben in der Regel ein Beginn und ein Ende und finden an bestimmten Orten statt.
+* Ereignisse werden von verschiedenen Akteur:innen durch- oder aufgeführt, wodurch sich rechtliche Ansprüche ableiten können.
+* Bei manchen Ereignissen wird bestimmte Software und Equipment verwendet.
+* Bei manchen Ereignissen sind bestimmte physische Objekte entstanden oder verwendet worden
+* Ereignisse manifestieren sich oder werden dokumentiert in Digitale Objekte (Dateien)
+* Manche digitale Objekte entstehen durch die Retrodigitalisierung eines Informationsträgers.
+
+All diese Informationen sind ausschließlich über Ereignisse mit einem Projekt verknüpft. [TODO Link zu Ressourcen/Erklärvideos]
+
+Ein Projekt kann beliebig viele Ereignisse beinhalten, und dasselbe Ereignis kann in beliebig vielen Projekten auftauchen.
 
 <pre class="mermaid">
 flowchart LR;
@@ -48,7 +50,7 @@ Ausgehend von diesen beiden Entitäten lässt sich bereits das vollständige Dat
 
 ## Projekt: Titel & Alternative Titel
 
-Ein Projekt muss einen bevorzugten Titel und kann – bei Bedarf – einen bevorzugten Untertitel haben. Diese bevorzugten Titel werden prominent in Anzeige und Suche angezeigt und sollten den gewünschten Haupt- und/oder Originaltitel des Projekts wiedergeben. Zudem muss ein bevorzugter Titel eine Sprachauszeichnung erhalten. Der bevorzugte Untertitel benötigt ebenfalls eine Sprachauszeichnung, sofern er angegeben wird. Die Sprachauszeichnungen selber verwenden ein genormtes Sprachenset nach der Norm [ISO639-2](https://www.loc.gov/standards/iso639-2/php/code_list.php).
+Ein Projekt muss einen bevorzugten Titel und kann – bei Bedarf – einen bevorzugten Untertitel haben. Diese bevorzugten Titel werden prominent in Anzeige und Suche angezeigt und sollten den gewünschten Haupt- und/oder Originaltitel des Projekts wiedergeben. Zudem müssen bevorzugter Titel und bevorzugter Untertitel eine Sprachauszeichnung erhalten. Für die Sprachauszeichnungen wird die Norm [ISO639-2](https://www.loc.gov/standards/iso639-2/php/code_list.php) verwendet.
 
 <pre class="mermaid">
 flowchart TB;
@@ -62,7 +64,7 @@ flowchart TB;
 </pre>
 
 
-Zusätzlich können noch beliebig viele alternative Titel-Sets angelegt werden. Es ist häufig der Fall, dass gerade Kunstwerke nicht nur unter einem Namen bekannt sind oder geführt werden, sondern im Laufe ihrer Historie oft mehrere Titel haben. Im Besonderen ist dies auch notwendig, wenn der Originaltitel nicht in latinisierten Buchstaben geschrieben ist, sondern beispielsweise in kyrillischer Schrift oder chinesischen Zeichen. In einem alternativen Titel-Set kann auch bloß ein alternativer Untertitel samt Sprachauszeichnung angegeben werden. Ein alternatives Titel-Set ist allerdings nur dann valide, wenn es mindestens einen alternativen Titel oder alternativen Untertitel samt seiner Sprachauszeichnung enthält.
+Zusätzlich können noch beliebig viele alternative Titel angelegt werden. Es ist häufig der Fall, dass Kunstwerke nicht nur unter einem Namen bekannt sind oder geführt werden, sondern im Laufe ihrer Historie oft mehrere Titel haben. Dies ist auch notwendig, wenn der Originaltitel nicht das lateinische Alphabet verwendet, sondern beispielsweise kyrillische Schrift oder chinesische Zeichen. 
 
 <pre class="mermaid">
 flowchart TB;
@@ -81,7 +83,7 @@ flowchart TB;
 
 ## Projekt: Beschreibungen & Kommentare
 
-Ein Projekt kann mehrere Beschreibungen haben. Damit es später jedoch in die Langzeitverfügbarkeit überführt werden kann, muss mindestens eine Beschreibung vor diesem Export vorhanden sein. Deswegen ist das Feld „Beschreibung“ in unserer Datenmodell-Tabelle mit der Kardinalität „1-u[nendlich]“ gekennzeichnet. Die Beschreibung ist meistens ein von dem/der Autor:in des Werkes verfasster Text, kann aber auch von jemandem Dritten verfasst worden sein. Ähnlich wie Titel haben Beschreibungen eine Sprachauszeichnung. Beschreibungen können nach Belieben innerhalb eines Projekts sortiert werden.
+Ein Projekt muss mindestens eine und kann beliebig viele Beschreibungen haben. Deswegen ist das Feld „Beschreibung“ in unserer Datenmodell-Tabelle mit der Kardinalität „1-u[nendlich“ gekennzeichnet. Die Beschreibung ist meistens ein von dem/der Autor:in des Projekts verfasster Text, kann aber auch von Dritten verfasst worden sein. Ähnlich wie Titel haben Beschreibungen eine Sprachauszeichnung. Beschreibungen können innerhalb eines Projekts nach ihrer Wertigkeit sortiert werden.
 
 <pre class="mermaid">
 flowchart TB;
@@ -92,7 +94,7 @@ flowchart TB;
     style Beschreibung fill:#FFFFE0, stroke:#000000;
 </pre>
 
-Ebenso ist es möglich, einen Kommentar zum Projekt anzugeben. Wenn der deutsche Kommentar verwendet wurde, muss auch eine Übersetzung auf Englisch angegeben werden – und umgekehrt.
+Ebenso ist es möglich, einen Kommentar zum Projekt anzugeben. Wenn der deutsche Kommentar verwendet wurde, muss auch eine Übersetzung auf Englisch angegeben werden, und umgekehrt.
 
 <pre class="mermaid">
 flowchart TB;
@@ -107,11 +109,11 @@ flowchart TB;
 
 ----
 
-## Projekt: Projaktarten, Projektkategorien und Schlagwörter
+## Projekt: Projektart
 
-Die Kategorisierung und die Verschlagwortung eines Projekts sind wesentliche Teile der sogenannten Sacherschließung. Diese ermöglicht es, dass auch in Zukunft die bei uns gespeicherten Projekte wiedergefunden werden können.
+Kategorisierung und Verschlagwortung eines Projekts dienen der Sacherschließung. 
 
-Ein Projekt muss zu mindestens einer Projektart gehören, kann aber auch zu mehreren Projektarten zugewiesen werden. Die Projektart gibt an, um was es sich bei einem Projekt in einem akademischen oder administrativen Sinn handelt. Eine erste Auswahl gibt die folgende Liste, sie kann aber bei Bedarf im Erfassungsbackend erweitert werden.
+Ein Projekt muss zu mindestens einer Projektart, kann aber zu mehreren Projektarten gehören. Die Projektart bezeichnet den Typ des Projekts im akademischen oder administrativen Sinn. Eine erste Auswahl gibt die folgende Liste, die bei Bedarf im Erfassungsbackend erweitert werden kann:
 
 <pre class="mermaid">
 flowchart LR;
@@ -135,15 +137,19 @@ flowchart LR;
 | Veranstaltung	| Event | [https://www.wikidata.org/entity/Q1656682](https://www.wikidata.org/entity/Q1656682) |
 | Vordiplom | Vordiplom | [https://www.wikidata.org/entity/Q1227202](https://www.wikidata.org/entity/Q1656682) |
 
-Projektkategorien geben die Kunstgattung, das Gebiet oder das Genre eines Projekts an. Dafür verwenden wir keine einfache Liste, sondern eine sogenannte Taxonomie (griechisch für „Ordnung“), in der die Kategorien stets in einem gewissen Kontext abgebildet werden. Am besten lässt sich das an einem Beispiel erklären. Für ein Projekt wurde die Projektkategorie „Industrial Design“ vergeben. In unserem System taucht diese Projektkategorie dann wie folgt auf:
+## Projektkategorien
+
+Projektkategorien geben die Kunstgattung oder das Genre eines Projekts an. Dafür verwenden wir eine selbst erstellte Taxonomie (griechisch für „Ordnung“), in der die Kategorien in einem hierarchischen Kontext abgebildet werden. Beispiel: Für ein Projekt wurde die Projektkategorie „Industrial Design“ vergeben. In unserem System taucht diese Projektkategorie dann wie folgt auf:
 
 <a href="{{ site.baseurl }}/assets/images/Beispiel_Breadcrumb_Projektkategorien.png"><img src="{{ site.baseurl }}/assets/images/Beispiel_Breadcrumb_Projektkategorien.png" class="center-image" style="width: 400px;"/></a>
 
-Alle drei Kategorisierungen werden dann zu dem entsprechenden Projekt gespeichert. Man kann dieses dann also auch unter dem Begriff "Angewandte Kunst" wiederfinden. Zsätzlich sind die Kategorien mit Synonymen angereichert, sodass eine noch bessere Auffindbarkeit gewährleistet wird. 
+Alle drei Kategorien werden dem entsprechenden Projekt zugeordnet, so dass sich dieses dann auch z. B. unter dem Begriff "Angewandte Kunst" wiederfindet. Zusätzlich sind die Kategorien mit Synonymen angereichert, um eine noch bessere Auffindbarkeit zu gewährleisten.
 
-Es können beliebig viele Kategorien zu einem Projekt vergeben werden, sodass auch Projekte beschrieben werden können, die in mehr als eine Kategorie fallen. Einen Überblick, mit welchen Digi-Kunst.nrw gestartet ist, lässt sich in unserem [Projektkategorien-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/projektkategorien-grundset) finden. 
+Es können beliebig viele Kategorien zu einem Projekt vergeben werden, was es ermöglicht, auch Projekte zu beschreiben, die in mehr als eine Kategorie fallen. Einen Überblick, mit welchen Kategorien Digi-Kunst.nrw gestartet ist, lässt sich in unserem [Projektkategorien-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/projektkategorien-grundset) finden. 
 
-Jede Projektkategorie enthält mindestens auch noch den Link zu einem Begriff des kontrollierten Vokabulars der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de). „Kontrolliert“ wird ein Vokabular dann genannt, wenn für eine Sache (ein Konzept) jeweils nur ein einziger Eintrag existiert; es also keine „Teekesselchen“ gibt, die für Unklarheiten in einem System sorgen könnten. Außerdem ist die Kategorie damit besser im Internet identifizierbar und austauschfähig. Oft enthält eine Projektkategorie ein ganzes Set von Links zu großen kontrollierten Vokabularen: dem Vokabular der Deutschen Nationalbibliothek, dem Vokabular des Getty Art & Architecture Thesaurus und dem Vokabular des Filmportals.de.
+Jede Projektkategorie enthält mindestens auch noch den Link zu einem Begriff aus der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de),  enthält aber oft ein ganzes Set von Links zu großen kontrollierten Vokabularen: dem Vokabular der Deutschen Nationalbibliothek, dem Vokabular des Getty Art & Architecture Thesaurus und dem Vokabular des Filmportals.de.
+
+## Schlagwörter
 
 Die Schlagwörter, mit denen Digi-Kunst.nrw arbeitet, stammen aus der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de). Die Informationen können direkt von dort aus nach Digi-Kunst.nrw importiert werden. Diese Methode hat den Vorteil, dass das Schlagwortvokabular von Digi-Kust.nrw stetig erweitert und verbessert werden kann. Damit ein Schlagwort allerdings in unser System geladen werden kann, benötigt es mindestens einen deutschen und englischen Eintrag mit zugehöriger Beschreibung auf der Wikidata. Ebenso werden – falls sie vorhanden sind – Synonyme, die auf der Wikidata stehen, ebenfalls mitgeladen, um die weiter die Auffindbarkeit der Projekte zu gewährleisten.
 
@@ -164,8 +170,7 @@ Ein Projekt muss einer einliefernden Hochschule zugeordnet werden. Zu einer Einl
 | Kunsthochschule für Medien Köln | Academy of Media Arts Cologne | [https://www.wikidata.org/entity/Q827038](https://www.wikidata.org/entity/Q827038) | [https://d-nb.info/gnd/2128885-9](https://d-nb.info/gnd/2128885-9) |
 | Robert Schumann Hochschule Düsseldorf | Robert Schumann Hochschule Düsseldorf | [https://www.wikidata.org/entity/Q315238](https://www.wikidata.org/entity/Q315238) | [https://d-nb.info/gnd/5082177-5](https://d-nb.info/gnd/5082177-5) |
 
-
-Abgesehen von diesem rechtlichen Rahmen kann angegeben werden, aus welcher Organisationseinheit innerhalb der Hochschule ein Projekt stammt: das kann beispielsweise ein Studiengang sein, ein Forschungsinstitut oder zum Beispiel ein Archiv.
+Abgesehen von diesem rechtlichen Rahmen kann angegeben werden, aus welcher Organisationseinheit innerhalb der Hochschule ein Projekt stammt. Das kann beispielsweise ein Studiengang sein, ein Forschungsinstitut oder zum Beispiel ein Archiv.
 
 <pre class="mermaid">
 flowchart LR;
@@ -191,9 +196,9 @@ Ein Projekt bekommt automatisch eine Digi-Kunst-ID. Diese setzt sich zusammen au
 
 Eine vollständige Signatur könnte also wie folgt aussehen: **Digi-Kunst-9876-KHM-5432**.
 
-Des Weiteren können auch weitere Signaturen beim Einlieferer bei uns eingetragen werden, ebenso wie Werkverzeichnisnumern.
+Des Weiteren können auch weitere Signaturen beim Einlieferer bei uns erfasst werden, ebenso wie Werkverzeichnisnummern.
 
-Zusätzlich können zu einem Projekt auch beliebig viele Normdaten-Links angegeben werden. Das sind Verweise auf Datensätze, in denen das Projekt genormt beschrieben wird, wie hier z. B. Karlheinz Stockhausens „Gesang der Jünglinge“: [https://d-nb.info/gnd/300322518](https://d-nb.info/gnd/300322518).
+Zusätzlich können zu einem Projekt auch beliebig viele Normdaten-Links angegeben werden, wie z. B. Karlheinz Stockhausens „Gesang der Jünglinge“: [https://d-nb.info/gnd/300322518](https://d-nb.info/gnd/300322518).
 
 <pre class="mermaid">
 flowchart TB;
@@ -208,17 +213,17 @@ flowchart TB;
 
 ----
 
-## Projekt: Fachspezifische Angaben und Inhaltwarnungen
+## Projekt: Projekteigenschaften und Inhaltwarnungen
 
-Je nach Fachrichtung, können fachspezifische Angaben gemacht werden, etwa die Tonart eines Musikstücks oder die Dauer eines Films. Über eine eigene Entität können diese fachspezifischen Felder angelegt werden. Ein Projekt kann beliebig viele fachspezifischen Angaben haben, die Angaben sind auf alle Projekte anwendbar.
+In den Projekteigenschaften können fachspezifische Angaben gemacht werden, etwa die Tonart eines Musikstücks oder die Dauer eines Films. Ein Projekt kann beliebig viele fachspezifischen Angaben haben.
 
-Zudem kann zu dem Projekt eine projektspezifische Inhaltswarnung gegeben werden, bereits vorangelegte Inhaltswarnungen können in anderen Projekten immer wieder verwendung finden.
+Zu einem Projekt kann eine projektspezifische, einmalig verwendbare Inhaltswarnung gegeben werden. Andere, bereits im Voraus angelegte Inhaltswarnungen können in anderen Projekten immer wieder Verwendung finden.
 
 ----
 
-## Projekt: Nutzungsrechtangaben
+## Projekt: Nutzungsrechte
 
-Damit eine einliefernde Hochschule ein Projekt in die Langzeitverfügbarkeit überführen, es öffentlich zugänglich machen und es gegebenenfalls an andere Portale für Kultur und Wissen weitergeben kann, benötigt sie in der Regel bestimmte Nutzungsrechte von den Urheber:innen und Leistungsschutzrechtsinhaber:innen. 
+Damit eine einliefernde Hochschule ein Projekt in die Langzeitverfügbarkeit überführen, es öffentlich zugänglich machen und es gegebenenfalls an andere Portale für Kultur und Wissen weitergeben kann, benötigt dafür die Nutzungsrechte von den Urheber:innen und Leistungsschutzrechtsinhaber:innen. 
 
 Digi-Kunst.nrw erfasst dafür zunächst bestimmte Rechte für das Projekt. Das kann auf zweierlei Arten passieren:
 
@@ -241,7 +246,7 @@ Außerdem gibt es noch einige Sonderfälle, die im Einzelfall geprüft werden m�
 
 ## Ereignis: Ereignistypen
 
-Ereignisse können ebenso kategorisiert werden wie Projekte. Ein Ereignis kann ein Ankauf sein, eine musikalische Komposition, eine Ursendung oder ein Rundgang. Ein Ereignis muss daher eine Zuordnung haben, zu welchem Ereigsnistyp es gehört. Eine Übersicht über die Ereignistypen, die den Grundstock von Digi-Kunst.nrw bilden, finden Sie in unserem [**Ereignistypen-Grundset**]({{ site.baseurl }}/dokumentation/datenmodell/ereignistypen-grundset). Ein Ereignistyp hat mindestens einen Wikidata-Link und kann zusätzlich einen GND-Link, einen AAT-Link und einen Link zu einem Ereignis aus der LIDO-Terminologie haben.
+Ereignisse können ebenso kategorisiert werden wie Projekte. Ein Ereignis kann ein Ankauf sein, eine musikalische Komposition, eine Ursendung oder ein Rundgang. Eine Übersicht über die Ereignistypen, die den Grundstock von Digi-Kunst.nrw bilden, finden Sie in unserem [**Ereignistypen-Grundset**]({{ site.baseurl }}/dokumentation/datenmodell/ereignistypen-grundset). Ein Ereignistyp hat mindestens einen Wikidata-Link und kann zusätzlich einen GND-Link, einen AAT-Link und einen Link zu einem Ereignis aus der LIDO-Terminologie haben.
 
 <pre class="mermaid">
 flowchart LR;
@@ -280,11 +285,9 @@ flowchart TB;
 ----
 
 ## Ereignis: Orte
-Ein Ereignis kann an mehreren Orten stattgefunden haben. Orte laden wir, ebenso wie Schlagwörter, aus der Wikidata. Bei Orten wird aber im Hintergrund eine komplexere Abfrage gestellt, die mit der Abfragesprache SPARQL ausgeführt wird. SPARQL-Anfragen werden im Grunde wie Sätze formuliert: Finde alle „Orte“ „die übergeordnet sind“ „zum eingegebenen Ort“. Unsere Ort-Abfrage ist somit in der Lage, einen eingegebenen Ort direkt in seinen geografischen Kontext zu setzen. Es muss nur die Wikidata-ID eingegeben werden und das System übernimmt diese Einordnung. Bei uns werden Orte auf 6 Ebenen erfasst. Diese sind: **Kontinent** > **Land** > **Staat/Region/Bundesland** > **Stadt** > **Genauer Ort** > **Interner Ort**.
+Ein Ereignis kann an mehreren Orten stattgefunden haben. Orte laden wir, ebenso wie Schlagwörter, aus der Wikidata. Bei Orten wird aber im Hintergrund eine komplexere Abfrage gestellt, die mit der Abfragesprache SPARQL ausgeführt wird. SPARQL-Anfragen werden im Grunde wie Sätze formuliert: Finde alle „Orte“ „die übergeordnet sind“ „zum eingegebenen Ort“. Unsere Ort-Abfrage ist somit in der Lage, einen eingegebenen Ort direkt in seinen geografischen Kontext zu setzen. Es muss nur die Wikidata-ID eingegeben werden und das System übernimmt diese Einordnung. Bei uns werden Orte auf 6 Ebenen erfasst. Diese sind: **Kontinent** > **Land** > **Region** > **Stadt** > **Genauer Ort** > **Interner Ort**.
 
 <a href="{{ site.baseurl }}/assets/images/wikidata_ort.png"><img src="{{ site.baseurl }}/assets/images/wikidata_ort.png" class="center-image" style="margin-top: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
-
-<a href="{{ site.baseurl }}/assets/images/adm_ort_importieren.png"><img src="{{ site.baseurl }}/assets/images/adm_ort_importieren.png" class="center-image-small" style="margin-bottom: 8%;"/></a>
 
 <a href="{{ site.baseurl }}/assets/images/adm_ort_angelegt.png"><img src="{{ site.baseurl }}/assets/images/adm_ort_angelegt.png" class="center-image" style="margin-bottom: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
 
@@ -292,7 +295,7 @@ Ein Ereignis kann an mehreren Orten stattgefunden haben. Orte laden wir, ebenso 
 
 ## Ereignis: Akteur:innen, Rollen und Rechteangaben
 
-Einem Ereignis können alle beteiligten Akteur:innen zugewiesen werden. Derselbe/dieselbe Akteur:in kann in allen benötigten Ereignissen vorkommen. Akteur:innen sind Personen, Gruppen oder Körperschaften. Akteur:innen können innerhalb des Digi-Kunst.nrw-Erfassungsbackends angelegt werden. Eine Übersicht, welche angaben dazu innerhalb des Systems gemacht werden können, findet sich in der folgenden Tabelle.
+Personen, Gruppen oder Körperschaften können Akteur:innen sein. Die folgende Tabelle, zeigt, welche Attribute dazu angelegt werden können.
 
 <pre class="mermaid">
 flowchart LR;
@@ -336,11 +339,11 @@ flowchart LR;
 | Wikidata-Link | Wikidata Link | 0-1 | Link zu einem Wikidata-Satz zur Akteur:in |
 | Andere Normdaten | Other Authority Files | 0-u | Weitere Normdatenlinks |
 | Link zur Webseite der Akteur:in | Link to Actor Page | 0-u | Links zu externen Webseiten der Akteur:innen |
-| Kontakt (E-Mail) | Contact (E-Mail) | 0-u | Ein oder mehrere mögliche Kontaktemails. Diese werden gelöscht, wenn sie nicht mehr benötigt werden |
-| Kontakt (Telefon) | Contact (Phone) | 0-u | Ein oder mehrere mögliche Telefonkontakte. Diese werden gelöscht, wenn sie nicht mehr benötigt werden |
-| Kontakt (Postanschrift) | Contact (Postal Address) | 0-1 | Eine mögliche Postanschrift. Diese wird gelöscht, wenn sie nicht mehr benötigt wird |
+| Kontakt (E-Mail) | Contact (E-Mail) | 0-u | Ein oder mehrere mögliche Kontaktemails. Diese werden nicht mit in die Langzeitverfügbarkeit überführt |
+| Kontakt (Telefon) | Contact (Phone) | 0-u | Ein oder mehrere mögliche Telefonkontakte. Diese werden nicht mit in die Langzeitverfügbarkeit überführt |
+| Kontakt (Postanschrift) | Contact (Postal Address) | 0-1 | Eine mögliche Postanschrift. Diese wird nicht mit in die Langzeitverfügbarkeit überführt |
 
-Innerhalb eines Projekts kann ein/eine Akteur:in mehrere Rollen haben. Dieselbe Rolle kann auf unterschiedliche Akteur:innen angewendet werden. Rollen stammen bei uns aus einer eigenen Entität. Eine Rolle hat einen deutschen und einen englischen Namen und einen Wikidata-Link. Zusätzlich können Rollen auch einen rollenspezifischen „Gemeinsame Normdatei“-Link und einen „Getty Art and Architecture Thesaurus“-Link haben. Zur besseren Auffindbarkeit von Akteur:innen kann eine Rolle auch noch mit deutschen und englischen Synonymen angereichert werden. Eine Übersicht, mit welchen Rollen Digi-Kunst.nrw gestartet ist, finden sie in unserem [**Rollen-Grundset**]({{ site.baseurl }}/dokumentation/datenmodell/rollen-grundset).
+Innerhalb eines Ereignisses kann ein:e Akteur:in mehrere Rollen haben. Dieselbe Rolle kann auf unterschiedliche Akteur:innen angewendet werden. Rollen stammen bei uns aus einer eigenen Entität. Eine Rolle hat einen deutschen und einen englischen Namen und einen Wikidata-Link. Zusätzlich können Rollen auch einen rollenspezifischen GND-Link und einen „Getty Art and Architecture Thesaurus“-Link haben. Zur besseren Auffindbarkeit von Akteur:innen kann eine Rolle auch noch mit deutschen und englischen Synonymen angereichert werden. Eine Übersicht, mit welchen Rollen Digi-Kunst.nrw gestartet ist, finden sie in unserem [**Rollen-Grundset**]({{ site.baseurl }}/dokumentation/datenmodell/rollen-grundset).
 
 <pre class="mermaid">
 flowchart TB;
@@ -350,7 +353,9 @@ flowchart TB;
     style AkteurIn fill:#F0F8FF, stroke:#000000;
 </pre>
 
-Ganz speziell in der Entität Rolle sind die beiden Felder „steuert 'ist Urheberin'“ und „steuert 'besitzt Leistungsschutzrechte'“. Das sind zwei Felder, die wir, ebenso zwischen Akteur:in und Ereignis finden können. Ein/eine Akteur:in in in einem Ereignis Urheber:in sein, im nächsten nicht, in einem anderen kann der/die Akteur:in Leistungsschutzrechte besitzen, im anderen nicht. Diese Information wird hier auch erfasst. Eine Rolle ist nun in der Lage, dass sie eine Vorauswahl treffen kann, wenn ein/eine Akteur:in mit einem Ereignis verbunden wird. Ist der/die besagte Akteur:in beispielsweise „Komponist:in“ in einem Ereignis, dann ist sie mit großer Wahrscheinlichkeit auch „Urheber:in“ des bei uns gespeicherten Projekts. Letztlich bestimmt muss aber die eingebende Person bestimmen, ob diese Eingabe wirklich korrekt ist oder nicht. Außerdem kann angegeben werden, ob nur vermutet wird, das ein/eine Akteur:in in einem Ereignis mitgewirkt hat. Für diesen Fall gibt es das Feld „Ungesicherte Zuschreibung“.
+Die beiden Felder „steuert 'ist Urheberin'“ und „steuert 'besitzt Leistungsschutzrechte'“ finden sich, ähnlich wie „Rolle“   zwischen Akteur:in und Ereignis. Ein/eine Akteur:in in in einem Ereignis Urheber:in sein, im nächsten nicht, in einem anderen kann ein:e Akteur:in Leistungsschutzrechte besitzen, im anderen nicht. Zusammen mit einer Rolle ist eine Vorauswahl gespeichert, ob ein:e Akteur:in wahrscheinlich solche Rechte besitzt. Ist eine Akteurin beispielsweise „Komponist:in“ in einem Ereignis, dann ist sie mit großer Wahrscheinlichkeit auch „Urheber:in“ des Projekts. Ist ein Akteur „Produzent“ eines Films, besitzt er wahrscheinlich Leistungssschutzrechte. Letztlich bestimmt aber die eingebende Person, ob diese Vorauswahl zutrifft oder nicht. 
+
+Zusätzlich kann angegeben werden, ob nur vermutet wird, dass ein:e Akteur:in in einem Ereignis mitgewirkt hat. Für diesen Fall gibt es das Feld „Ungesicherte Zuschreibung“.
 
 ----
 
@@ -392,7 +397,7 @@ In einem Ereignis kann verschiedenes Equipment & Software zum Einsatz kommen. Ei
 
 ## Ereignis: Physische Objekte
 
-Nicht alle Projekte, die wir in unserem System erfassen, sind in ihrem Ursprung ganz oder teilweise “born digital”. “Born digital” werden digitale Repräsentation eines Kunstwerk oder einer Dokumentation dann bezeichnet, wenn innerhalb der Herstellung eines Kunstwerks oder einer Dokumentation das Geschehene entweder direkt aufgezeichnet oder gleich auf einem Computer, einem Tablet, einem mobilen Telefon oder Smartphone hergestellt wird.
+Die Entität „physische Objekte“ beschreibt physische Bestandteile und Materialien, die Teil eines Projekts sind, z. B. ihre Beschaffenheit oder welche Technik zur Herstellung verwendet wurde.
 
 In einem Ereignis können beliebig viele physische Objekte beschrieben werden. Dasselbe physische Objekt kann in vielen Projekten vorkommen.
 
@@ -400,40 +405,40 @@ In einem Ereignis können beliebig viele physische Objekte beschrieben werden. D
 | ------------- | ------------- | ------------- | ------------- |
 |Deutsche Bezeichnung | German Name | 1 | Automatisch der englische Name, wenn nur dieser angegeben wurde |
 | Englische Bezeichnung	| English Name | 1 | Automatisch der englische Name, wenn nur dieser angegeben wurde |
-| Externe Inventar-Signaturnummer | External Inventory Number | 0-u | Bei Bedarf eine oder mehrere Signaturen |
-| Aufbewahrungsort | Depository | 0-1 | Bei Bedarf ein Ort aus der Orte-Entität |
-| Besitzer:in | Owner | 0-u | Bei Bedarf ein oder mehrere Akteur:innen aus der Akteur:in-Entität |
-| Eigentümer:in | Legal Rights Holder | 0-u | Bei Bedarf ein oder mehrere Akteur:innen aus der Akteur:in-Entität |
+| Externe Inventar-Signaturnummer | External Inventory Number | 0-u | Eine oder mehrere Signaturen |
+| Aufbewahrungsort | Depository | 0-1 | Ein Ort aus der Orte-Entität |
+| Besitzer:in | Owner | 0-u | Ein oder mehrere Akteur:innen aus der Akteur:in-Entität |
+| Eigentümer:in | Legal Rights Holder | 0-u | Ein oder mehrere Akteur:innen aus der Akteur:in-Entität |
 | Provenienz | Provenance | 0-1 | Ein Freitextfeld zur Provenienzbeschreibung |
 | Deutsche Beschreibung | German Description | 0-1 | Eine Beschreibung im Freitext. Pflicht, wenn die englische Beschreibung angegeben wurde |
 | Englische Beschreibung | English Description | [1] | Eine Beschreibung im Freitext. Pflicht, wenn die deutsche Beschreibung angegeben wurde |
 | Deutscher Kommentar | German Commentary | 0-1 | Ein deutscher Kommentar. Pflicht, wenn der englische Kommentar angegeben wurde |
 | Englischer Kommentar |English Commentary | [1] | Ein deutscher Kommentar. Pflicht, wenn der deutsche Kommentar angegeben wurde |
-| Klassifizierendes Schlagwort | Classification Keyword to Physical Object | 0-u | Ein oder mehrere Schlagworte aus der Schlagwort-Entität |
-| Materialschlagwort | Material Keyword | 0-u | Ein oder mehrere Schlagworte aus einer separaten Entität, die Schlagworte aus der Wikidata lädt |
+| Klassifizierendes Schlagwort | Classification Keyword to Physical Object | 0-u | Ein oder mehrere Schlagworte aus der Schlagwort-Entität, die Objekte bezeichnen, z. B. „Stuhl“, „Bühne“, „Sockel“, etc. |
+| Materialschlagwort | Material Keyword | 0-u | Ein oder mehrere Schlagworte aus einer separaten Entität, um Materialien zu bezeichnen, z. B. „Polyurethan“, „Sand“, „Wachs“, „Kabel“ |
 | Maße	| Measurements | 0-1 | Ein Freitextfeld, in das Maße eingetragen werden können |		
-| Erhaltungszustand (deutsch) | Conservation State (German) | 0-1 | Eine deutsche Beschreibung des Erhaltungszustand des Objekts. Pflicht, wenn das entsprechende englische Feld benutzt wurde |
-| Erhaltungszustand (englisch) | Conservation State (English) | [1] | Eine englische Beschreibung des Erhaltungszustand des Objekts. Pflicht, wenn das entsprechende deutsche Feld benutzt wurde |
+| Erhaltungszustand (deutsch) | Conservation State (German) | 0-1 | Eine deutsche Beschreibung des Erhaltungszustands des Objekts. Pflicht, wenn das entsprechende englische Feld benutzt wurde |
+| Erhaltungszustand (englisch) | Conservation State (English) | [1] | Eine englische Beschreibung des Erhaltungszustands des Objekts. Pflicht, wenn das entsprechende deutsche Feld benutzt wurde |
 
 ----
 
 ## Ereignis: Informationsträger
 
-Informationsträger sind eine besondere Form von physischen Objekten, weswegen wir sie auch eigenständig führen. Dabei handelt es sich um die Trägermedien, die Grundlage oder Speicher für die bei uns gesichertenen Informationen oder Dateien sind. Das kann z. B. sein: eine Schallplatte, eine Diskette, eine Festplatte oder ähnliches. Wir nennen diese Eigenschaft, zu welcher Art ein Informationsträger gehört, Informationsträgertyp. Die [**Taxonomie der Informationsträgertypen**]({{ site.baseurl }}/dokumentation/datenmodell/informationstraegertypen-grundset) kann bei Bedarf im Erfassungsportal erweitert werden. Neben den Felder, die auch das Physische Objekt besitzt, können bei einem Informationsträger die folgenden Informationen eingegeben werden:
+Informationsträger sind physische Datenträger oder Trägermedien, die digitalisiert wurden oder eine andere Rolle im Ereignis spielen, wie z. B. eine Schallplatte, eine Diskette, ein Tonband, oder eine Festplatte. Informationsträger werden durch [** der Informationsträgertypen**]({{ site.baseurl }}/dokumentation/datenmodell/informationstraegertypen-grundset) kategorisiert. Diese Taxonomie kann bei Bedarf im Erfassungsportal erweitert werden. Neben den Feldern, die auch das physische Objekt besitzt, können bei einem Informationsträger die folgenden Informationen erfasst werden:
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
-| Deutsche (Produkt-) Bezeichnung | German (Product-) Name | 0-1 | Der deutsche Name des Informationsträgers |
-| Englische (Produkt-) Bezeichnung | English (Product-) Name | 0-1 | Der englische Name des Informationsträgers |			
-| Label (Handelsmarke) | Label | 0-1 | Eine Handelsmarke |									
+| Deutsche (Produkt-) Bezeichnung | German (Product-) Name | 0-1 | Der deutsche Name oder die Bezeichnung des Informationsträgers, z. B. „BASF C-90“, „SONY KSP-20“, „Hi8 ME 120“, etc. |
+| Englische (Produkt-) Bezeichnung | English (Product-) Name | 0-1 | Der englische Name oder die Bezeichnung des Informationsträgers |			
+| Label (Handelsmarke) | Label | 0-1 | Eine Handelsmarke |			
 | Informationsträgertyp	| Information Storage Media Type | 1 | Eine Auswahl aus der Informationsträgertyp-Taxonomie |
 | Produkt-ID-Typ | Product ID Type | 0-u | Eine Auswahl aus der Entität "Nummernart". Z. B. "Bestellnummer", "ISBN", "Seriennummer" oder "Matritzennummer" |
 | Produkt-ID-Wert | Product ID Value | [1] | Zu jeder Auswahl ein dazugehöriger Wert |
 | Externe Inventar-Signaturnummer | External Inventory Number | 1-u | Eine Pflichtangabe, die den Informationsträger beim Einlieferer identifiziert. Bei Bedarf können es auch mehrere Nummern sein | 
 | Aufbewahrungsort | Depository | 0-1 | Ein Ort aus der Orte-Entität. Der derzeitige oder letztbekannte Aufbewahrungsort |
-| Informationsträgereigenschaft | Information Storage Medium Property | 0-u | Eine Auswahl aus der Entität "Informationsträgereigenschaft". Z. B. "Bildfrequenz" oder "Abspielgeschwindigkeit" |									
+| Informationsträgereigenschaft | Information Storage Medium Property | 0-u | Eine Auswahl aus der Entität "Informationsträgereigenschaft", z. B. „Bildfrequenz“, „Abspielgeschwindigkeit“ oder „Tonformat“ |									
 | Informationsträgereigenschaft-Wert | Information Storage Medium Property Value | [1] | Zu jeder Auswahl ein dazugehöriger Wert |
-| Normdatei | Authority File | 0-u | Ein zugehöriger Normdatenlink zum Informationsträger |								
+| Normdatei | Authority File | 0-u | Ein Normdatenlink zum Informationsträger |								
 | Kompilation | Compilation | 0/1 | Eine Angabe, ob der Informationsträger mehrere Projekte enthält. Entweder "ja", "nein" oder "keine Aussage" |
 | Kompilationstitel | Compilation Title | [0-1] | Der Name dieser Kompilation |
 | Kompilations-Reihennummer | Compilation Series Number | [0-1] | Die entsprechende Reihennummer |									
@@ -445,20 +450,20 @@ Informationsträger sind eine besondere Form von physischen Objekten, weswegen w
 
 ## Ereignis: Digitale Objekte
 
-Digi-Kunst.nrw definiert ein Digitales Objekt als eine Datei sowie ihre zugehörige inhaltliche Beschreibung und ihre technischen Metadaten. Ein Ereignis kann beliebig viele Digitale Objekte enthalten, ein Digitales Objekt kann in beliebig vielen Ereignissen auftauchen. Bereits beim Upload werden zentrale Metadaten zur Datei gleich erfasst:
+Digi-Kunst.nrw definiert ein digitales Objekt als eine Datei oder ein Dateibündel sowie zugehörige inhaltliche Beschreibung und technische Metadaten. Ein Ereignis kann beliebig viele digitale Objekte enthalten, und ein digitales Objekt kann in beliebig vielen Ereignissen auftauchen. Bereits beim Upload werden zentrale Metadaten zur Datei erfasst:
 
-  * **Wie ist die Datei entstanden?** Ist sie "born digital" oder ein Retrodigitalisat, also erst später digitalisiert worden?
+  * **Wie ist die Datei entstanden?** Ist sie „born digital“ oder ein Retrodigitalisat?
   * **Zu welchem Medientyp gehört die Datei?** 3D, Audio, Bild, Code, Text oder Video?
-  * **Optional: Was ist ein Schlagwort, das den Inhalt der Datei beschreibt?** Was für ein Objekt ist in der Datei abgebildet: ein Poster, ein Trailer, ein Musikkanal?
+  * **Optional: Was ist ein Schlagwort, das den Inhalt der Datei beschreibt?** Aus was für einem Objekt besteht die Datei, bzw. was „ist“ die Datei: ein Poster, ein Trailer, eine Ausstellungsansicht, ein Musikkanal?
   * **Handelt es sich bei der Datei um ein Dateipaket oder nicht?**
-  * **Bei Code: Welche Systemvorraussetzungen sind notwendig, damit das Programm ausgeführt werden kann?**
-  * **Worum handelt es sich bei der Datei in einem langzeitarchivarischen Sinn?** Um einen "Preservation Master" (ein Original oder eine nach bestimmten Richtlinien hergestellte Kopie), um einen "Modified Master" (meist eine bereits langzeitstabile Kopie, von der besser Abzüge gemacht werden können) oder um eine "Derivative Copy" (um ein Nutzerformat, dass keinen archivarischen Zweck erfüllt)?
+  * **Bei Code: Welche Systemvoraussetzungen sind notwendig, damit das Programm ausgeführt werden kann?**
+  * **Erhaltungstyp** Worum handelt es sich bei der Datei in einem langzeitarchivarischen Sinn? Um einen "Preservation Master" (ein Original oder eine nach bestimmten Richtlinien hergestellte Kopie), um einen "Modified Master" (meist eine bereits langzeitstabile Kopie, von der besser Nutzerformate erstellt werden können) oder um eine "Derivative Copy" (ein Nutzerformat)?
   * **Die wievielte Nutzerkopie dieser Datei ist es?**
-  * **Welchen Urheberrechts- und Lizenzstatus hat die Datei?** Neben unseren eigenen Lizenzen können auf die Dateien auch die Lizenzen von Creative Commons vergeben werden. Weiter Informationen zu den Auswahlmöglichkeiten erhalten sie auf der Seite [**Lizenzen**]({{ site.baseurl }}/ressourcen/lizenzen/)
+  * **Welchen Urheberrechts- und Lizenzstatus hat die Datei?** Neben unseren eigenen Lizenzen können den Dateien auch die Lizenzen von Creative Commons verliehen werden. Weitere Informationen zu den Auswahlmöglichkeiten erhalten sie auf der Seite [**Lizenzen**]({{ site.baseurl }}/ressourcen/lizenzen/)
   * **Soll die Datei öffentlich angezeigt werden oder nicht?**
   * Zudem wird **automatisch ausgelesen, wie groß die Datei ist, zu welchem Dateityp sie gehört und wann sie zuletzt verändert wurde**.
 
-Entsprechend sind die Plichtangaben um ein Digitales Objekt in das System hochladen zu können, sind bereits mit der Beantwortung dieser Fragen erfüllt. Die zugehörigen Spezifikationen lauten wie folgt:
+Dies sind die Pflichtangaben, um ein digitales Objekt erfassen zu können: 
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
@@ -470,27 +475,27 @@ Entsprechend sind die Plichtangaben um ein Digitales Objekt in das System hochla
 | Dateipfad | File Path | 1 | Der Dateipfad der Datei im Digi-Kunst.nrw-Erfassungsportal |
 | Entstehung | Genesis | 1 | Eine Auswahl zwischen "born digital" oder "Retrodigitalisat" |
 | Medientyp | Media Type | 1 | Eine Auswahl zwischen "3D", "Audio", "Bild", "Code", "Text" oder "Video" |
-| Objekttyp | Object Type | 0-1 | Ein Schlagwort aus der wikidata. Z. B. "Poster", "Trailer" oder "Kanal" |
+| Objekttyp | Object Type | 0-1 | Ein Schlagwort aus der Wikidata, z. B. "Poster", "Trailer" oder "Kanal" |
 | Dateipaket | File Package | 0/1 | Entweder keine Auswahl oder "ja" |
 | Systemvoraussetzungen	| System Requirements | [1 für "Code"] | Pflicht wenn für eine Datei der Medientyp "Code" ausgewählt wurde |
 | Erhaltungstyp | Preservation Type | 1 | Entweder "Preservation Master", "Modified Master" oder "Derivative Copy (Nutzerformat)" |
-| Derivatkopie-Nummer | Derivative Copy Number | [1 wenn "Derivative Copy (Nutzerformat)] | Bei einer Nutzerkopie muss angegeben werden, um die viewielte Kopie es sich von einer Master-Datei handelt. |		
+| Derivatkopie-Nummer | Derivative Copy Number | [1 wenn "Derivative Copy (Nutzerformat)] | Bei einer Nutzerkopie muss angegeben werden, um die wievielte Kopie es sich handelt. |		
 | Lizenzstatus | License State | 1 | Der Lizenzstatus einer Datei aus der Entität "Digitales-Objekt-Lizenz". Einer Lizenz ist auch immer ein Urheberrechtsstatus zugeordnet | 
-| Anzeigestatus	| Display State | 1 | Ein Status der regelt, ob die Datei ohne vorherige Anmeldung später frei angezeigt werden wird |
-| KHM-Internetfreigabestufe | KHM Internet Clearance Level | 0-1 | Ein Sonderfeld für KHM-Dateien, ob die entsprechende Datei bereits schon auf der Seite des KHM-Archivs öffentlich angezeigt wird oder nicht |
+| Anzeigestatus	| Display State | 1 | Regelt, ob die Datei ohne vorherige Anmeldung später frei angezeigt werden wird |
+| KHM-Internetfreigabestufe | KHM Internet Clearance Level | 0-1 | Ein Sonderfeld für KHM-Dateien, das angibt, ob die entsprechende Datei bereits schon auf der Seite des KHM-Archivs öffentlich angezeigt wird |
 
-Neben diesen Pflichangaben gibt es noch eine Reihe von deskriptiven Feldern, die optional verwendet werden können, dazu gehören:
+Neben diesen Pflichtangaben gibt es noch eine Reihe von optionalen, deskriptiven Feldern:
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
 | Deutsche inhaltliche Beschreibung | German Description | 0-1 | |
-| Englische inhaltliche Beschreibung | English Description | [1] |
+| Englische inhaltliche Beschreibung | English Description | [1] | |
 | Deutscher Kommentar | German Commentary | 0-1 | |
 | Englischer Kommentar | English Commentary | [1] | |
 | Interner Kommentar | Internal Commentary | 0-1 | |
 | Wesentliche Eigenschaften (deutsch) | Significant Properties (German) | 0-1 | |
 | Wesentliche Eigenschaften (englisch) | Significant Properties (English) | [1] | |
-| Bildbeschreibung (deutsch) | Image Description (German) | 0-1 |
+| Bildbeschreibung (deutsch) | Image Description (German) | 0-1 | | 
 | Bildbeschreibung (englisch) | Image Description (English) | 0-1 | |
 | Originalsprache | Original Language | 0-u | |
 | Sprachfassung | Language Version | 0-u | |
@@ -508,29 +513,32 @@ Neben diesen Pflichangaben gibt es noch eine Reihe von deskriptiven Feldern, die
 Mit folgenden Programmen wird außerdem eine Vielzahl von technischen Metadaten der Datei ausgelesen. Hierzu verwendet unser System:
 
   * [**JHOVE**](https://jhove.openpreservation.org/) – ursprünglich entwickelt von [JSTOR](https://www.jstor.org/) und der [Harvard University Library](https://library.harvard.edu/); derzeit in Kooperation weiterentwickelt von der [Open Preservation Foundation](https://openpreservation.org/)
-  * [**DROID**](https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/) – von [The National Archives](https://www.nationalarchives.gov.uk/)
-  * [**MediaInfo**](https://mediaarea.net/de/MediaInfo)  – entwickelt von der "Open Source"-Software-Firma [MediaArea](https://mediaarea.net/)
-  * [**ExifTool**](https://exiftool.org/) – von Phil Harvey
+  * [**DROID**](https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/) von [The UK National Archives](https://www.nationalarchives.gov.uk/)
+  * [**MediaInfo**](https://mediaarea.net/de/MediaInfo)  von [MediaArea](https://mediaarea.net/)
+  * [**ExifTool**](https://exiftool.org/) von Phil Harvey
 
-Einige Informationen aus diesem technischen Metadaten werden dabei besonders prominent in eigenen Feldern angezeigt. Diese sind:
+Der Output dieser Tools wird in Gänze gespeichert. Einige Informationen aus diesem technischen Metadaten werden zusätzlich herausgezogen und in eigenen Feldern angezeigt:
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
-| JHOVE-Dateistatus | JHOVE Status | 1 | Ein Status, der automatisch aus JHOVE ausgelesen wird und anzeigt, ob eine Datei valide und/oder wohlgeformt ist |							
+| JHOVE-Dateistatus | JHOVE Status | 1 | Eine Information, die anzeigt, ob eine Datei valide und/oder wohlgeformt ist |							
 | DROID-PUID | PUID | 1 | Eine aus DROID automatisch ausgelesene ID, die eine Datei in der [PRONOM-Datenbank](https://www.nationalarchives.gov.uk/PRONOM/) von [The National Archives]([https://www.nationalarchives.gov.uk/) identifiziert. |							
 | DROID-PUID-Link | PUID Link | 1 | Ein daraus erzeugter Link, z. B.: [https://www.nationalarchives.gov.uk/PRONOM/fmt/134](https://www.nationalarchives.gov.uk/PRONOM/fmt/134)
-| Prüfsumme | Hash/Checksum | 1 | Eine von DROID erzeugte Prüfsumme der Datei |									
+| Prüfsumme | Hash/Checksum | 1 | Eine von DROID erzeugte Prüfsumme der Datei (SHA512) |									
 | Dateityp (kurz) | File Type (short) | 1 | Der kurze Name des Dateityps |
 | Dateityp (lang) | File Type (long) | 1 | Der ausgeschriebene Name des Dateityps |
 | Dateifamilie | File Family | 1 | Die jeweilige Dateifamilie |
-| Technische Dauer | Technical Duration	| 0-1 |Für Video- und Audiodateien |								
+| MediaInfo-Format | MediaInfo-Format | 0-1 | Ein oder mehrere MediaInfo „track types“ (General, Audio, Video, Text, Other) |
+| Technische Dauer | Technical Duration	| 0-1 | Für Video- und Audiodateien |								
 
 
 ----
 
 ## Selbstbezügliche Entitäten
 
-Projekte, Ereignisse und Akteur:innen können jeweils außerdem untereinander verknüpft werden. Dazu haben wir verschiedene reziproke Verbindungen angelegt. Das heißt, wenn eine Verbindung ausgewählt worden ist, wird immer die passende Gegenverbindung mitangelegt. Dies lässt sich an einem Beispiel illustrieren. Würde man bei C. P. E. Bach die Verbindung "hat Vater" "Johann Sebastian Bach" anlegen, so würde bei Letzterem automatisch folgendes angelegt werden: "ist Vater von" "C. P. E. Bach". Aus den folgenden Listen kann jeweils entnommen werden, welche Verbindung als Gegenstück angelegt wird.
+Projekte, Ereignisse und Akteur:innen können jeweils rekursiv verknüpft werden, z. B. ein Projekt, das Teil eines anderen Projekts ist, oder eine Künstler:innengruppe als Akteur:in, deren Mitglieder einzelne Personen sind. 
+
+Diese Art von Verbindungen ist immer reziprok. Das heißt, wenn eine Verbindung hergestellt wurde, wird immer die passende Gegenverbindung mit angelegt. Ein Beispiel: Würde man bei C. P. E. Bach die Verbindung "hat Vater" = "Johann Sebastian Bach" herstellen, so würde bei Letzterem automatisch folgendes angelegt werden: "ist Vater von" = "C. P. E. Bach". 
 
 <pre class="mermaid">
 flowchart LR;
@@ -543,12 +551,14 @@ flowchart LR;
     style Ereignis fill:#90EE90, stroke:#000000;
 </pre>
 
+Die folgenden Listen zeigen, welche Verbindungen angelegt werden können.
+
 ### Projekt
 
 | Ausgewählte Verbindung | Gegenstück |
 | ------------- | ------------- |
 | hat Bezug zu | hat Bezug zu |
-|hat Teil | ist Teil von |
+| hat Teil | ist Teil von |
 | ist Teil von | hat Teil |
 | basiert auf | ist vorbereitend für |
 | ist vorbereitend für | basiert auf |
@@ -658,7 +668,8 @@ flowchart LR;
 
 ## Sammlungen
 
-Sammlung ist die große Container-Entität von Digi-Kunst.nrw, die eine Vielzahl der bereits kennengelernten Entitäten bündeln kann. Denn neben eigenen deskriptiven Feldern, wie der deutsche und der englische Name der Sammlung, einer englischen und deutschen Beschreibung und der Auswahl einer Sammlungsart (z. B. "Reihe" oder "Objekt-Sammlung"), dient eine Sammlung dazu, Projekte, Ereignisse, Equipment & Software, Physische Objekte, Informationsträger und Digitale Objekte in einem größeren Kontext zusammenzufassen. Diese können wiederum in beliebig vielen Sammlungen auftauchen. Die Zusammenfassung in Sammlungen kann nach räumlichen, thematischen, zeitlichen Aspekten oder nach weiteren fachlichen Kriterien erfolgen.
+Über Sammlungen können Zusammengehörigkeiten bei den einliefernden Institutionen erfasst werden, bzw. eine gemeinsame Provenienz. Beispiele: Tonträger aus dem Bandarchiv der HfMT Köln, Fotografien aus dem Fotoarchiv der Folkwang Universität der Künste, Equipment aus dem Technikarchiv der Kunsthochschule für Medien Köln, aber auch Veranstaltungen aus einer Reihe, etc.
+
 
 <pre class="mermaid">
 flowchart LR;
