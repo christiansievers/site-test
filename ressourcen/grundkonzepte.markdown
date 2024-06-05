@@ -62,13 +62,6 @@ Durch die Nutzung von Rosetta als Langzeitverfügbarkeits-Lösung gewährleisten
   * Weitere sehr gute und umfangreiche (englischsprachige) Ressourcen sind [Implement digital preservation](https://www.dpconline.org/digipres/implement-digipres) und
   * [Novice to Know-How: Online Digital Preservation Training](https://www.dpconline.org/digipres/prof-development/n2kh-online-training) der Digital Preservation Coalition.
 
-----
-
-## Infrastruktur
-
-Das [Strukturdiagramm]() veranschaulicht den logischen Aufbau der intendierten Projektinfrastruktur und zeigt die Zusammenhänge von System-Komponenten, Nutzer:innen, externen Institutionen und angebundenen Diensten.
-
-Dieses daran anschließende [Diagramm]() zeigt Speichertypen und Transferwege. 
 
 ---- 
 
@@ -86,5 +79,3 @@ In der technischen Dokumentation finden Sie die Inhalte aller von Digi-Kunst ers
   * Sprachen
   * Organisationseinheiten an den Hochschulen
   * Equipmentarten
-
-In der technischen Dokumentation finden Sie die Inhalte aller [kontrollierten Vokabulare und Taxonomien]().
