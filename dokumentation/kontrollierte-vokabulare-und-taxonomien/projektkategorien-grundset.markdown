@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Projektkategorien-Grundset
-order: 3.1.2
+order: 3.2.2
 ---
 
 Die folgenden 278 Projektkategorien gehören zum Grundset von Digi-Kunst.nrw und können bei Bedarf im Digi-Kunst.nrw-Erfassungsbackend erweitert werden.

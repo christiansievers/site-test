@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Datenmodell
-order: 3.1
+order: 2.2
 ---
 
 Das Datenmodell ist in die fachliche und technische Grundlage für Digi-Kunst.nrw:

@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Rollen-Grundset
-order: 3.1.3
+order: 3.2.3
 ---
 
 Die folgenden 282 Rollen gehören zum Grundset von Digi-Kunst.nrw und können bei Bedarf im Digi-Kunst.nrw-Erfassungsbackend erweitert werden. Sie setzen sich zusammen aus allgemeinen Rollen aus Kunst, Musik und Kultur, als auch aus konkreten Rollenangaben, die als Berufs- und Tätigkeitsangaben für die [Forschungsstelle Digitalisierung historischer Tonträger](https://www.rsh-duesseldorf.de/institute/musikwissenschaftliches-institut/forschung/forschungsstellen/digitalisierung-historischer-tontraeger) an der Robert Schumann Hochschule Düsseldorf benötigt werden.

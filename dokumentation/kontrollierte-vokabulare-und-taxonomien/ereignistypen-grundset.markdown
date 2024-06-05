@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Ereignistypen-Grundset
-order: 3.1.1
+order: 3.2.1
 ---
 
 Ereignistypen spezifizieren, um was für eine Art Ereignis es sich genau handelt. Die folgenden 52 Ereignistypen gehören zum Grundset von Digi-Kunst.nrw und können bei Bedarf im Digi-Kunst.nrw-Erfassungsbackend erweitert werden.

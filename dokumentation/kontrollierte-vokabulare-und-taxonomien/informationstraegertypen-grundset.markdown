@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Informationsträgertypen-Grundset
-order: 3.1.4
+order: 3.2.4
 ---
 
 Die folgenden 135 Informationsträgertypen gehören zum Grundset von Digi-Kunst.nrw und können bei Bedarf im Digi-Kunst.nrw-Erfassungsbackend erweitert werden. Die Aufteilung in Video, Audio, Film, Computer-Datenträger und Schriftstück dient hier lediglich der Orientierung und wurde nicht mit in das System übernommen.
