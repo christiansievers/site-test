@@ -62,20 +62,3 @@ Durch die Nutzung von Rosetta als Langzeitverfügbarkeits-Lösung gewährleisten
   * Weitere sehr gute und umfangreiche (englischsprachige) Ressourcen sind [Implement digital preservation](https://www.dpconline.org/digipres/implement-digipres) und
   * [Novice to Know-How: Online Digital Preservation Training](https://www.dpconline.org/digipres/prof-development/n2kh-online-training) der Digital Preservation Coalition.
 
-
----- 
-
-## Kontrollierte Vokabulare und Taxonomien
-
-Um eine einheitliche Erschließung und Verzeichnung zu gewährleisten, benutzt Digi-Kunst.nrw eine Reihe von selbst erstellten Systematiken. Diese enthalten nicht nur die Begriffe selbst, sondern sind mit Verweisen auf externe Dienste wie GND, AAT, Wikidata angereichert, wodurch der Anschluss an das Semantic Web gewährleistet wird.
-
-In der technischen Dokumentation finden Sie die Inhalte aller von Digi-Kunst erstellten kontrollierten Vokabulare und Taxonomien:
-
-  * [Ereignistypen]({{ site.baseurl}}/dokumentation/datenmodell/ereignistypen-grundset)
-  * die [Taxonomie der Projektkategorien]({{ site.baseurl}}/dokumentation/datenmodell/projektkategorien-grundset) umfasst etwa 280 Einträge aus allen Gattungen der Künste. Die Anbindung an Wikidata ermöglicht eine Ausweitung der Suchfunktion auf Synonyme und eine erweiterte Mehrsprachigkeit.
-  * [Rollen]({{ site.baseurl}}/dokumentation/datenmodell/rollen-grundset) von Akteur:innen in Ereignissen
-  * Projektarten
-  * Informationsträgertypen
-  * Sprachen
-  * Organisationseinheiten an den Hochschulen
-  * Equipmentarten
