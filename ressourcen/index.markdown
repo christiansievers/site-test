@@ -4,4 +4,11 @@ title: Ressourcen
 order: 2
 ---
 
-Hier finden Sie einen Überlick über alle Ressourcen zu Digi-Kunst.nrw.
+Grundkonzepte
+
+Aktivität an den Konsortialhochschulen
+
+Häufig gestellte Fragen
+
+Lizenzen
+	- Digi-Kunst-A+B+C (Entwurf)
