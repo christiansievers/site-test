@@ -1,6 +1,6 @@
 ---
 layout: digi-kunst-docs
-title: Datenmodell
+title: Das Datenmodell erklärt (Titel TBC)
 order: 2.2
 ---
 
