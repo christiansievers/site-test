@@ -22,4 +22,5 @@ FAQ
 Häufig gestellte Fragen
 
 Lizenzen
-	- Digi-Kunst-A+B+C (Entwurf)
+
+- Digi-Kunst-A+B+C (Entwurf)
