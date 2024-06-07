@@ -8,20 +8,20 @@ Das Datenmodell ist in die fachliche und technische Grundlage für Digi-Kunst.nr
 
 * Es bestimmt die Form, nach der wir unsere Daten strukturieren und einheitlich speichern.
 * Es zeigt an, wie und welchem Verhältnis (in welcher Kardinalität) die verschiedenen Teile dieses Modells miteinander verknüpft sind.
-* Es umfasst Wertelisten und Taxonomien, die den Kern Kern unseres kontrollierten Vokabulars bilden.
+* Es umfasst Wertelisten und Taxonomien, die den Kern unseres kontrollierten Vokabulars bilden.
 
 ----
 
 ## Zentrale Entitäten: Projekt und Ereignis
-Die Bausteine eines Datenmodells nennen sich Entitäten. Der Begriff leitet sich vom lateinischen Wort für „Ding“ ab. Entitäten bieten dementsprechend jeweils einen Rahmen, dass in ihnen genau eine Art von Ding verzeichnet werden kann. Diese Entitäten haben dann wiederum verschiedene Eigenschaften, sogenannte Attribute.
+Die Bausteine eines Datenmodells nennen sich Entitäten. Der Begriff leitet sich vom lateinischen Wort für „Ding“ ab. Entitäten bieten einen Rahmen dafür, dass in ihnen genau eine Art von Ding verzeichnet werden kann. Innerhalb von Entitäten werden verschiedene Eigenschaften verzeichnet, sogenannte Attribute.
 
-Die zwei zentralen Entitäten in unserem System sind **Projekt** und **Ereignis**.
+Die zwei zentralen Entitäten in unserem System sind Projekt und Ereignis.
 
-Ein Projekt ist die zentrale Verzeichnungseinheit von Digi-Kunst.nrw. Es enthält in der Regel die Daten über ein Kunstwerk: ein Musikstück, ein Film, ein Designobjekt, ein Buch, eine digitale Animation, eine Performance, ein Theaterstück oder eine Installation – eben über etwas aus dem gesamten künstlerischen Spektrum. Das Konzept Projekt ist bei uns aber bewusst weiter gefasst und bietet die Möglichkeit, auch andere im Hochschulkontext entstandene Dinge dort zu verzeichnen, z. B. das Video eines kunsttheoretischen Vortrags oder die Aufzeichnung einer Meisterklasse.
+Ein Projekt ist die zentrale Verzeichnungseinheit von Digi-Kunst.nrw. Es enthält in der Regel die Daten über ein Kunstwerk: ein Musikstück, ein Film, ein Designobjekt, ein Buch, eine digitale Animation, eine Performance, ein Theaterstück oder eine Installation – eben über etwas aus dem gesamten künstlerischen Spektrum. Das Konzept Projekt ist bei uns aber bewusst weiter gefasst und bietet die Möglichkeit, auch andere im Hochschulkontext entstandene Dinge dort zu verzeichnen, z. B. das Video eines kunsttheoretischen Vortrags oder die Tonaufzeichnung einer Meisterklasse.
 
 Als zweite zentrale Einheit bilden Ereignisse die historische Entwicklung eines Projekts ab:
 
-* Es gibt viele Typen von Ereignissen: Ein Kunstwerk entsteht beispielsweise mit dem Ereignis der geistigen Schöpfung oder der Herstellung, später gibt es eine Aufführung, eine Ausstellung oder Filmpremiere. [TODO Link zu Ereignistypen]
+* Es gibt viele Typen von Ereignissen: Mit dem Ereignistyp der geistigen Schöpfung oder der Herstellung entsteht überhaupt erst ein Kunstwerk, später gibt es dann oft die Typen Aufführung, Ausstellung oder Filmpremiere. [TODO Link zu Ereignistypen]
 * Ereignisse haben in der Regel ein Beginn und ein Ende und finden an bestimmten Orten statt.
 * Ereignisse werden von verschiedenen Akteur:innen durch- oder aufgeführt, wodurch sich rechtliche Ansprüche ableiten können.
 * Bei manchen Ereignissen wird bestimmte Software und Equipment verwendet.
@@ -29,7 +29,7 @@ Als zweite zentrale Einheit bilden Ereignisse die historische Entwicklung eines 
 * Ereignisse manifestieren sich oder werden dokumentiert in Digitale Objekte (Dateien)
 * Manche digitale Objekte entstehen durch die Retrodigitalisierung eines Informationsträgers.
 
-All diese Informationen sind ausschließlich über Ereignisse mit einem Projekt verknüpft. [TODO Link zu Ressourcen/Erklärvideos]
+All diese Informationen sind ausschließlich über Ereignisse mit einem Projekt verknüpft. 
 
 Ein Projekt kann beliebig viele Ereignisse beinhalten, und dasselbe Ereignis kann in beliebig vielen Projekten auftauchen.
 
@@ -42,6 +42,8 @@ flowchart LR;
 </pre>
 
 Ausgehend von diesen beiden Entitäten lässt sich bereits das vollständige Datenmodell von Digi-Kunst.nrw erläutern.
+
+[TODO Hier könnten die Erklärvideos kommen]
 
 ----
 
