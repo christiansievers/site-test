@@ -531,7 +531,7 @@ Der Output dieser Tools wird in Gänze gespeichert. Einige Informationen aus die
 
 ----
 
-## Selbstbezügliche Entitäten
+## Selbstreferentielle Verknüpfungen
 
 Projekte, Ereignisse und Akteur:innen können jeweils rekursiv verknüpft werden, z. B. ein Projekt, das Teil eines anderen Projekts ist, oder eine Künstler:innengruppe als Akteur:in, deren Mitglieder einzelne Personen sind. 
 
