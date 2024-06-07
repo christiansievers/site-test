@@ -6,18 +6,18 @@ order: 2.2
 
 ## Zentrale Entitäten: Projekt und Ereignis
 
-Die Aufgabe von Digi-Kunst ist es, die multimedialen künstlerischen Inhalte der Kunst- und Musikhochschulen des Landes NRW zu erschließen und zu sichern. Hauptsächlich sind das künstlerische Werke, aber auch viele Dinge, die sich nicht wirklich als Werk beschreiben lassen, wie z. B. Aufzeichnungen von Vorträgen. Deshalb benutzt Digi-Kunst.nrw als zentrale Verzeichnungseinheit den Begriff Projekt. Dies erlaubt eine größere Flexibilität und ermöglicht es, die ganze Bandbreite der künstlerischen Aktivitäten an den Hochschulen zu erfassen.
+Die Aufgabe von Digi-Kunst ist es, die multimedialen künstlerischen Inhalte der Kunst- und Musikhochschulen des Landes NRW zu erschließen und zu sichern. Hauptsächlich sind das künstlerische Werke, aber auch viele Dinge, die sich nicht wirklich als Werk beschreiben lassen, wie z. B. Aufzeichnungen von Vorträgen. Deshalb benutzt Digi-Kunst.nrw als zentrale Verzeichnungseinheit den Begriff **Projekt**. Dies erlaubt eine größere Flexibilität und ermöglicht es, die ganze Bandbreite der künstlerischen Aktivitäten an den Hochschulen zu erfassen.
 
 Ein Datensatz zu einem Projekt enthält in der Regel einen Titel und die Beschreibung eines Projekts. Hier wird es kategorisiert und verschlagwortet, es wird die einliefernde Hochschule und ggf. deren Organisationseinheit erfasst.
 
-Als zweite zentrale Einheit bilden Ereignisse die historische Entwicklung eines Projekts ab:
+Als zweite zentrale Einheit bilden **Ereignisse** die historische Entwicklung eines Projekts ab:
 
 * Es gibt viele Typen von Ereignissen: Mit dem Ereignistyp der geistigen Schöpfung oder der Herstellung entsteht überhaupt erst ein Kunstwerk, später gibt es dann oft die Typen Aufführung, Ausstellung oder Filmpremiere. [TODO Link zu Ereignistypen]
-* Ereignisse haben in der Regel ein Beginn und ein Ende und finden an bestimmten Orten statt.
+* Ereignisse haben in der Regel einen Beginn und ein Ende und finden an bestimmten Orten statt.
 * Ereignisse werden von verschiedenen Akteur:innen durch- oder aufgeführt, wodurch sich rechtliche Ansprüche ableiten können.
 * Bei manchen Ereignissen wird bestimmte Software und Equipment verwendet.
-* Bei manchen Ereignissen sind bestimmte physische Objekte entstanden oder verwendet worden
-* Ereignisse manifestieren sich oder werden dokumentiert in Digitale Objekte (Dateien)
+* Bei manchen Ereignissen entstehen bestimmte physische Objekte oder werden verwendet.
+* Ereignisse manifestieren sich oder werden dokumentiert in Digitalen Objekten (Dateien).
 * Manche digitale Objekte entstehen durch die Retrodigitalisierung eines Informationsträgers.
 
 All diese Informationen sind ausschließlich über Ereignisse mit einem Projekt verknüpft. 
