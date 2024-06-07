@@ -1,27 +1,14 @@
 ---
 layout: digi-kunst-docs
-title: Datenmodell
+title: Entitäten und Attribute des Datenmodells
 order: 2.2
 ---
 
-Das Datenmodell ist in die fachliche und technische Grundlage für Digi-Kunst.nrw. Es definiert, wie die heterogenen Rohinformationen der unterschiedlichen Einliefernden in ein logisches Verhältnis gebracht und integriert werden, und in welchen Entitäten (Tabellen) und Attributen (Feldern) die Metadaten erfasst und verfügbar gemacht werden. Zusätzlich umfasst es Wertelisten und Taxonomien, die den Kern des kontrollierten Vokabulars bilden.
-
-Dieses Diagramm zeigt in vereinfachter Form, wie sich die Entitäten (Tabellen) und Attribute (Felder) zueinander verhalten:
-
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> 2024-04-24_datenmodellierung_vereinfacht.pdf]({{ site.baseurl}}/assets/documents/2024-04-24_datenmodellierung_vereinfacht.pdf) (20,3 KB)  
-
-
-| **Projekt**  | Im Zentrum steht das Projekt, meistens ein künstlerisches Werk. Es sind aber auch z. B. Aufzeichnungen von Veranstaltungen erfassbar. Das Projekt hat einen oder mehrere Titel, es lässt sich kategorisieren und inhaltlich beschreiben. |
-| **Ereignis** | Die wichtigste Entität nach dem Projekt sind die Ereignisse. Hier führen wir die meisten mit dem Projekt verbundenen Informationen zusammen. Ereignisse sind gekennzeichnet durch einen Zeitraum und ggf. einen Ort. Hier findet sich eine Liste der verschiedenen Ereignistypen, die bei der Erfassung benutzt werden können.|
-| **Akteur:innen** | Personen werden in der Entität Akteur:innen erfasst. In Ereignissen haben Akteur:innen eine oder mehrere *Rollen*. |
-|**Digitales Objekt** | Digitale Objekte (Dateien) werden über Ereignisse verzeichnet. Sie sind entweder durch Retrodigitalisierung aus physischen Medien entstanden, oder sie sind born digital. Sie können inhaltlich beschrieben und typisiert werden, und eine Vielzahl von technischen Metadaten, die sich je nach Datei- und Medientyp stark unterscheiden können, wird automatisch ausgelesen. |
-| **Weitere Entitäten** | Weitere optionale Entitäten sind *physisches Objekt*, verwendetes *Equipment und Software* und *Informationsträger* – siehe Diagramm. |
-
-----
-
 ## Zentrale Entitäten: Projekt und Ereignis
 
-Ein Projekt ist die zentrale Verzeichnungseinheit von Digi-Kunst.nrw. Es enthält in der Regel die Daten über ein Kunstwerk: ein Musikstück, ein Film, ein Designobjekt, ein Buch, eine digitale Animation, eine Performance, ein Theaterstück oder eine Installation – eben über etwas aus dem gesamten künstlerischen Spektrum. Das Konzept Projekt ist bei uns aber bewusst weiter gefasst und bietet die Möglichkeit, auch andere im Hochschulkontext entstandene Dinge dort zu verzeichnen, z. B. das Video eines kunsttheoretischen Vortrags oder die Tonaufzeichnung einer Meisterklasse.
+Die Aufgabe von Digi-Kunst ist es, die multimedialen künstlerischen Inhalte der Kunst- und Musikhochschulen des Landes NRW zu erschließen und zu sichern. Hauptsächlich sind das künstlerische Werke, aber auch viele Dinge, die sich nicht wirklich als Werk beschreiben lassen, wie z. B. Aufzeichnungen von Vorträgen. Deshalb benutzt Digi-Kunst.nrw als zentrale Verzeichnungseinheit den Begriff Projekt. Dies erlaubt eine größere Flexibilität und ermöglicht es, die ganze Bandbreite der künstlerischen Aktivitäten an den Hochschulen zu erfassen.
+
+Ein Datensatz zu einem Projekt enthält in der Regel einen Titel und die Beschreibung eines Projekts. Hier wird es kategorisiert und verschlagwortet, es wird die einliefernde Hochschule und ggf. deren Organisationseinheit erfasst.
 
 Als zweite zentrale Einheit bilden Ereignisse die historische Entwicklung eines Projekts ab:
 
@@ -45,9 +32,6 @@ flowchart LR;
     style Ereignis fill:#90EE90, stroke:#000000;
 </pre>
 
-Ausgehend von diesen beiden Entitäten lässt sich bereits das vollständige Datenmodell von Digi-Kunst.nrw erläutern.
-
-[TODO Hier könnten die Erklärvideos kommen]
 
 ----
 
@@ -67,22 +51,61 @@ flowchart TB;
 </pre>
 
 
-Zusätzlich können noch beliebig viele alternative Titel angelegt werden. Es ist häufig der Fall, dass Kunstwerke nicht nur unter einem Namen bekannt sind oder geführt werden, sondern im Laufe ihrer Historie oft mehrere Titel haben. Dies ist auch notwendig, wenn der Originaltitel nicht das lateinische Alphabet verwendet, sondern beispielsweise kyrillische Schrift oder chinesische Zeichen. 
+Zusätzlich können noch beliebig viele alternative Titel angelegt werden. Es ist häufig der Fall, dass Kunstwerke nicht nur unter einem Namen bekannt sind oder geführt werden, sondern im Laufe ihrer Historie oft mehrere Titel haben. Dies ist auch notwendig, wenn der Originaltitel nicht das lateinische Alphabet verwendet sondern beispielsweise kyrillische Schrift oder chinesische Zeichen. 
+
+----
+
+## Projekt: Projektkategorien
+
+Projektkategorien geben die Kunstgattung oder das Genre eines Projekts an. Dafür verwenden wir eine selbst erstellte Taxonomie, in der die Kategorien in einem hierarchischen Kontext abgebildet werden. Beispiel: Für ein Projekt wurde die Projektkategorie „Industrial Design“ vergeben. In unserem System taucht diese Projektkategorie dann wie folgt auf:
+
+<a href="{{ site.baseurl }}/assets/images/Beispiel_Breadcrumb_Projektkategorien.png"><img src="{{ site.baseurl }}/assets/images/Beispiel_Breadcrumb_Projektkategorien.png" class="center-image" style="width: 400px;"/></a>
+
+Alle drei Kategorien werden dem Projekt zugeordnet, so dass sich dieses dann auch z. B. unter dem Begriff "Angewandte Kunst" wiederfindet. Zusätzlich sind die Kategorien mit Synonymen angereichert, um eine noch bessere Auffindbarkeit zu gewährleisten.
+
+Es können beliebig viele Kategorien zu einem Projekt vergeben werden, was es ermöglicht, auch Projekte zu beschreiben, die nicht eindeutig in nur eine Kategorie fallen. Einen Überblick, mit welchen Kategorien Digi-Kunst.nrw gestartet ist, lässt sich in unserem [Projektkategorien-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/projektkategorien-grundset) finden. 
+
+Jede Projektkategorie enthält mindestens auch noch den Link zu einem Begriff aus der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de), oft sogar ein ganzes Set von Links zu großen kontrollierten Vokabularen: dem Vokabular der Deutschen Nationalbibliothek, dem Vokabular des Getty Art & Architecture Thesaurus und dem Vokabular des Filmportals.de.
+
+----
+
+## Projekt: Schlagwörter
+
+Die Schlagwörter, mit denen Digi-Kunst.nrw arbeitet, stammen aus der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de). Die Informationen können direkt von dort aus nach Digi-Kunst.nrw importiert werden. Diese Methode hat den Vorteil, dass das Schlagwortvokabular von Digi-Kust.nrw stetig erweitert und verbessert werden kann. Damit ein Schlagwort allerdings in unser System geladen werden kann, benötigt es mindestens einen deutschen und englischen Eintrag mit zugehöriger Beschreibung auf der Wikidata. Ebenso werden – falls sie vorhanden sind – Synonyme, die auf der Wikidata stehen, ebenfalls mitgeladen, um die weiter die Auffindbarkeit der Projekte zu gewährleisten.
+
+<a href="{{ site.baseurl }}/assets/images/schlagwort_auslesen.png"><img src="{{ site.baseurl }}/assets/images/schlagwort_auslesen.png" class="center-image" style="margin-top: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
+<a href="{{ site.baseurl }}/assets/images/ausgelesenes_schlagwort.png"><img src="{{ site.baseurl }}/assets/images/ausgelesenes_schlagwort.png" class="center-image" style="margin-bottom: 8%; border: 1px solid black;"/></a>
+
+----
+
+## Projekt: Einliefernde Hochschule und Organisationseinheiten
+
+Ein Projekt muss einer einliefernden Hochschule zugeordnet werden. Zu einer Einliefernden Hochschule können beliebig viele Projekte gehören. Die Einliefernde Hochschule gibt an, welche der Konsortialhochschulen rechtlich für die Behandlung des Projektes verantwortlich ist. Neben ihrem offiziellen deutschen Namen und ihrem englischen Namen haben die einzelnen einliefernden Hochschulen zusätzlich einen Wikidata-Link und einen GND-Link, durch den sie im Internet identifizierbar sind.
+
+| Deutscher Name | Englischer Name | Wikidata-Link | GND-Link |
+| ------------- | ------------- | ------------- | ------------- |
+| Folkwang Universität der Künste | Folkwang University of the Arts | [https://www.wikidata.org/entity/Q521612](https://www.wikidata.org/entity/Q521612) | [https://d-nb.info/gnd/16159133-4](https://d-nb.info/gnd/16159133-4) |
+| Hochschule für Musik Detmold | Hochschule für Musik Detmold | [https://www.wikidata.org/entity/Q317855](https://www.wikidata.org/entity/Q317855) | [https://d-nb.info/gnd/5073685-1](https://d-nb.info/gnd/5073685-1) |
+| Hochschule für Musik und Tanz Köln | Hochschule für Musik und Tanz Köln | [https://www.wikidata.org/entity/Q55021](https://www.wikidata.org/entity/Q55021) | [https://d-nb.info/gnd/6525138-6](https://d-nb.info/gnd/6525138-6) |
+| Kunsthochschule für Medien Köln | Academy of Media Arts Cologne | [https://www.wikidata.org/entity/Q827038](https://www.wikidata.org/entity/Q827038) | [https://d-nb.info/gnd/2128885-9](https://d-nb.info/gnd/2128885-9) |
+| Robert Schumann Hochschule Düsseldorf | Robert Schumann Hochschule Düsseldorf | [https://www.wikidata.org/entity/Q315238](https://www.wikidata.org/entity/Q315238) | [https://d-nb.info/gnd/5082177-5](https://d-nb.info/gnd/5082177-5) |
+
+Abgesehen von diesem rechtlichen Rahmen kann angegeben werden, aus welcher Organisationseinheit innerhalb der Hochschule ein Projekt stammt. Das kann beispielsweise ein Studiengang sein, ein Forschungsinstitut oder zum Beispiel ein Archiv.
 
 <pre class="mermaid">
-flowchart TB;
-    Projekt-- <span style="background-color: #f4effc">Ein Projekt kann mehrere alternative Titel-Sets haben\n Das Set muss entweder einen alternativen Titel oder Untertitel haben</span> --> Alternatives_Titel-Set[Alternatives Titel-Set]
-    Alternatives_Titel-Set-- <span style="background-color: #f4effc">hat bei Bedarf</span>  --> Alternativer_Titel[Alternativer Titel]
-    Alternatives_Titel-Set-- <span style="background-color: #f4effc">hat bei Bedarf</span>  --> Alternativer_Untertitel[Alternativer Untertitel]
-    Alternativer_Titel-- <span style="background-color: #f4effc">hat</span>  --> Sprachauszeichnung
-    Alternativer_Untertitel-- <span style="background-color: #f4effc">hat</span> --> Sprachauszeichnung
+flowchart LR;
+    Projekt-- <span style="background-color: #f4effc">Ein Projekt gehört zu einer\n Einliefernden Hochschule</span>  --> Einliefernde_Hochschule[Einliefernde Hochschule]
+    Einliefernde_Hochschule-- <span style="background-color: #f4effc">Zu einer Einliefernden Hochschule können beliebig\n viele Projekte gehören</span>  --> Projekt
+    Projekt-- <span style="background-color: #f4effc">Ein Projekt kann zu einer oder\n mehreren Organisationseinheiten gehören</span>  --> Organisationseinheit
+    Organisationseinheit-- <span style="background-color: #f4effc">Zu einer Organisationseinheit können beliebig\n viele Projekte gehören</span>  --> Projekt
     style Projekt fill:#FFFFE0, stroke:#000000;
-    style Alternatives_Titel-Set fill:#FFFFE0, stroke:#000000;
-    style Alternativer_Titel fill:#FFFFE0, stroke:#000000;
-    style Alternativer_Untertitel fill:#FFFFE0, stroke:#000000;
+    style Einliefernde_Hochschule fill:#FFFFE0, stroke:#000000;
+    style Organisationseinheit fill:#FFFFE0, stroke:#000000;
 </pre>
 
 ----
+
+
 
 ## Projekt: Beschreibungen & Kommentare
 
@@ -140,51 +163,6 @@ flowchart LR;
 | Veranstaltung	| Event | [https://www.wikidata.org/entity/Q1656682](https://www.wikidata.org/entity/Q1656682) |
 | Vordiplom | Vordiplom | [https://www.wikidata.org/entity/Q1227202](https://www.wikidata.org/entity/Q1656682) |
 
-## Projektkategorien
-
-Projektkategorien geben die Kunstgattung oder das Genre eines Projekts an. Dafür verwenden wir eine selbst erstellte Taxonomie (griechisch für „Ordnung“), in der die Kategorien in einem hierarchischen Kontext abgebildet werden. Beispiel: Für ein Projekt wurde die Projektkategorie „Industrial Design“ vergeben. In unserem System taucht diese Projektkategorie dann wie folgt auf:
-
-<a href="{{ site.baseurl }}/assets/images/Beispiel_Breadcrumb_Projektkategorien.png"><img src="{{ site.baseurl }}/assets/images/Beispiel_Breadcrumb_Projektkategorien.png" class="center-image" style="width: 400px;"/></a>
-
-Alle drei Kategorien werden dem entsprechenden Projekt zugeordnet, so dass sich dieses dann auch z. B. unter dem Begriff "Angewandte Kunst" wiederfindet. Zusätzlich sind die Kategorien mit Synonymen angereichert, um eine noch bessere Auffindbarkeit zu gewährleisten.
-
-Es können beliebig viele Kategorien zu einem Projekt vergeben werden, was es ermöglicht, auch Projekte zu beschreiben, die in mehr als eine Kategorie fallen. Einen Überblick, mit welchen Kategorien Digi-Kunst.nrw gestartet ist, lässt sich in unserem [Projektkategorien-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/projektkategorien-grundset) finden. 
-
-Jede Projektkategorie enthält mindestens auch noch den Link zu einem Begriff aus der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de),  enthält aber oft ein ganzes Set von Links zu großen kontrollierten Vokabularen: dem Vokabular der Deutschen Nationalbibliothek, dem Vokabular des Getty Art & Architecture Thesaurus und dem Vokabular des Filmportals.de.
-
-## Schlagwörter
-
-Die Schlagwörter, mit denen Digi-Kunst.nrw arbeitet, stammen aus der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de). Die Informationen können direkt von dort aus nach Digi-Kunst.nrw importiert werden. Diese Methode hat den Vorteil, dass das Schlagwortvokabular von Digi-Kust.nrw stetig erweitert und verbessert werden kann. Damit ein Schlagwort allerdings in unser System geladen werden kann, benötigt es mindestens einen deutschen und englischen Eintrag mit zugehöriger Beschreibung auf der Wikidata. Ebenso werden – falls sie vorhanden sind – Synonyme, die auf der Wikidata stehen, ebenfalls mitgeladen, um die weiter die Auffindbarkeit der Projekte zu gewährleisten.
-
-<a href="{{ site.baseurl }}/assets/images/schlagwort_auslesen.png"><img src="{{ site.baseurl }}/assets/images/schlagwort_auslesen.png" class="center-image" style="margin-top: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
-<a href="{{ site.baseurl }}/assets/images/ausgelesenes_schlagwort.png"><img src="{{ site.baseurl }}/assets/images/ausgelesenes_schlagwort.png" class="center-image" style="margin-bottom: 8%; border: 1px solid black;"/></a>
-
-----
-
-## Projekt: Einliefernde Hochschule und Organisationseinheiten
-
-Ein Projekt muss einer einliefernden Hochschule zugeordnet werden. Zu einer Einliefernden Hochschule können beliebig viele Projekte gehören. Die Einliefernde Hochschule gibt an, welche der Konsortialhochschulen rechtlich für die Behandlung des Projektes verantwortlich ist. Neben ihrem offiziellen deutschen Namen und ihrem englischen Namen haben die einzelnen einliefernden Hochschulen zusätzlich einen Wikidata-Link und einen GND-Link, durch den sie im Internet identifizierbar sind.
-
-| Deutscher Name | Englischer Name | Wikidata-Link | GND-Link |
-| ------------- | ------------- | ------------- | ------------- |
-| Folkwang Universität der Künste | Folkwang University of the Arts | [https://www.wikidata.org/entity/Q521612](https://www.wikidata.org/entity/Q521612) | [https://d-nb.info/gnd/16159133-4](https://d-nb.info/gnd/16159133-4) |
-| Hochschule für Musik Detmold | Hochschule für Musik Detmold | [https://www.wikidata.org/entity/Q317855](https://www.wikidata.org/entity/Q317855) | [https://d-nb.info/gnd/5073685-1](https://d-nb.info/gnd/5073685-1) |
-| Hochschule für Musik und Tanz Köln | Hochschule für Musik und Tanz Köln | [https://www.wikidata.org/entity/Q55021](https://www.wikidata.org/entity/Q55021) | [https://d-nb.info/gnd/6525138-6](https://d-nb.info/gnd/6525138-6) |
-| Kunsthochschule für Medien Köln | Academy of Media Arts Cologne | [https://www.wikidata.org/entity/Q827038](https://www.wikidata.org/entity/Q827038) | [https://d-nb.info/gnd/2128885-9](https://d-nb.info/gnd/2128885-9) |
-| Robert Schumann Hochschule Düsseldorf | Robert Schumann Hochschule Düsseldorf | [https://www.wikidata.org/entity/Q315238](https://www.wikidata.org/entity/Q315238) | [https://d-nb.info/gnd/5082177-5](https://d-nb.info/gnd/5082177-5) |
-
-Abgesehen von diesem rechtlichen Rahmen kann angegeben werden, aus welcher Organisationseinheit innerhalb der Hochschule ein Projekt stammt. Das kann beispielsweise ein Studiengang sein, ein Forschungsinstitut oder zum Beispiel ein Archiv.
-
-<pre class="mermaid">
-flowchart LR;
-    Projekt-- <span style="background-color: #f4effc">Ein Projekt gehört zu einer\n Einliefernden Hochschule</span>  --> Einliefernde_Hochschule[Einliefernde Hochschule]
-    Einliefernde_Hochschule-- <span style="background-color: #f4effc">Zu einer Einliefernden Hochschule können beliebig\n viele Projekte gehören</span>  --> Projekt
-    Projekt-- <span style="background-color: #f4effc">Ein Projekt kann zu einer oder\n mehreren Organisationseinheiten gehören</span>  --> Organisationseinheit
-    Organisationseinheit-- <span style="background-color: #f4effc">Zu einer Organisationseinheit können beliebig\n viele Projekte gehören</span>  --> Projekt
-    style Projekt fill:#FFFFE0, stroke:#000000;
-    style Einliefernde_Hochschule fill:#FFFFE0, stroke:#000000;
-    style Organisationseinheit fill:#FFFFE0, stroke:#000000;
-</pre>
 
 ----
 
@@ -199,9 +177,9 @@ Ein Projekt bekommt automatisch eine Digi-Kunst-ID. Diese setzt sich zusammen au
 
 Eine vollständige Signatur könnte also wie folgt aussehen: **Digi-Kunst-9876-KHM-5432**.
 
-Des Weiteren können auch weitere Signaturen beim Einlieferer bei uns erfasst werden, ebenso wie Werkverzeichnisnummern.
+Des Weiteren werden auch Einlieferer-interne Signaturen bei uns erfasst, ebenso wie Werkverzeichnisnummern.
 
-Zusätzlich können zu einem Projekt auch beliebig viele Normdaten-Links angegeben werden, wie z. B. Karlheinz Stockhausens „Gesang der Jünglinge“: [https://d-nb.info/gnd/300322518](https://d-nb.info/gnd/300322518).
+Zusätzlich können zu einem Projekt beliebig viele Normdaten-Links angegeben werden, wie z. B. zu Karlheinz Stockhausens „Gesang der Jünglinge“: [https://d-nb.info/gnd/300322518](https://d-nb.info/gnd/300322518).
 
 <pre class="mermaid">
 flowchart TB;
@@ -218,7 +196,7 @@ flowchart TB;
 
 ## Projekt: Projekteigenschaften und Inhaltwarnungen
 
-In den Projekteigenschaften können fachspezifische Angaben gemacht werden, etwa die Tonart eines Musikstücks oder die Dauer eines Films. Ein Projekt kann beliebig viele fachspezifischen Angaben haben.
+In den Projekteigenschaften können fachspezifische Angaben gemacht werden, etwa die Tonart eines Musikstücks oder die Dauer eines Films. Ein Projekt kann beliebig viele fachspezifische Angaben haben.
 
 Zu einem Projekt kann eine projektspezifische, einmalig verwendbare Inhaltswarnung gegeben werden. Andere, bereits im Voraus angelegte Inhaltswarnungen können in anderen Projekten immer wieder Verwendung finden.
 
@@ -231,9 +209,9 @@ Damit eine einliefernde Hochschule die Digitalen Objekte eines Projekts in die L
 Diese können auf zweierlei Arten eingeholt werden:
 
 * Zum einen kann bereits ein Nutzungsvertrag zwischen den Rechteinhaber:innen und der Hochschule bestehen, mit welchem bereits verschiedene Erhaltungsschritte erlaubt sind. Zum Beispiel kann es sein, dass die Archivierung eines Projekts bereits Bestandteil einer vorherigen Vereinbarung war. In diesen Fällen ist zu klären, ob Digi-Kunst.nrw bereits verschiedene Arbeitsschritte ausführen darf, beispielsweise die Projekte zu verzeichnen und die Dateien in die Langzeitverfügbarkeit zu überführen.
-* Zum anderen kann über Digi-Kunst.nrw ein neuer Lizenzvertrag geschlossen werden, falls noch keiner vorliegt oder der bereits bestehende Lizenzvertrag erweitert werden soll. Digi-Kunst.nrw stellt dafür eine speziell für diesen Zweck erstellte Modularlizenz zur Verfügung. Details hierzu finden sich auf der Seite [**Lizenzen**]({{ site.baseurl }}/ressourcen/lizenzen).
+* Zum anderen kann über Digi-Kunst.nrw ein neuer Lizenzvertrag geschlossen werden, falls noch keiner vorliegt oder der bereits bestehende Lizenzvertrag erweitert werden soll. Digi-Kunst.nrw stellt dafür eine speziell für diesen Zweck erstellte Modularlizenz zur Verfügung. Details hierzu finden sich auf der Seite [Lizenzen]({{ site.baseurl }}/ressourcen/lizenzen).
 
-Es ist möglich, auf Wunsch alle oder nur einzelne digitale Objekte eines Projekts (bzw. eines Ereignisses) zu veröffentlichen. Nicht veröffentlichte digitale Objekte bleiben für die Öffentlichkeit unzugänglich und werden nur in die Langzeitverfügbarkeit-Sicherung des hbz gegeben. Die Metadaten (Titel, Beschreibung, Akteur:innen, usw.) werden, sofern sie keine durch die DSGVO geschützten Informationen beinhalten, frei veröffentlicht.
+Es ist möglich, auf Wunsch alle oder nur einzelne digitale Objekte eines Projekts (bzw. eines Ereignisses) zu veröffentlichen. Nicht veröffentlichte digitale Objekte bleiben für die Öffentlichkeit unzugänglich und werden nur in die Langzeitverfügbarkeit-Sicherung des hbz gegeben. Die Metadaten (Titel, Beschreibung, Akteur:innen, usw.) werden, sofern sie keine durch die DSGVO geschützten, persönlichen Informationen beinhalten, frei veröffentlicht.
 
 <pre class="mermaid">
 flowchart TB;
@@ -252,7 +230,7 @@ Außerdem gibt es noch einige Sonderfälle, die im Einzelfall geprüft werden m�
 
 ## Ereignis: Ereignistypen
 
-Ereignisse können ebenso kategorisiert werden wie Projekte. Ein Ereignis kann ein Ankauf sein, eine musikalische Komposition, eine Ursendung oder ein Rundgang. Eine Übersicht über die Ereignistypen, die den Grundstock von Digi-Kunst.nrw bilden, finden Sie in unserem [**Ereignistypen-Grundset**]({{ site.baseurl }}/dokumentation/datenmodell/ereignistypen-grundset). Ein Ereignistyp hat mindestens einen Wikidata-Link und kann zusätzlich einen GND-Link, einen AAT-Link und einen Link zu einem Ereignis aus der LIDO-Terminologie haben.
+Ereignisse können ebenso kategorisiert werden wie Projekte. Ein Ereignis kann ein Ankauf sein, eine musikalische Komposition, eine Ursendung oder ein Rundgang. Eine Übersicht über die Ereignistypen, die den Grundstock von Digi-Kunst.nrw bilden, finden Sie in unserem [Ereignistypen-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/ereignistypen-grundset). Ein Ereignistyp hat mindestens einen Wikidata-Link und kann zusätzlich einen GND-Link, einen AAT-Link und einen Link zu einem Ereignis aus der LIDO-Terminologie haben.
 
 <pre class="mermaid">
 flowchart LR;
@@ -349,7 +327,7 @@ flowchart LR;
 | Kontakt (Telefon) | Contact (Phone) | 0-u | Ein oder mehrere mögliche Telefonkontakte. Diese werden nicht mit in die Langzeitverfügbarkeit überführt |
 | Kontakt (Postanschrift) | Contact (Postal Address) | 0-1 | Eine mögliche Postanschrift. Diese wird nicht mit in die Langzeitverfügbarkeit überführt |
 
-Innerhalb eines Ereignisses kann ein:e Akteur:in mehrere Rollen haben. Dieselbe Rolle kann auf unterschiedliche Akteur:innen angewendet werden. Rollen stammen bei uns aus einer eigenen Entität. Eine Rolle hat einen deutschen und einen englischen Namen und einen Wikidata-Link. Zusätzlich können Rollen auch einen rollenspezifischen GND-Link und einen „Getty Art and Architecture Thesaurus“-Link haben. Zur besseren Auffindbarkeit von Akteur:innen kann eine Rolle auch noch mit deutschen und englischen Synonymen angereichert werden. Eine Übersicht, mit welchen Rollen Digi-Kunst.nrw gestartet ist, finden sie in unserem [**Rollen-Grundset**]({{ site.baseurl }}/dokumentation/datenmodell/rollen-grundset).
+Innerhalb eines Ereignisses kann ein:e Akteur:in mehrere Rollen haben. Dieselbe Rolle kann auf unterschiedliche Akteur:innen angewendet werden. Rollen stammen bei uns aus einer eigenen Entität. Eine Rolle hat einen deutschen und einen englischen Namen und einen Wikidata-Link. Zusätzlich können Rollen auch einen rollenspezifischen GND-Link und einen „Getty Art and Architecture Thesaurus“-Link haben. Zur besseren Auffindbarkeit von Akteur:innen kann eine Rolle auch noch mit deutschen und englischen Synonymen angereichert werden. Eine Übersicht, mit welchen Rollen Digi-Kunst.nrw gestartet ist, finden sie in unserem [Rollen-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/rollen-grundset).
 
 <pre class="mermaid">
 flowchart TB;
@@ -430,7 +408,7 @@ In einem Ereignis können beliebig viele physische Objekte beschrieben werden. D
 
 ## Ereignis: Informationsträger
 
-Informationsträger sind physische Datenträger oder Trägermedien, die digitalisiert wurden oder eine andere Rolle im Ereignis spielen, wie z. B. eine Schallplatte, eine Diskette, ein Tonband, oder eine Festplatte. Informationsträger werden durch [** der Informationsträgertypen**]({{ site.baseurl }}/dokumentation/datenmodell/informationstraegertypen-grundset) kategorisiert. Diese Taxonomie kann bei Bedarf im Erfassungsportal erweitert werden. Neben den Feldern, die auch das physische Objekt besitzt, können bei einem Informationsträger die folgenden Informationen erfasst werden:
+Informationsträger sind physische Datenträger oder Trägermedien, die digitalisiert wurden oder eine andere Rolle im Ereignis spielen, wie z. B. eine Schallplatte, eine Diskette, ein Tonband, oder eine Festplatte. Informationsträger werden durch [die Informationsträgertypen]({{ site.baseurl }}/dokumentation/datenmodell/informationstraegertypen-grundset) kategorisiert. Diese Taxonomie kann bei Bedarf im Erfassungsportal erweitert werden. Neben den Feldern, die auch das physische Objekt besitzt, können bei einem Informationsträger die folgenden Informationen erfasst werden:
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
@@ -518,10 +496,10 @@ Neben diesen Pflichtangaben gibt es noch eine Reihe von optionalen, deskriptiven
 
 Mit folgenden Programmen wird außerdem eine Vielzahl von technischen Metadaten der Datei ausgelesen. Hierzu verwendet unser System:
 
-  * [**JHOVE**](https://jhove.openpreservation.org/) – ursprünglich entwickelt von [JSTOR](https://www.jstor.org/) und der [Harvard University Library](https://library.harvard.edu/); derzeit in Kooperation weiterentwickelt von der [Open Preservation Foundation](https://openpreservation.org/)
-  * [**DROID**](https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/) von [The UK National Archives](https://www.nationalarchives.gov.uk/)
-  * [**MediaInfo**](https://mediaarea.net/de/MediaInfo)  von [MediaArea](https://mediaarea.net/)
-  * [**ExifTool**](https://exiftool.org/) von Phil Harvey
+  * [JHOVE](https://jhove.openpreservation.org/) – ursprünglich entwickelt von [JSTOR](https://www.jstor.org/) und der [Harvard University Library](https://library.harvard.edu/); derzeit in Kooperation weiterentwickelt von der [Open Preservation Foundation](https://openpreservation.org/)
+  * [DROID](https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/) von [The UK National Archives](https://www.nationalarchives.gov.uk/)
+  * [MediaInfo](https://mediaarea.net/de/MediaInfo)  von [MediaArea](https://mediaarea.net/)
+  * [ExifTool](https://exiftool.org/) von Phil Harvey
 
 Der Output dieser Tools wird in Gänze gespeichert. Einige Informationen aus diesem technischen Metadaten werden zusätzlich herausgezogen und in eigenen Feldern angezeigt:
 

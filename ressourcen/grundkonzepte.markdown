@@ -1,29 +1,12 @@
 ---
 layout: digi-kunst-docs
-title: Grundkonzepte
-order: 2.1
+title: Grundkonzepte (sollte vielleicht anders heiße)
+order: 2.9
 ---
 
 Hier finden Sie einen Überblick über die Grundkonzepte von Digi-Kunst.nrw.
 
 
-
-
-## Videos zum Datenmodell
-
-### 1: Die Grundlagen
-
-<video width="100%" controls>
-    <source src="{{ site.baseurl}}/assets/documents/2024-04_datenmodellierung_1_grundlagen.mp4" type="video/mp4">
-</video>
-
-### 2: Verzeichnung eines einfachen Projekts
-
-<video width="100%" controls>
-    <source src="{{ site.baseurl}}/assets/documents/2024-04_datenmodellierung_2_einfaches_beispiel.mp4" type="video/mp4">
-</video>
-
-----
 
 ## Standards
 
