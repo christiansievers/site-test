@@ -1,21 +1,25 @@
 ---
 layout: digi-kunst-docs
-title: Das Datenmodell erklärt (Titel TBC)
+title: Datenmodell
 order: 2.2
 ---
 
-Das Datenmodell ist in die fachliche und technische Grundlage für Digi-Kunst.nrw:
+Das Datenmodell ist in die fachliche und technische Grundlage für Digi-Kunst.nrw. Es definiert, wie die heterogenen Rohinformationen der unterschiedlichen Einliefernden in ein logisches Verhältnis gebracht und integriert werden, und in welchen Entitäten (Tabellen) und Attributen (Feldern) die Metadaten erfasst und verfügbar gemacht werden. Zusätzlich umfasst es Wertelisten und Taxonomien, die den Kern des kontrollierten Vokabulars bilden.
 
-* Es bestimmt die Form, nach der wir unsere Daten strukturieren und einheitlich speichern.
-* Es zeigt an, wie und welchem Verhältnis (in welcher Kardinalität) die verschiedenen Teile dieses Modells miteinander verknüpft sind.
-* Es umfasst Wertelisten und Taxonomien, die den Kern unseres kontrollierten Vokabulars bilden.
+Dieses Diagramm zeigt in vereinfachter Form, wie sich die Entitäten (Tabellen) und Attribute (Felder) zueinander verhalten:
+
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> 2024-04-24_datenmodellierung_vereinfacht.pdf]({{ site.baseurl}}/assets/documents/2024-04-24_datenmodellierung_vereinfacht.pdf) (20,3 KB)  
+
+
+| **Projekt**  | Im Zentrum steht das Projekt, meistens ein künstlerisches Werk. Es sind aber auch z. B. Aufzeichnungen von Veranstaltungen erfassbar. Das Projekt hat einen oder mehrere Titel, es lässt sich kategorisieren und inhaltlich beschreiben. |
+| **Ereignis** | Die wichtigste Entität nach dem Projekt sind die Ereignisse. Hier führen wir die meisten mit dem Projekt verbundenen Informationen zusammen. Ereignisse sind gekennzeichnet durch einen Zeitraum und ggf. einen Ort. Hier findet sich eine Liste der verschiedenen Ereignistypen, die bei der Erfassung benutzt werden können.|
+| **Akteur:innen** | Personen werden in der Entität Akteur:innen erfasst. In Ereignissen haben Akteur:innen eine oder mehrere *Rollen*. |
+|**Digitales Objekt** | Digitale Objekte (Dateien) werden über Ereignisse verzeichnet. Sie sind entweder durch Retrodigitalisierung aus physischen Medien entstanden, oder sie sind born digital. Sie können inhaltlich beschrieben und typisiert werden, und eine Vielzahl von technischen Metadaten, die sich je nach Datei- und Medientyp stark unterscheiden können, wird automatisch ausgelesen. |
+| **Weitere Entitäten** | Weitere optionale Entitäten sind *physisches Objekt*, verwendetes *Equipment und Software* und *Informationsträger* – siehe Diagramm. |
 
 ----
 
 ## Zentrale Entitäten: Projekt und Ereignis
-Die Bausteine eines Datenmodells nennen sich Entitäten. Der Begriff leitet sich vom lateinischen Wort für „Ding“ ab. Entitäten bieten einen Rahmen dafür, dass in ihnen genau eine Art von Ding verzeichnet werden kann. Innerhalb von Entitäten werden verschiedene Eigenschaften verzeichnet, sogenannte Attribute.
-
-Die zwei zentralen Entitäten in unserem System sind Projekt und Ereignis.
 
 Ein Projekt ist die zentrale Verzeichnungseinheit von Digi-Kunst.nrw. Es enthält in der Regel die Daten über ein Kunstwerk: ein Musikstück, ein Film, ein Designobjekt, ein Buch, eine digitale Animation, eine Performance, ein Theaterstück oder eine Installation – eben über etwas aus dem gesamten künstlerischen Spektrum. Das Konzept Projekt ist bei uns aber bewusst weiter gefasst und bietet die Möglichkeit, auch andere im Hochschulkontext entstandene Dinge dort zu verzeichnen, z. B. das Video eines kunsttheoretischen Vortrags oder die Tonaufzeichnung einer Meisterklasse.
 
@@ -222,12 +226,14 @@ Zu einem Projekt kann eine projektspezifische, einmalig verwendbare Inhaltswarnu
 
 ## Projekt: Nutzungsrechte
 
-Damit eine einliefernde Hochschule ein Projekt in die Langzeitverfügbarkeit überführen, es öffentlich zugänglich machen und es gegebenenfalls an andere Portale für Kultur und Wissen weitergeben kann, benötigt dafür die Nutzungsrechte von den Urheber:innen und Leistungsschutzrechtsinhaber:innen. 
+Damit eine einliefernde Hochschule die Digitalen Objekte eines Projekts in die Langzeitverfügbarkeit überführen, es öffentlich zugänglich machen und es gegebenenfalls an andere Portale für Kultur und Wissen weitergeben kann, benötigt sie dafür die Nutzungsrechte von den Rechteinhaber:innen. 
 
-Digi-Kunst.nrw erfasst dafür zunächst bestimmte Rechte für das Projekt. Das kann auf zweierlei Arten passieren:
+Diese können auf zweierlei Arten eingeholt werden:
 
 * Zum einen kann bereits ein Nutzungsvertrag zwischen den Rechteinhaber:innen und der Hochschule bestehen, mit welchem bereits verschiedene Erhaltungsschritte erlaubt sind. Zum Beispiel kann es sein, dass die Archivierung eines Projekts bereits Bestandteil einer vorherigen Vereinbarung war. In diesen Fällen ist zu klären, ob Digi-Kunst.nrw bereits verschiedene Arbeitsschritte ausführen darf, beispielsweise die Projekte zu verzeichnen und die Dateien in die Langzeitverfügbarkeit zu überführen.
 * Zum anderen kann über Digi-Kunst.nrw ein neuer Lizenzvertrag geschlossen werden, falls noch keiner vorliegt oder der bereits bestehende Lizenzvertrag erweitert werden soll. Digi-Kunst.nrw stellt dafür eine speziell für diesen Zweck erstellte Modularlizenz zur Verfügung. Details hierzu finden sich auf der Seite [**Lizenzen**]({{ site.baseurl }}/ressourcen/lizenzen).
+
+Es ist möglich, auf Wunsch alle oder nur einzelne digitale Objekte eines Projekts (bzw. eines Ereignisses) zu veröffentlichen. Nicht veröffentlichte digitale Objekte bleiben für die Öffentlichkeit unzugänglich und werden nur in die Langzeitverfügbarkeit-Sicherung des hbz gegeben. Die Metadaten (Titel, Beschreibung, Akteur:innen, usw.) werden, sofern sie keine durch die DSGVO geschützten Informationen beinhalten, frei veröffentlicht.
 
 <pre class="mermaid">
 flowchart TB;
@@ -239,7 +245,8 @@ flowchart TB;
     Rechte_werden_geprüft-- <span style="background-color: #f4effc">zusätzlich</span>  --> Neuer_Lizenzvertrag[Es kann ein neuer Lizenzvertrag via Digi-Kunst.nrw geschlossen werden]
 </pre>
 
-Außerdem gibt es noch einige Sonderfälle, die im Einzelfall geprüft werden müssen. So kann es sein, dass ein Werk verwaist seien kann, es also auch nach vorheriger Recherche nicht mehr seinen zugehörigen Urheber:innen zugeordnet werden kann. In diesem Fall würde z. B. eine europäische Sonderregelung gelten, bei der die zugehörigen Dateien öffentlich zugänglich gemacht werden könnten.
+Außerdem gibt es noch einige Sonderfälle, die im Einzelfall geprüft werden müssen. So kann es sein, dass ein Werk verwaist ist, es also auch nach vorheriger Recherche nicht mehr seinen zugehörigen Urheber:innen zugeordnet werden kann. In diesem Fall kann eine europäische Sonderregelung gelten, bei der die zugehörigen Dateien öffentlich zugänglich gemacht werden könnten.
+
 
 ----
 
@@ -535,7 +542,7 @@ Der Output dieser Tools wird in Gänze gespeichert. Einige Informationen aus die
 
 ## Selbstreferentielle Verknüpfungen
 
-Projekte, Ereignisse und Akteur:innen können jeweils rekursiv verknüpft werden, z. B. ein Projekt, das Teil eines anderen Projekts ist, oder eine Künstler:innengruppe als Akteur:in, deren Mitglieder einzelne Personen sind. 
+Projekte, Ereignisse und Akteur:innen können jeweils rekursiv verknüpft werden, z. B. ein Projekt kann Teil eines anderen Projekts sein, oder einzelne Akteur:innen sind Mitglied einer Künstler:innengruppe, die ebenfalls als Akteur:in angelegt ist.
 
 Diese Art von Verbindungen ist immer reziprok. Das heißt, wenn eine Verbindung hergestellt wurde, wird immer die passende Gegenverbindung mit angelegt. Ein Beispiel: Würde man bei C. P. E. Bach die Verbindung "hat Vater" = "Johann Sebastian Bach" herstellen, so würde bei Letzterem automatisch folgendes angelegt werden: "ist Vater von" = "C. P. E. Bach". 
 
