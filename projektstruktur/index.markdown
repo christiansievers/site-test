@@ -1,6 +1,6 @@
 ---
 layout: digi-kunst-docs
-title: Struktur
+title: Projektstruktur
 order: 1
 ---
 

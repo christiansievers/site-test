@@ -63,7 +63,7 @@ Projektkategorien geben die Kunstgattung oder das Genre eines Projekts an. Dafü
 
 Alle drei Kategorien werden dem Projekt zugeordnet, so dass sich dieses dann auch z. B. unter dem Begriff "Angewandte Kunst" wiederfindet. Zusätzlich sind die Kategorien mit Synonymen angereichert, um eine noch bessere Auffindbarkeit zu gewährleisten.
 
-Es können beliebig viele Kategorien zu einem Projekt vergeben werden, was es ermöglicht, auch Projekte zu beschreiben, die nicht eindeutig in nur eine Kategorie fallen. Einen Überblick, mit welchen Kategorien Digi-Kunst.nrw gestartet ist, lässt sich in unserem [Projektkategorien-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/projektkategorien-grundset) finden. 
+Es können beliebig viele Kategorien zu einem Projekt vergeben werden, was es ermöglicht, auch Projekte zu beschreiben, die nicht eindeutig in nur eine Kategorie fallen. Einen Überblick, mit welchen Kategorien Digi-Kunst.nrw gestartet ist, lässt sich in unserem [Projektkategorien-Grundset]({{ site.baseurl }}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/projektkategorien-grundset) finden. 
 
 Jede Projektkategorie enthält mindestens auch noch den Link zu einem Begriff aus der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de), oft sogar ein ganzes Set von Links zu großen kontrollierten Vokabularen: dem Vokabular der Deutschen Nationalbibliothek, dem Vokabular des Getty Art & Architecture Thesaurus und dem Vokabular des Filmportals.de.
 
@@ -230,7 +230,7 @@ Außerdem gibt es noch einige Sonderfälle, die im Einzelfall geprüft werden m�
 
 ## Ereignis: Ereignistypen
 
-Ereignisse können ebenso kategorisiert werden wie Projekte. Ein Ereignis kann ein Ankauf sein, eine musikalische Komposition, eine Ursendung oder ein Rundgang. Eine Übersicht über die Ereignistypen, die den Grundstock von Digi-Kunst.nrw bilden, finden Sie in unserem [Ereignistypen-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/ereignistypen-grundset). Ein Ereignistyp hat mindestens einen Wikidata-Link und kann zusätzlich einen GND-Link, einen AAT-Link und einen Link zu einem Ereignis aus der LIDO-Terminologie haben.
+Ereignisse können ebenso kategorisiert werden wie Projekte. Ein Ereignis kann ein Ankauf sein, eine musikalische Komposition, eine Ursendung oder ein Rundgang. Eine Übersicht über die Ereignistypen, die den Grundstock von Digi-Kunst.nrw bilden, finden Sie in unserem [Ereignistypen-Grundset]({{ site.baseurl }}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/ereignistypen-grundset). Ein Ereignistyp hat mindestens einen Wikidata-Link und kann zusätzlich einen GND-Link, einen AAT-Link und einen Link zu einem Ereignis aus der LIDO-Terminologie haben.
 
 <pre class="mermaid">
 flowchart LR;
@@ -327,7 +327,7 @@ flowchart LR;
 | Kontakt (Telefon) | Contact (Phone) | 0-u | Ein oder mehrere mögliche Telefonkontakte. Diese werden nicht mit in die Langzeitverfügbarkeit überführt |
 | Kontakt (Postanschrift) | Contact (Postal Address) | 0-1 | Eine mögliche Postanschrift. Diese wird nicht mit in die Langzeitverfügbarkeit überführt |
 
-Innerhalb eines Ereignisses kann ein:e Akteur:in mehrere Rollen haben. Dieselbe Rolle kann auf unterschiedliche Akteur:innen angewendet werden. Rollen stammen bei uns aus einer eigenen Entität. Eine Rolle hat einen deutschen und einen englischen Namen und einen Wikidata-Link. Zusätzlich können Rollen auch einen rollenspezifischen GND-Link und einen „Getty Art and Architecture Thesaurus“-Link haben. Zur besseren Auffindbarkeit von Akteur:innen kann eine Rolle auch noch mit deutschen und englischen Synonymen angereichert werden. Eine Übersicht, mit welchen Rollen Digi-Kunst.nrw gestartet ist, finden sie in unserem [Rollen-Grundset]({{ site.baseurl }}/dokumentation/datenmodell/rollen-grundset).
+Innerhalb eines Ereignisses kann ein:e Akteur:in mehrere Rollen haben. Dieselbe Rolle kann auf unterschiedliche Akteur:innen angewendet werden. Rollen stammen bei uns aus einer eigenen Entität. Eine Rolle hat einen deutschen und einen englischen Namen und einen Wikidata-Link. Zusätzlich können Rollen auch einen rollenspezifischen GND-Link und einen „Getty Art and Architecture Thesaurus“-Link haben. Zur besseren Auffindbarkeit von Akteur:innen kann eine Rolle auch noch mit deutschen und englischen Synonymen angereichert werden. Eine Übersicht, mit welchen Rollen Digi-Kunst.nrw gestartet ist, finden sie in unserem [Rollen-Grundset]({{ site.baseurl }}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/rollen-grundset).
 
 <pre class="mermaid">
 flowchart TB;
@@ -408,7 +408,7 @@ In einem Ereignis können beliebig viele physische Objekte beschrieben werden. D
 
 ## Ereignis: Informationsträger
 
-Informationsträger sind physische Datenträger oder Trägermedien, die digitalisiert wurden oder eine andere Rolle im Ereignis spielen, wie z. B. eine Schallplatte, eine Diskette, ein Tonband, oder eine Festplatte. Informationsträger werden durch [die Informationsträgertypen]({{ site.baseurl }}/dokumentation/datenmodell/informationstraegertypen-grundset) kategorisiert. Diese Taxonomie kann bei Bedarf im Erfassungsportal erweitert werden. Neben den Feldern, die auch das physische Objekt besitzt, können bei einem Informationsträger die folgenden Informationen erfasst werden:
+Informationsträger sind physische Datenträger oder Trägermedien, die digitalisiert wurden oder eine andere Rolle im Ereignis spielen, wie z. B. eine Schallplatte, eine Diskette, ein Tonband, oder eine Festplatte. Informationsträger werden durch [die Informationsträgertypen]({{ site.baseurl }}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/informationstraegertypen-grundset) kategorisiert. Diese Taxonomie kann bei Bedarf im Erfassungsportal erweitert werden. Neben den Feldern, die auch das physische Objekt besitzt, können bei einem Informationsträger die folgenden Informationen erfasst werden:
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
