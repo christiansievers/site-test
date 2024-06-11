@@ -50,7 +50,7 @@
 {
   "title": "Rechtliches (Formulare und Hilfestellungen)",
   "url": "/site-test/ressourcen/formulare_und_rechtliche_hilfestellungen.html",
-  "content": "Müssen Rechte eingeholt werden?Der folgende Entscheidungsbaum hilft, zu entscheiden, ob Rechte von den Rechteinhaber:innen eingeholt werden müssen:  2024-01-22_entscheidungsbaum_erfassung_rechte.pdf (466 KB)"
+  "content": "Informationen und Vorlagen zur Klärung von Lizenzierung und NutzungsrechtenDatenschutz/-erklärung(mit SY/CF zu klären, was veröffentlicht werden muss. Formular für Rechteeinholung verweist auf diese Webseite: “Die Datenschutzerklärung [meiner Hochschule] kann unter https://docs.digi-kunst.nrw/…/Datenschutz eingesehen werden.”)Formularvorlage für Rechteeinholung(sollte öffentlich einsehbar sein, hier als .docx und .pdf bereitstellen )Entscheidungsbaum RechteeinholungDer folgende Entscheidungsbaum hilft, zu entscheiden, ob Rechte von den Rechteinhaber:innen eingeholt werden müssen:  2024-01-22_entscheidungsbaum_erfassung_rechte.pdf (466 KB)"
 },
 
 {
@@ -74,7 +74,7 @@
 {
   "title": "Ressourcen",
   "url": "/site-test/ressourcen/",
-  "content": "GrundkonzepteEinstieg in Konzepte und Nutzen des ProjektsDatenmodellVeröffentlichungen und Präsentationen (FIXME PDF-Assets hochladen, verlinken)Im Rahmen des Projekts veröffentlichte Materialien und DokumenteAktivitäten an den KonsortialhochschulenEin Überblick der prioritär einzuliefernden Datenquellen an den HochschulenHow-To-Guides für Einlieferer an den HochschulenKonkrete Anleitungen, u.a. für vorbereitende Arbeiten zur Datensicherung und zum Vorstrukturieren der DatenFAQHäufig gestellte FragenLizenzen  Digi-Kunst-A+B+C (Entwurf)Rechtliche Formulare und Hilfestellungen"
+  "content": "GrundkonzepteEinstieg in Konzepte und Nutzen des ProjektsDatenmodellVeröffentlichungen und Präsentationen (FIXME PDF-Assets hochladen, verlinken)Im Rahmen des Projekts veröffentlichte Materialien und DokumenteAktivitäten an den KonsortialhochschulenEin Überblick der prioritär einzuliefernden Datenquellen an den HochschulenHow-To-Guides für Einlieferer an den HochschulenKonkrete Anleitungen, u.a. für vorbereitende Arbeiten zur Datensicherung und zum Vorstrukturieren der DatenFAQHäufig gestellte FragenLizenzen  Digi-Kunst-A+B+C (Entwurf)Rechtliches (Formulare und Hilfestellungen)Informationen und Vorlagen zur Klärung von Lizenzierung und Nutzungsrechten"
 },
 
 {
@@ -86,7 +86,7 @@
 {
   "title": "Dokumentation",
   "url": "/site-test/dokumentation/",
-  "content": "  DatenmodellDas Datenmodell definiert, wie die heterogenen Rohinformationen der unterschiedlichen Einliefernden in ein logisches Verhältnis gebracht und integriert werden, und in welchen Entitäten (Tabellen) und Attributen (Feldern) die einzelnen Metadaten erfasst und verfügbar gemacht werden.  Kontrollierte Vokabulare und TaxonomienUm eine einheitliche Erschließung und Verzeichnung zu gewährleisten, benutzt Digi-Kunst.nrw eine Reihe von selbst erstellten Systematiken.FIXME Link zu Grundsets  InfrastrukturDas Strukturdiagramm veranschaulicht den logischen Aufbau der intendierten Projektinfrastruktur und zeigt die Zusammenhänge von System-Komponenten, Nutzer:innen, externen Institutionen und angebundenen Diensten. (FIXME - Seite fehlt noch - darin erklären, wie alles zusammenhängt und was die einzelnen Komponenten leisten, zb Rosetta = OAIS)  die Repositoriums-Software KA3 bietet u.a. eine OAI-PMH Schnittstelle und stellt Metadaten in diversen Austauschformaten zur Verfügung"
+  "content": "DatenmodellDas Datenmodell definiert, wie die heterogenen Rohinformationen der unterschiedlichen Einliefernden in ein logisches Verhältnis gebracht und integriert werden, und in welchen Entitäten (Tabellen) und Attributen (Feldern) die einzelnen Metadaten erfasst und verfügbar gemacht werden.Kontrollierte Vokabulare und TaxonomienUm eine einheitliche Erschließung und Verzeichnung zu gewährleisten, benutzt Digi-Kunst.nrw eine Reihe von selbst erstellten Systematiken.FIXME Link zu GrundsetsInfrastrukturInformationen über verwendete Soft- und Hardware und die Zusammenhänge von Systemkomponenten, Nutzer:innen, externen Institutionen und angebundenen Diensten."
 },
 
 {
@@ -104,7 +104,7 @@
 {
   "title": "Infrastruktur",
   "url": "/site-test/dokumentation/infrastruktur.html",
-  "content": "Infrastruktur"
+  "content": "erklären, wie alles zusammenhängt und was die einzelnen Komponenten leisten, zb Rosetta = OAISIm von … bis … laufenden Vorprojekt wurde erarbeitet, dass die von dem RRZK der Universität zu Köln entwickelte Repositoriumssoftware KA3 und für die Langzeitverfügbarkeit das vom hbz betriebene Rosetta verwendet werden soll.StrukturdiagrammDieses Strukturdiagramm veranschaulicht den logischen Aufbau der intendierten Projektinfrastruktur und zeigt die Zusammenhänge von System-Komponenten, Nutzer:innen, externen Institutionen und angebundenen Diensten.KA3Die Repositoriums-Software KA3 bietet u.a. eine OAI-PMH Schnittstelle und stellt Metadaten in diversen Austauschformaten zur Verfügung"
 },
 
 {
