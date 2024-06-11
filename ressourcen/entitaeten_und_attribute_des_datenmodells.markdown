@@ -71,7 +71,9 @@ Jede Projektkategorie enthält mindestens auch noch den Link zu einem Begriff au
 
 ## Projekt: Schlagwörter
 
-Die Schlagwörter, mit denen Digi-Kunst.nrw arbeitet, stammen aus der [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Main_Page&uselang=de). Die Informationen können direkt von dort aus nach Digi-Kunst.nrw importiert werden. Diese Methode hat den Vorteil, dass das Schlagwortvokabular von Digi-Kust.nrw stetig erweitert und verbessert werden kann. Damit ein Schlagwort allerdings in unser System geladen werden kann, benötigt es mindestens einen deutschen und englischen Eintrag mit zugehöriger Beschreibung auf der Wikidata. Ebenso werden – falls sie vorhanden sind – Synonyme, die auf der Wikidata stehen, ebenfalls mitgeladen, um die weiter die Auffindbarkeit der Projekte zu gewährleisten.
+Die Verzeichnung der Schlagwörter erfolgt über [Wikidata](https://www.wikidata.org/). Dadurch wird die Anbindung an Semantic Web- und Linked Open Data Anwendungen gewährleistet. Damit ein Schlagwort in unser System geladen werden kann, benötigt es mindestens einen deutschen oder englischen Wikidata-Eintrag mit zugehöriger Beschreibung, die automatisch ausgelesen werden. Synonyme werden, falls vorhanden, ebenfalls abgerufen, um zusätzlich die Erschließung der erfassten Inhalte zu verbessern. 
+
+Dieses System der Verschlagwortung über Wikidata findet überall dort Verwendung, wo Schlagwort-ähnliche Einträge gemacht werden können. Neben dem Projekt sind dies Physisches Objekt, Digitales Objekt und Informationsträger.
 
 <a href="{{ site.baseurl }}/assets/images/schlagwort_auslesen.png"><img src="{{ site.baseurl }}/assets/images/schlagwort_auslesen.png" class="center-image" style="margin-top: 8%; margin-bottom: 8%; border: 1px solid black;"/></a>
 <a href="{{ site.baseurl }}/assets/images/ausgelesenes_schlagwort.png"><img src="{{ site.baseurl }}/assets/images/ausgelesenes_schlagwort.png" class="center-image" style="margin-bottom: 8%; border: 1px solid black;"/></a>
