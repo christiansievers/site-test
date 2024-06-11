@@ -11,7 +11,7 @@ erklären, wie alles zusammenhängt und was die einzelnen Komponenten leisten, z
 Im von ... bis ... laufenden Vorprojekt wurde erarbeitet, dass die von dem RRZK der Universität zu Köln entwickelte Repositoriumssoftware KA3 und für die Langzeitverfügbarkeit das vom hbz betriebene Rosetta verwendet werden soll. 
 
 ## Strukturdiagramm
-Dieses Strukturdiagramm veranschaulicht den logischen Aufbau der intendierten Projektinfrastruktur und zeigt die Zusammenhänge von System-Komponenten, Nutzer:innen, externen Institutionen und angebundenen Diensten. 
+Dieses Strukturdiagramm veranschaulicht den logischen Aufbau der intendierten Projektinfrastruktur und zeigt die Zusammenhänge von Systemkomponenten, Nutzer:innen, externen Institutionen und angebundenen Diensten. 
 
 
 ----
