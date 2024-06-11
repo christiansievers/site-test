@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Entitäten und Attribute des Datenmodells
-order: 2.2
+order: 2.3
 ---
 
 ## Zentrale Entitäten: Projekt und Ereignis

@@ -25,4 +25,5 @@ Lizenzen
 
 - Digi-Kunst-A+B+C (Entwurf)
 
-Formulare und generelle rechtliche Hilfestellungen
+Rechtliches (Formulare und Hilfestellungen)
+Informationen und Vorlagen zur Klärung von Lizenzierung und Nutzungsrechten

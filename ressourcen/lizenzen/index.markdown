@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Lizenzen
-order: 2.7
+order: 2.8
 ---
 
 Digi-Kunst.nrw arbeitet hauptsächlich mit urheberrechtlich und leistungsschutzrechtlich geschützten Material. Ein Umstand, der nicht nur jedes Projekt der Langzeitverfügbarkeit vor besondere Aufgaben stellt, sondern vor allem die einliefernden Künstler:innen.

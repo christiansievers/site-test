@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Häufig gestellte Fragen
-order: 2.6
+order: 2.7
 ---
 
 **Wofür braucht es ein gemeinsames Portal für die Kunst- und Musikhochschulen in Nordrhein-Westfalen?**
