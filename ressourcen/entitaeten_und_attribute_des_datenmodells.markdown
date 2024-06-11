@@ -498,7 +498,7 @@ Mit folgenden Programmen wird außerdem eine Vielzahl von technischen Metadaten 
 
   * [JHOVE](https://jhove.openpreservation.org/) – ursprünglich entwickelt von [JSTOR](https://www.jstor.org/) und der [Harvard University Library](https://library.harvard.edu/); derzeit in Kooperation weiterentwickelt von der [Open Preservation Foundation](https://openpreservation.org/)
   * [DROID](https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/) von [The UK National Archives](https://www.nationalarchives.gov.uk/)
-  * [MediaInfo](https://mediaarea.net/de/MediaInfo)  von [MediaArea](https://mediaarea.net/)
+  * [MediaInfo](https://mediaarea.net/de/MediaInfo) von [MediaArea](https://mediaarea.net/)
   * [ExifTool](https://exiftool.org/) von Phil Harvey
 
 Der Output dieser Tools wird in Gänze gespeichert. Einige Informationen aus diesem technischen Metadaten werden zusätzlich herausgezogen und in eigenen Feldern angezeigt:

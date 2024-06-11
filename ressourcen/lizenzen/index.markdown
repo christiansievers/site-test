@@ -10,11 +10,13 @@ Digi-Kunst.nrw arbeitet hauptsächlich mit urheberrechtlich und leistungsschutzr
 
 ## Digi-Kunst-Lizenzen
 
-Digi-Kunst.nrw hat dafür eine Modularlizenz entwickelt, wie man sie auch gewohnt bei  Lizenzprovidern wie [Creative Commons](https://creativecommons.org/) oder ähnlichen finden könnte, jedoch mit dem Unterschied, dass nicht mit der Öffentlichkeit, sondern bewusst mit der jeweiligen Hochschule ein neuer Nutzungsrechtsvertrag geschlossen wird. Die Hochschule erwirbt also bestimmte Erlaubnisse, dass sie mit dem Projekt verschiedene Dinge machen darf. Dabei gibt es in unserer Modularlizenz drei Lizenzstufen, die aufeinander aufbauend sind:
+Digi-Kunst.nrw hat dafür eine Modularlizenz entwickelt, mit der die einliefernde Hochschule sich bestimmte Rechte von den Rechteinhaber:innen [den lizenzgebenden Personen] einräumen lassen kann. Es gibt drei Stufen, die aufeinander aufbauen:
 
-| **A-Langzeitverfügbarkeit** | Mit dieser Stufe gestattet die die lizenzgebende Person, dass ihr Projekt von der Hochschule in die Langzeitverfügbarkeit überführt werden kann. Zum Zweck der Langzeitverfügbarkeit dürfen die eingeliefernten Dateien gespeichert, verfielfältigt und konvertiert werden, bzw. ein Projekt auch zum ersten Mal digitalisiert und beschrieben werden. Einzelne Dateien des Projekts können darüber hinaus auch noch der Öffentlichkeit zugänglich gemacht, an Portale für Kultur und Wissen weitergegeben oder sogar frei verfügbar gemacht werden. |
-| **B-Öffentliche Zugänglichmachung** | Mit dieser Stufe erlaubt die lizenzgebende Person darüber hinaus, dass ihre Hochschule das Projekt zu nicht-kommerziellen Zwecken der Öffentlichkeit, präferiert über Digi-Kunst.nrw, zugänglich machen darf. Damit ist allerdings nicht gemeint, dass die Dateien völlig frei im Internet stehen. Die lizenzgebende Person entscheidet, was frei und was erst nach vorheriger Anfrage herausgegeben werden darf. Zudem hat die lizenzgebende Person die Möglichkeit, einzelne Dateien nur in die Langzeitverfügbarkeit zu geben, ohne dass sie eingesehen werden können, als die Dateien an Portale für Kultur und Wissen weiterzugeben oder sie auch frei verfügbar zu machen. |
-| **C-Weitergabe an Portale für Kultur und Wissen** | Mit dieser Stufe erlaubt die lizenzgebende Person darüber hinaus, dass ihre Hochschule das Projekt, auch an weitere Portale für Kultur und Wissen weitergeben darf, z. B. die [Deutsche Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/) oder die [Europeana](https://www.europeana.eu/de). Zudem hat die lizenzgebende Person die Möglichkeit, einzelne Dateien nur in die Langzeitverfügbarkeit zu überführen, sie nur auf Stufe B öffentlich zugänglich zu machen oder sie unter einer freieren Creative Commons-Lizenzen bereitzustellen. |
+| **A – Langzeitverfügbarkeit** | Das Werk kann von der eigenen Hochschule zu Archivzwecken vervielfältigt werden. Dies beinhaltet auch eine Digitalisierung des Werks. Eine Bearbeitung des Werks ist nur zulässig, wenn für Zwecke der Langzeitverfügbarkeit eine Umwandlung bestehender Dateiformate in andere Dateiformate erforderlich ist und diese Umwandlung eine Bearbeitung darstellen sollte. |
+| **A+B – wie A, zusätzlich Veröffentlichung** | Das Werk kann von der eigenen Hochschule zu nicht-kommerziellen Zwecken öffentlich zugänglich gemacht werden („on-demand“). Die eigene Hochschule kann dieses Nutzungsrecht auch im Rahmen des Projekts Digi-Kunst.nrw nutzen und den beteiligten Projektpartnern (andere Kunst- und Musikhochschulen, technische Partner wie z.B. Rechenzentren) für die Zwecke von Digi-Kunst.nrw entsprechende einfache Nutzungsrechte einräumen. |
+| **A+B+C – wie A+B, zusätzlich Weitergabe an Portale für Kultur und Wissen** | Die eigene Hochschule kann auch anderen Portalen für Kultur und Wissen, deren Ziel es ist, das kulturelle Erbe in Deutschland, Europa und der Welt digital, kostenlos und jederzeit zugänglich zu machen (z.B. [Deutsche Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/), [Europeana](https://www.europeana.eu/de), etc.) entsprechend ein einfaches (nicht-exklusives) Nutzungsrecht einzuräumen, damit diese Portale das Werk zu nicht-kommerziellen Zwecken öffentlich zugänglich machen können („on-demand“). |
+
+Diese Lizenzstufen können für ein ganzes Werk bzw. Projekt eingeräumt werden, oder granular für einzelne Dateien angepasst werden. Zum Beispiel werden größere Filmproduktionen nur sehr selten ganz frei ins Netz gestellt, es ist aber üblich, den Filmtrailer dazu zu veröffentlichen. Der Film bekäme die Lizenz A, der Trailer A+B oder A+B+C, oder sogar eine noch freiere Creative Commons-Lizenz.
 
 ----
 
@@ -26,19 +28,23 @@ Entwürfe zu einzelnen Lizenz-Erklärungen (Deeds) finden sie hier:
   * [Digi-Kunst-A+B (Entwurf)]()
   * [Digi-Kunst-A+B+C (Entwurf)]({{ site.baseurl }}/ressourcen/lizenzen/digi-kunst-a+b+c)
 
-Einen Überblick, wie die Rechteabfrage in Digi-Kunst.nrw funktionieren soll, finden Sie darüber hinaus im folgeden Entscheidungsbaum:
-
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> 2024-01-22_entscheidungsbaum_erfassung_rechte.pdf]() (466 KB)
 
 ----
 
 ## CC-Lizenzen für Digitale Objekte
 
-Zusätzlich zur Lizenz Digi-Kunst-A+B+C können die Lizenzen von [Creative Commons](https://creativecommons.org/) auf einzelne Dateien gegeben werden, sodass die gesamte Öffentlichkeit bestimmte Rechte an den Dateien und ihrem Inhalt erwerben kann. Creative Commons bietet die folgenden Lizenzen an, die alle bei uns verwendet werden können:
+Zusätzlich zur Lizenz Digi-Kunst-A+B+C können [Creative Commons-Lizenzen](https://creativecommons.org/) auf einzelne Dateien vergeben werden. Creative Commons bietet die folgenden Lizenzen an, die alle bei uns verwendet werden können:
 
   * [CC BY 4.0 – Namensnennung 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)
-  * [CC BY-NC 4.0 – Namensnennung-Nicht kommerziell 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.de)
+  Das Werk darf geteilt, verändert und auch kommerziell genutzt werden.  Bei einer Veröffentlichung müssen die Autor*innen genannt werden. Ein Verweis zur entsprechenden CC-Lizenz muss angegeben werden.
+  * [CC BY-NC 4.0 – Namensnennung - Nicht kommerziell 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.de)
+  Das Werk darf für nicht-kommerzielle Nutzungen geteilt und  verändert werden, eine kommerzielle Nutzung ist nicht zulässig.  Bei einer Veröffentlichung müssen die Autor*innen genannt werden. Ein Verweis zur entsprechenden CC-Lizenz muss angegeben werden.
+   * [CC BY-NC-ND 4.0 –Namensnennung - Nicht-kommerziell - Keine Bearbeitung 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de)
+  Das Werk darf für nicht-kommerzielle Nutzungen geteilt werden, eine kommerzielle Nutzung ist nicht zulässig.  Das Werk darf nicht bearbeitet oder verändert werden. Bei einer Veröffentlichung müssen die Autor*innen genannt werden. Ein Verweis zur entsprechenden CC-Lizenz muss angegeben werden.
   * [CC BY-NC-SA – Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
-  * [CC BY-NC-ND 4.0 –Namensnennung - Nicht-kommerziell - Keine Bearbeitung 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de)
-  * [CC BY-ND 4.0 – Namensnennung-Keine Bearbeitung 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/deed.de)
+Das Werk darf für nicht-kommerzielle Nutzungen geteilt und  verändert werden, eine kommerzielle Nutzung ist nicht zulässig.  Bei einer Veröffentlichung muss man die Lizenz des Originalwerks auch für das neue Werk angeben und es müssen die Autor*innen genannt werden. Ein Verweis zur entsprechenden CC-Lizenz muss angegeben werden.
+  * [CC BY-ND 4.0 – Namensnennung - Keine Bearbeitung 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/deed.de)
+  Das Werk darf geteilt, verändert und auch kommerziell genutzt werden. Das Werk darf nicht bearbeitet oder verändert werden.  Bei einer Veröffentlichung müssen die Autor*innen genannt werden. Ein Verweis zur entsprechenden CC-Lizenz muss angegeben werden.
   * [CC BY-SA 4.0 – Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
+  https://creativecommons.org/licenses/by-sa/4.0/deed.de 
+Das Werk darf geteilt, verändert und auch kommerziell genutzt werden.  Bei einer Veröffentlichung muss man die Lizenz des Originalwerks auch für das neue Werk angeben und es müssen die Autor*innen genannt werden.  Ein Verweis zur entsprechenden CC-Lizenz muss angegeben werden.

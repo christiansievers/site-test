@@ -24,3 +24,5 @@ Häufig gestellte Fragen
 Lizenzen
 
 - Digi-Kunst-A+B+C (Entwurf)
+
+Formulare und generelle rechtliche Hilfestellungen
