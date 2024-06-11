@@ -6,8 +6,6 @@ order: 2.5
 
 Die folgenden Datenquellen werden zur Zeit für die Einlieferung nach Digi-Kunst.nrw strukturiert und angereichert:
 
-----
-
 ## Folkwang Universität der Künste
 
 Seit ihrer Gründung im Jahr 1927 vereint die Folkwang Universität der Künste eine Vielzahl künstlerischer Disziplinen unter einem Dach und ist bekannt für ihre lebendige, interdisziplinäre Zusammenarbeit in den Bereichen Musik, Theater, Tanz, Gestaltung und Wissenschaft. Sie ist fest in der Kulturszene des Ruhrgebiets verankert und bietet eine breite Palette an Studiengängen und Forschungsinitiativen.  

@@ -4,7 +4,7 @@ title: Willkommen
 order: 0
 ---
 
-Auf dieser Seite bieten wir Ihnen Informationen zur [**Struktur**]({{ site.baseurl }}/projektstruktur) von Digi-Kunst.nrw, [**Ressourcen**]({{ site.baseurl }}/ressourcen) für Einliefernde und die interessierte Öffentlichkeit und eine fachliche wie  [**technische Dokumentation**]({{ site.baseurl }}/technische-dokumentation) des Projekts. Das Ziel des Digi-Kunst.nrw-Projekts ist die qualitativ hochwertige Erschließung, Verfügbarhaltung und dauerhafte Archivierung der beeindruckenden multimedialen künstlerischen Bestände der Kunst- und Musikhochschulen des Landes NRW.
+Auf dieser Seite bieten wir Ihnen Informationen zur [**Projektstruktur**]({{ site.baseurl }}/projektstruktur) von Digi-Kunst.nrw, [**Ressourcen**]({{ site.baseurl }}/ressourcen) für Einliefernde und die interessierte Öffentlichkeit und eine [**technische Dokumentation**]({{ site.baseurl }}/technische-dokumentation) des Projekts. Das Ziel des Digi-Kunst.nrw-Projekts ist die qualitativ hochwertige Erschließung, Verfügbarhaltung und dauerhafte Archivierung der beeindruckenden multimedialen künstlerischen Bestände der Kunst- und Musikhochschulen des Landes NRW.
 
 ----
 
