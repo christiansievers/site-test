@@ -1,6 +1,6 @@
 ---
 layout: digi-kunst-docs
-title: Digi-Kunst-A+B+C (Entwurf)
+title: Digi-Kunst-ABC 1.0 (Entwurf)
 order: 2.8.3
 ---
 
