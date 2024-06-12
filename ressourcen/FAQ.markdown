@@ -6,7 +6,7 @@ order: 2.7
 
 **Wofür braucht es ein gemeinsames Portal für die Kunst- und Musikhochschulen in Nordrhein-Westfalen?**
 
-Die Hochschulen sind integraler Bestandteil des künstlerischen Erbes des Landes Nordrhein-Westfalen. Sie sind Ausbildungsstätten für den nationalen und internationalen künstlerischen Nachwuchs, sie sind Orte für Symposien, Tagungen und Vorträge, sie sind offene Denkräume. In allen Disziplinen der Kunst fallen heute digitale Daten an, die drohen, verloren zu gehen, wenn sie nicht erschlossen, gesichert und in die Langzeitverfügbarkeit überführt werden. Digi-Kunst.nrw soll diesen Prozess als zentrale Anlaufstelle für die Konsortialhochschulen übernehmen.
+Die Hochschulen sind integraler Bestandteil des künstlerischen Erbes des Landes Nordrhein-Westfalen. Sie sind Ausbildungsstätten für den nationalen und internationalen künstlerischen Nachwuchs, sie sind Orte für Symposien, Tagungen und Vorträge, sie sind offene Denkräume. In allen Disziplinen der Kunst fallen heute digitale Daten an, die drohen, verloren zu gehen, wenn sie nicht erschlossen, gesichert und in die Langzeitverfügbarkeit überführt werden. Digi-Kunst.nrw soll diesen Prozess als zentrale Anlaufstelle für die Konsortialhochschulen übernehmen und die digitalen Bestände zugänglich machen.
 
 ----
 
@@ -30,4 +30,11 @@ Ziel von Digi-Kunst.nrw ist es, das digitale künstlerische Erbe der Hochschulen
 
 **Verliere ich Rechte an meinen Projekten, wenn ich sie in Digi-Kunst.nrw einliefere?**
 
-Nein, sie verlieren keinerlei Rechte an Ihren Projekten. Als Rechteinhaber:in gewähren sie in einem ersten Schritt ihrer Hochschule zunächst bestimmte Nutzungsrechte, dass diese damit bei Digi-Kunst.nrw und Ihren Partnern, und Optional bei weiteren Portalen für Kultur und Wissen (etwa der [Deutschen Digitalen Bibliothek](https://www.deutsche-digitale-bibliothek.de/) oder der [Europeana](https://www.europeana.eu/de)), bestimmte Dinge machen kann. FIXME Sie können entweder für das ganze Projekt oder wahlweise auch auf Datei-Ebene bestimmen, wie und ob ihr Projekt entweder Ganz oder in Teilen angezeigt werden soll. Lediglich die Metadaten zu ihrem Werk sind öffentlich, sofern sie diese Informationen angegeben haben.
+Nein. Als Rechteinhaber:in gewähren sie ihrer Hochschule bestimmte Nutzungsrechte an ihrem Projekt, so dass diese es bei Digi-Kunst.nrw einliefern und, wenn das gewünscht ist, auch dort veröffentlichen kann. Zusätzlich gibt es die Möglichkeit, anderen Portalen für Kultur und Wissen (etwa der [Deutschen Digitalen Bibliothek](https://www.deutsche-digitale-bibliothek.de/) das Recht zu geben, es zu veröffentlichen. Diese Rechte können für das ganze Projekt gelten oder auf Datei-Ebene angepasst werden. Alle angegebenen Metadaten zum Projekt werden veröffentlicht, sofern sie nicht durch die DSGVO geschützt oder vertraulich sind.
+
+----
+
+**Wo kann man die Werke und Projekte sehen?**
+
+TODO
+
