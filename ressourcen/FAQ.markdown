@@ -24,13 +24,13 @@ Sie können Dateien jedes Typs bei Digi-Kunst.nrw einliefern. Wie jede andere In
 
 **Was kann ich bei Digi-Kunst.nrw einliefern?**
 
-Ziel von Digi-Kunst.nrw ist es, das digitale künstlerische Erbe der Hochschulen zu erfassen, zugänglich zu machen und langfristig sichern. Dazu gehören born-digital und retrodigitalisierte Kunstwerke, digitale Materialen und Dokumentationen über Kunstwerke, ebenso wie Aufzeichnungen von Vorträgen und Meisterklassen. Da dies ein großes Spektrum von Archivalien darstellt haben wir uns für den vereinheitlichenden Begriff **Projekt** entschieden.
+Ziel von Digi-Kunst.nrw ist es, das digitale künstlerische Erbe der Hochschulen zu erfassen, zugänglich zu machen und langfristig sichern. Dazu gehören born-digital und retrodigitalisierte Kunstwerke, digitale Materialien und Dokumentationen über Kunstwerke, ebenso wie Aufzeichnungen von Vorträgen und Meisterklassen. Da dies ein großes Spektrum von Archivalien darstellt haben wir uns für den vereinheitlichenden Begriff **Projekt** entschieden.
 
 ----
 
 **Verliere ich Rechte an meinen Projekten, wenn ich sie in Digi-Kunst.nrw einliefere?**
 
-Nein. Als Rechteinhaber:in gewähren sie ihrer Hochschule bestimmte Nutzungsrechte an ihrem Projekt, so dass diese es bei Digi-Kunst.nrw einliefern und, wenn das gewünscht ist, auch dort veröffentlichen kann. Zusätzlich gibt es die Möglichkeit, anderen Portalen für Kultur und Wissen (etwa der [Deutschen Digitalen Bibliothek](https://www.deutsche-digitale-bibliothek.de/) das Recht zu geben, es zu veröffentlichen. Diese Rechte können für das ganze Projekt gelten oder auf Datei-Ebene angepasst werden. Alle angegebenen Metadaten zum Projekt werden veröffentlicht, sofern sie nicht durch die DSGVO geschützt oder vertraulich sind.
+Nein. Als Rechteinhaber:in gewähren sie ihrer Hochschule bestimmte Nutzungsrechte an ihrem Projekt, so dass diese es bei Digi-Kunst.nrw einliefern und, wenn das gewünscht ist, auch dort veröffentlichen kann. Zusätzlich gibt es die Möglichkeit, anderen Portalen für Kultur und Wissen (etwa der [Deutschen Digitalen Bibliothek](https://www.deutsche-digitale-bibliothek.de/) das Recht zu geben, es zu veröffentlichen. Diese Rechte können für das ganze Projekt gelten oder auf Datei-Ebene angepasst werden. Alle angegebenen Metadaten zum Projekt werden veröffentlicht, sofern sie nicht durch die DSGVO geschützt oder vertraulich sind. Siehe [Lizenzen]({{ site.baseurl }}/ressourcen/lizenzen).
 
 ----
 

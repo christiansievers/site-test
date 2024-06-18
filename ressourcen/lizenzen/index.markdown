@@ -4,7 +4,7 @@ title: Lizenzen
 order: 2.8
 ---
 
-Digi-Kunst.nrw hat für den Umgang mit urheberrechtlich und leistungsschutzrechtlich geschütztem Material eine Modularlizenz entwickelt. Mit dieser kann sich die einliefernde Hochschule bestimmte Rechte von den Rechteinhaber:innen einräumen lassen kann. Es gibt drei Stufen, die aufeinander aufbauen:
+Digi-Kunst.nrw hat für den Umgang mit urheberrechtlich und leistungsschutzrechtlich geschütztem Material eine Modularlizenz entwickelt, mit der sich die einliefernde Hochschule bestimmte Rechte von den Rechteinhaber:innen einräumen lassen kann. Es gibt drei Stufen, die aufeinander aufbauen:
 
 | **A – Langzeitverfügbarkeit** | Das Werk kann von der [eigenen] Hochschule zu Archivzwecken vervielfältigt werden. Dies beinhaltet auch eine Digitalisierung des Werks. Eine Bearbeitung des Werks ist nur zulässig, wenn für Zwecke der Langzeitverfügbarkeit eine Umwandlung bestehender Dateiformate in andere Dateiformate erforderlich ist und diese Umwandlung eine Bearbeitung darstellen sollte. |
 | **AB – wie A, zusätzlich Veröffentlichung** | Das Werk kann von der [eigenen] Hochschule zu nicht-kommerziellen Zwecken öffentlich zugänglich gemacht werden („on-demand“). Die eigene Hochschule kann dieses Nutzungsrecht auch im Rahmen des Projekts Digi-Kunst.nrw nutzen und den beteiligten Projektpartnern (andere Kunst- und Musikhochschulen, technische Partner wie z.B. Rechenzentren) für die Zwecke von Digi-Kunst.nrw entsprechende einfache Nutzungsrechte einräumen. |
