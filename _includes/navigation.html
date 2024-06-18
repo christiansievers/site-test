@@ -9,7 +9,7 @@
       {% if depth == 2 %}
         {% unless visited_urls contains page.url %}
           <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdown{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
+            <div class="nav-link dropdown-toggle">{{ page.title }}</div>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
               {% assign visited_urls = visited_urls | append: page.url | append: "|" %}
               {% for level_1_page in sorted_pages %}
