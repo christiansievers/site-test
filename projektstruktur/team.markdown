@@ -46,7 +46,7 @@ Fon: +49 5231 975-685
 [tilmann.fischer@hfm-detmold.de](mailto:tilmann.fischer@hfm-detmold.de)
 
 **Luisa Grimm**  
-Hochschule für Musik und Tanz Köln
+Hochschule für Musik und Tanz Köln\
 [luisa.grimm@hfmt-koeln.de](mailto:luisa.grimm@hfmt-koeln.de)
 
 **Melanie Grimm**  
