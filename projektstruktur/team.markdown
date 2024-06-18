@@ -47,6 +47,7 @@ Fon: +49 5231 975-685
 
 **Luisa Grimm**  
 Hochschule für Musik und Tanz Köln
+[luisa.grimm@hfmt-koeln.de](mailto:luisa.grimm@hfmt-koeln.de)
 
 **Melanie Grimm**  
 Robert Schumann Hochschule Düsseldorf  
