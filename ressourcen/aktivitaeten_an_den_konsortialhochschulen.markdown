@@ -4,7 +4,7 @@ title: Aktivitäten an den Konsortialhochschulen
 order: 2.5
 ---
 
-Die folgenden Datenquellen werden zur Zeit für die Einlieferung nach Digi-Kunst.nrw strukturiert und angereichert:
+Die folgenden Datenquellen werden zur Zeit prioritär für die Einlieferung nach Digi-Kunst.nrw strukturiert und angereichert:
 
 ## Folkwang Universität der Künste
 
@@ -48,7 +48,7 @@ Diese Maßnahmen dienen dazu, das kulturelle und künstlerische Erbe der KHM dau
 
 ## Hochschule für Musik und Tanz Köln
 
-Das 1965 von Herbert Eimert gegründete Studio für elektronische Musik an der Kunsthochschule für Musik und Tanz in Köln ist eines der ältesten Hochschulstudios in Deutschland. Es verfügt über eine umfangreiche Sammlung historisch bedeutender Tonaufnahmen sowie eine Vielzahl von technischen Geräten, die in der Entwicklung der elektronischen Musik eine zentrale Rolle spielten. Die nahezu vollständige Erfassung dieser Bestände hat dem Studio umfassende Erfahrungen in mehreren spezialisierten Bereichen eingebracht.
+Das 1965 von Herbert Eimert gegründete **Studio für elektronische Musik** an der Kunsthochschule für Musik und Tanz in Köln ist eines der ältesten Hochschulstudios in Deutschland. Es verfügt über eine umfangreiche Sammlung historisch bedeutender Tonaufnahmen sowie eine Vielzahl von technischen Geräten, die in der Entwicklung der elektronischen Musik eine zentrale Rolle spielten. Die nahezu vollständige Erfassung dieser Bestände hat dem Studio umfassende Erfahrungen in mehreren spezialisierten Bereichen eingebracht.
 
   * **Retrodigitalisierung von Tonaufnahmen:** Analoge Aufzeichnungen werden in digitale Formate überführt, um deren Zugänglichkeit für Forschung und Öffentlichkeit zu verbessern und ihre dauerhafte Bewahrung zu sichern.
   * **Erhalt der Klangqualität und historischen Authentizität:** Die Digitalisierungsprozesse werden so gestaltet, dass die ursprüngliche Klangqualität und Authentizität der Aufnahmen erhalten bleibt.
