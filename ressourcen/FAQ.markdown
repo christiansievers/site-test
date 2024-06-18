@@ -38,3 +38,13 @@ Nein. Als Rechteinhaber:in gewähren sie ihrer Hochschule bestimmte Nutzungsrech
 
 TODO
 
+----
+
+**Wie kann ich als Künstler:in meine Werke und Projekte einliefern? Warum sollte ich das tun?**
+
+TODO
+
+----
+
+**[was fragt man sich noch??? wer sind die verschiedenen Benutzer:innen, die alle ihre eigenen Fragen haben? TODO]**
+
