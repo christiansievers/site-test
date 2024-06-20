@@ -10,7 +10,7 @@ Digi-Kunst.nrw hat für den Umgang mit urheberrechtlich und leistungsschutzrecht
 | **A+B – wie A, zusätzlich Veröffentlichung** | Das Werk kann von der [eigenen] Hochschule zu nicht-kommerziellen Zwecken öffentlich zugänglich gemacht werden („on-demand“). Die eigene Hochschule kann dieses Nutzungsrecht auch im Rahmen des Projekts Digi-Kunst.nrw nutzen und den beteiligten Projektpartnern (andere Kunst- und Musikhochschulen, technische Partner wie z.B. Rechenzentren) für die Zwecke von Digi-Kunst.nrw entsprechende einfache Nutzungsrechte einräumen. |
 | **A+B+C – wie A+B, zusätzlich Weitergabe an Portale für Kultur und Wissen** | Die eigene Hochschule kann auch anderen Portalen für Kultur und Wissen, deren Ziel es ist, das kulturelle Erbe in Deutschland, Europa und der Welt digital, kostenlos und jederzeit zugänglich zu machen (z.B. [Deutsche Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/), [Europeana](https://www.europeana.eu/de), etc.) entsprechend ein einfaches (nicht-exklusives) Nutzungsrecht einzuräumen, damit diese Portale das Werk zu nicht-kommerziellen Zwecken öffentlich zugänglich machen können („on-demand“). |
 
-Diese Lizenzstufen können für ein ganzes Werk bzw. Projekt eingeräumt oder granular für einzelne Dateien angepasst werden. Zum Beispiel werden größere Filmproduktionen nur sehr selten ganz frei ins Netz gestellt, es ist aber üblich, den Filmtrailer dazu zu veröffentlichen. In diesem Beispiel bekäme der Film die Lizenz A, der Trailer die Lizenz AB oder ABC, oder sogar eine noch freiere Creative Commons-Lizenz.
+Diese Lizenzstufen können für ein ganzes Werk bzw. Projekt oder granular für einzelne Dateien eingeräumt werden. Zum Beispiel werden größere Filmproduktionen nur sehr selten ganz frei ins Netz gestellt, es ist aber üblich, den Filmtrailer dazu zu veröffentlichen. In diesem Beispiel bekäme der Film die Lizenz A, der Trailer die Lizenz A+B oder A+B+C, oder sogar eine noch freiere Creative Commons-Lizenz.
 
 ----
 
@@ -27,7 +27,7 @@ Entwürfe zu einzelnen Lizenz-Erklärungen (Deeds) finden sie hier:
 
 ## CC-Lizenzen für Digitale Objekte
 
-Zusätzlich zur Lizenz Digi-Kunst-A+B+C können [Creative Commons-Lizenzen](https://creativecommons.org/) auf einzelne Dateien vergeben werden. Creative Commons bietet die folgenden Lizenzen an, die alle bei uns verwendet werden können:
+Es muss mindestens eine der Lizenzen A, oder A+B oder A+B+C vergeben werden. Zusätzlich können [Creative Commons-Lizenzen](https://creativecommons.org/) auf einzelne Dateien vergeben werden. Creative Commons bietet die folgenden Lizenzen an, von denen pro Datei eine ausgewählt werden kann:
 
   * [CC BY 4.0 – Namensnennung 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)\
   Das Werk darf geteilt, verändert und auch kommerziell genutzt werden.  Bei einer Veröffentlichung müssen die Autor:innen genannt[/verlinkt] werden. Ein Verweis zur entsprechenden CC-Lizenz muss angegeben werden.
