@@ -498,12 +498,11 @@ body {
  .main-content {
    flex: 4;
    min-height: 65vh;
-   overflow-x: visible;
+   overflow-x: auto;
    margin-bottom: 1%;
  }
  
  .post-content {
-   width: 70rem;
    text-align: justify;
    hyphens: auto;
  }
@@ -518,13 +517,8 @@ body {
    }
  
    .main-content {
-     overflow-x: auto;
      margin-top: 4%;
      flex: 1;
-   }
-
-   .post-content {
-     width: 100%
    }
  
    .sidebar-container {
@@ -764,7 +758,7 @@ img {
    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
    margin-left: auto;
    margin-right: auto;
-   max-width: 100%;
+   max-width: 95%;
    vertical-align: middle;
    margin-top: 2%;
    margin-bottom: 2%;
@@ -777,7 +771,7 @@ img {
  
  @media screen and (max-width: 1380px) {
    .post-content img {
-     max-width: 100%;
+     max-width: 95%;
      vertical-align: middle;
      margin-top: 8%;
      margin-bottom: 8%;
