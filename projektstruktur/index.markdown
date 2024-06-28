@@ -4,10 +4,12 @@ title: Projektstruktur
 order: 1
 ---
 
-Team
 
-Projektförderung
+[Team]({{ site.baseurl }}/projektstruktur/team)
 
-Lenkungskreis
+[Projektförderung]({{ site.baseurl }}/projektstruktur/projektfoerderung)
 
-Projektgenese
+[Lenkungskreis]({{ site.baseurl }}/projektstruktur/lenkungskreis)
+
+[Projektgenese]({{ site.baseurl }}/projektstruktur/projektgenese)
+

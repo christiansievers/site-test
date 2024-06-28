@@ -6,7 +6,7 @@ order: 2.9
 ---
 Informationen und Vorlagen zur Klärung von Lizenzierung und Nutzungsrechten
 
-## Datenschutz/-erklärung 
+## Datenschutzerklärung für Archivierung und Veröffentlichung
 (mit SY/CF zu klären, was veröffentlicht werden muss. Formular für Rechteeinholung verweist auf diese Webseite: "Die Datenschutzerklärung [meiner Hochschule] kann unter https://docs.digi-kunst.nrw/.../Datenschutz eingesehen werden.")
 
 
