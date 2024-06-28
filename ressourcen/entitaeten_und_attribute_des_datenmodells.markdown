@@ -115,7 +115,7 @@ Ein Projekt muss mindestens eine und kann beliebig viele Beschreibungen haben. D
 
 <pre class="mermaid">
 flowchart TB;
-    Projekt-- <span style="background-color: #f4effc">Ein Projekt kann mehrere Berschreibungen haben \n Zum Export benötigt es mindestens eine</span>  -->Beschreibung
+    Projekt-- <span style="background-color: #f4effc">Ein Projekt kann mehrere Beschreibungen haben \n Zum Export benötigt es mindestens eine</span>  -->Beschreibung
     Beschreibung-- <span style="background-color: #f4effc">hat</span> --> Sprachauszeichnung
     Beschreibung-- <span style="background-color: #f4effc">hat</span> --> Sortierungsnummer
     style Projekt fill:#FFFFE0, stroke:#000000;

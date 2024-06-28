@@ -12,6 +12,8 @@ Einstieg in Konzepte und Nutzen des Projekts
 
 [Einführung in das Datenmodell]({{ site.baseurl }}/ressourcen/einfuehrung_in_das_datenmodell)
 
+[Entitäten und Attribute des Datenmodells]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells)
+
 [Veröffentlichungen und Präsentationen]({{ site.baseurl }}/ressourcen/veroeffentlichungen-und-praesentationen)\
 Im Rahmen des Projekts veröffentlichte Materialien und Dokumente
 
