@@ -12,5 +12,5 @@ Um eine einheitliche Erschließung und Verzeichnung zu gewährleisten, benutzt D
   * die Taxonomie der [Informationsträgertypen]({{ site.baseurl}}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/informationstraegertypen-grundset) erlaubt die Kategorisierung von Datenträgern
   * das Grundset der [Equipmentarten]({{ site.baseurl}}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/equipmentarten-grundset) erlaubt die Kategorisierung von Einträgen in der Tabelle Equipment und Software
   * die [Projektarten]({{ site.baseurl}}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/projektarten) kategorisieren den Typ des Projekts im akademischen oder administrativen Kontext
-  * Sprachen  (TODO oder Entfernen)
-  * Organisationseinheiten an den Hochschulen  (TODO oder Entfernen)
+  * Sprachangaben werden nach [ISO 639-2](https://www.loc.gov/standards/iso639-2/php/code_list.php) erfasst
+
