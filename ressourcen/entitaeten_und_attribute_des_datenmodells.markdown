@@ -291,8 +291,8 @@ Die folgende Tabelle, zeigt, welche Attribute für **Akteur:innen** benutzt werd
 | Auflösungsort | Place of Activity | 0-u | Für Gruppen und Körperschaften deren Auflösungsorte |
 | Deutsche Kurzbiografie | German Short Biography | 0-1 | Die deutsche Kurzbiografie der Person, Gruppe oder Körperschaft |
 | Englische Kurzbiografie | English Short Biography | 0-1 | Die englische Kurzbiografie der Person, Gruppe oder Körperschaft |
-| Deutscher Kommentar | German Commentary | 0-1 | Ein deutscher Kommentar |
-| Englischer Kommentar | English Commentary | [1] | Ein entsprechender englischer Kommentar |
+| Deutscher Kommentar | German Commentary | 0-1 | Ein deutscher Kommentar. Freitext. |
+| Englischer Kommentar | English Commentary | 0-1 ] | Ein entsprechender englischer Kommentar. Freitext. Es wird darauf hingewiesen, wenn möglich, beide Felder auszufüllen. |
 | Interner Kommentar | Internal Commentary | 0-1 | Ein Team-interner Kommentar |           
 | Beruf und Tätigkeit | Profession and Activity | 0-u | Ein oder mehrere feste Rollen aus der entsprechenden Entität (s. u.)|
 | OrcID | OrcID | 0-1 | Ein Orcid-Identifier der Person |
@@ -354,14 +354,14 @@ In einem Ereignis können beliebig viele Physische Objekte beschrieben werden. D
 | Eigentümer:in | Legal Rights Holder | 0-u | Ein oder mehrere Akteur:innen aus der Akteur:in-Entität |
 | Provenienz | Provenance | 0-1 | Ein Freitextfeld zur Provenienzbeschreibung |
 | Deutsche Beschreibung | German Description | 0-1 | Eine Beschreibung im Freitext. Pflicht, wenn die englische Beschreibung angegeben wurde |
-| Englische Beschreibung | English Description | [1] | Eine Beschreibung im Freitext. Pflicht, wenn die deutsche Beschreibung angegeben wurde |
-| Deutscher Kommentar | German Commentary | 0-1 | Ein deutscher Kommentar. Pflicht, wenn der englische Kommentar angegeben wurde |
-| Englischer Kommentar |English Commentary | [1] | Ein deutscher Kommentar. Pflicht, wenn der deutsche Kommentar angegeben wurde |
+| Englische Beschreibung | English Description | 0-1 | Eine Beschreibung im Freitext. Es wird darauf hingewiesen, wenn möglich, beide Felder auszufüllen. |
+| Deutscher Kommentar | German Commentary | 0-1 | Ein deutscher Kommentar im Freitext|
+| Englischer Kommentar |English Commentary | 0-1 | Ein englischer Kommentar im Freitext. Es wird darauf hingewiesen, wenn möglich, beide Felder auszufüllen. |
 | Klassifizierendes Schlagwort | Classification Keyword to Physical Object | 0-u | Ein oder mehrere Schlagworte aus der Schlagwort-Entität, die Objekte bezeichnen, z. B. „Stuhl“, „Bühne“, „Sockel“, etc. |
 | Materialschlagwort | Material Keyword | 0-u | Ein oder mehrere Schlagworte aus einer separaten Entität, um Materialien zu bezeichnen, z. B. „Polyurethan“, „Sand“, „Wachs“, „Kabel“ |
 | Maße	| Measurements | 0-1 | Ein Freitextfeld, in das Maße eingetragen werden können |		
-| Erhaltungszustand (deutsch) | Conservation State (German) | 0-1 | Eine deutsche Beschreibung des Erhaltungszustands des Objekts. Pflicht, wenn das entsprechende englische Feld benutzt wurde |
-| Erhaltungszustand (englisch) | Conservation State (English) | [1] | Eine englische Beschreibung des Erhaltungszustands des Objekts. Pflicht, wenn das entsprechende deutsche Feld benutzt wurde |
+| Erhaltungszustand (deutsch) | Conservation State (German) | 0-1 | Eine deutsche Beschreibung des Erhaltungszustands des Objekts. |
+| Erhaltungszustand (englisch) | Conservation State (English) | 0-1 | Eine englische Beschreibung des Erhaltungszustands des Objekts. Freitext. Es wird darauf hingewiesen, wenn möglich, beide Felder auszufüllen.|
 
 ----
 
@@ -379,8 +379,8 @@ Informationsträger sind materielle Datenträger oder Trägermedien, die digital
 | Produkt-ID-Wert | Product ID Value | [1] | Zu jeder Auswahl ein dazugehöriger Wert |
 | Externe Inventar-Signaturnummer | External Inventory Number | 1-u | Eine Pflichtangabe, die den Informationsträger beim Einlieferer identifiziert. Bei Bedarf können es auch mehrere Nummern sein | 
 | Besitzer:in                  | Owner                        | 0-u | Metadaten werden nicht veröffentlicht und gehen ausschließlich in die Langzeitverfügbarkeit/Rosetta                                                                       |
-| Eigentümer:in                | Legal Rights Holder          | 0-u | Freitext-Feld z.b. "von 1950-1990 Frau Meyer, ab 1990 Herr Schulze" (Metadaten werden nicht veröffentlicht und gehen ausschließlich in die Langzeitverfügbarkeit/Rosetta) |
-| Provenienz                   | Provenance                   | 0-1 | Freitext-Feld z.b. "von 1950-1990 Frau Meyer, ab 1990 Herr Schulze" (Metadaten werden nicht veröffentlicht und gehen ausschließlich in die Langzeitverfügbarkeit/Rosetta) |
+| Eigentümer:in                | Legal Rights Holder          | 0-u | Freitext-Feld z.b. "von 1950-1990 Frau Meyer, ab 1990 Herr Schulze" (Daten werden nicht veröffentlicht und gehen ausschließlich in die Langzeitverfügbarkeit/Rosetta) |
+| Provenienz                   | Provenance                   | 0-1 | Freitext-Feld z.b. "von 1950-1990 Frau Meyer, ab 1990 Herr Schulze" (Daten werden nicht veröffentlicht und gehen ausschließlich in die Langzeitverfügbarkeit/Rosetta) |
 | Deutsche Beschreibung        | German Description           | 0-1 | Freitext|
 | Englische Beschreibung       | English Description          | 0-1 | Freitext|
 | Deutscher Kommentar          | German Commentary            | 0-1 | Freitext|
@@ -443,15 +443,15 @@ Neben diesen Pflichtangaben gibt es noch eine Reihe von optionalen, deskriptiven
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
-| Deutsche inhaltliche Beschreibung | German Description | 0-1 | |
-| Englische inhaltliche Beschreibung | English Description | [1] | |
-| Deutscher Kommentar | German Commentary | 0-1 | |
-| Englischer Kommentar | English Commentary | [1] | |
+| Deutsche inhaltliche Beschreibung | German Description | 0-1 | Freitext |
+| Englische inhaltliche Beschreibung | English Description | 0-1 | Freitext. Es wird darauf hingewiesen, wenn möglich, beide Felder auszufüllen.|
+| Deutscher Kommentar | German Commentary | 0-1 | Freitext|
+| Englischer Kommentar | English Commentary | 0-1 |Freitext. Es wird darauf hingewiesen, wenn möglich, beide Felder auszufüllen. |
 | Interner Kommentar | Internal Commentary | 0-1 | |
-| Wesentliche Eigenschaften (deutsch) | Significant Properties (German) | 0-1 | |
-| Wesentliche Eigenschaften (englisch) | Significant Properties (English) | [1] | |
-| Bildbeschreibung (deutsch) | Image Description (German) | 0-1 | | 
-| Bildbeschreibung (englisch) | Image Description (English) | 0-1 | |
+| Wesentliche Eigenschaften (deutsch) | Significant Properties (German) | 0-1 | Freitext |
+| Wesentliche Eigenschaften (englisch) | Significant Properties (English) | 0-1 | Freitext. Es wird darauf hingewiesen, wenn möglich, beide Felder auszufüllen.|
+| Bildbeschreibung (deutsch) | Image Description (German) | 0-1 | Freitext | 
+| Bildbeschreibung (englisch) | Image Description (English) | 0-1 | Freitext. Es wird darauf hingewiesen, wenn möglich, beide Felder auszufüllen.|
 | Originalsprache | Original Language | 0-u | |
 | Sprachfassung | Language Version | 0-u | |
 | Untertitelsprache | Subtitle Language | 0-u | |
