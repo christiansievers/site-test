@@ -21,9 +21,9 @@ Das Erfassungsportal besteht aus dem Erfassungs-Backend und dem Admin-Backend. I
 
 ----
 
-## Staging-Server
+## Staging-Speicher
 
-Die eingegeben Daten und hochgeladenen Dateien werden dann zunächst auf einem Staging-Server gespeichert. Dabei achtet der Server darauf, dass die hochgeladenen Dateien auch vollständig sind. Auf dem Server angekommen, werden die Dateien mit einer Prüfsumme versehen, sodass spätere Änderungen an ihnen nachvollziehbar sind, und eine Reihe technsicher Informationen aus ihnen ausgelesen. Beides, die manuell eingegeben und die ausgelesen Daten, werden gemeinsam in einer [relationalen Datenbank](https://www.ibm.com/de-de/topics/relational-databases) gespeichert. Damit einzelne Datensätze in- und außerhalb von Digi-Kunst.nrw identifizierbar sind, verwenden wir sogenannte [Handles](https://www.handle.net/). Es ist aber vorgesehen, auch noch weitere digitale Identifikatoren vergeben zu können, zum Beispiel [DOIs](https://www.doi.org/). Sind alle Dateien und Informationen vollständig vorhanden, wird über eine Metadatenschnitstelle ein Paket erzeugt, das für die Langzeitverfügbarkeit geeignet ist. Dieses Paket wird dann an das Arbeits- und Webrepositorium KA3 weitergeleitet.
+Die eingegeben Daten und hochgeladenen Dateien werden dann zunächst auf einem Staging-Speicher gespeichert. Dabei wird darauf geachtet, dass die Dateien auch vollständig hochgeladen werden. Auf diesem Speicher angekommen, werden die Dateien mit einer Prüfsumme versehen, sodass spätere Änderungen an ihnen nachvollziehbar sind. Ebenso wird eine Reihe technsicher Informationen aus ihnen ausgelesen. Beides, die manuell eingegeben und die ausgelesen Daten, werden gemeinsam in einer [relationalen Datenbank](https://www.ibm.com/de-de/topics/relational-databases) gespeichert. Damit einzelne Datensätze in- und außerhalb von Digi-Kunst.nrw identifizierbar sind, werden sie mit [Handles](https://www.handle.net/) versehen. Es ist vorgesehen, auch noch weitere digitale Identifikatoren vergeben zu können, zum Beispiel [DOIs](https://www.doi.org/). Sind alle Dateien und Informationen vollständig vorhanden, kann ein Paket erzeugt werden, das für die Langzeitverfügbarkeit geeignet ist. Dieses Paket wird dann an das Arbeits- und Webrepositorium KA3 weitergeleitet.
 
 ----
 
