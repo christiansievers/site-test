@@ -94,7 +94,7 @@ Fon: +49 221 47089624
 
 ----
 
-## Initiator & Berater
+## Fachliche Beratung
 
 **Karsten Lehl**  
 Robert Schumann Hochschule Düsseldorf  
