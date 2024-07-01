@@ -256,7 +256,7 @@ Ein Ereignis kann an mehreren Orten stattgefunden haben. Orte laden wir, ebenso 
 
 ## Ereignis: Akteur:innen, Rollen und Rechteangaben
 
-Personen, Gruppen oder Körperschaften können Akteur:innen sein. Die folgende Tabelle, zeigt, welche Attribute dazu angelegt werden können.
+Personen, Gruppen oder Körperschaften können Akteur:innen sein. 
 
 <pre class="mermaid">
 flowchart LR;
@@ -265,6 +265,8 @@ flowchart LR;
     style Ereignis fill:#90EE90, stroke:#000000;
     style AkteurIn fill:#F0F8FF, stroke:#000000;
 </pre>
+
+Die folgende Tabelle, zeigt, welche Attribute für **Akteur:innen** benutzt werden können:
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Bemerkung |
 | ------------- | ------------- | ------------- |
@@ -308,13 +310,13 @@ Innerhalb eines Ereignisses kann ein:e Akteur:in mehrere Rollen haben. Eine Roll
 
 <pre class="mermaid">
 flowchart TB;
-    AkteurIn[Akteur:in]-- <span style="background-color: #f4effc">hat ein oder mehrere</span> ---> Rolle
+    AkteurIn[Akteur:in]-- <span style="background-color: #f4effc">hat eine oder mehrere</span> ---> Rolle
     Rolle-- <span style="background-color: #f4effc">im</span> ---> Ereignis
     style Ereignis fill:#90EE90, stroke:#000000;
     style AkteurIn fill:#F0F8FF, stroke:#000000;
 </pre>
 
-Die beiden Felder „steuert 'ist Urheberin'“ und „steuert 'besitzt Leistungsschutzrechte'“ finden sich, ähnlich wie „Rolle“   zwischen Akteur:in und Ereignis. Ein/eine Akteur:in in in einem Ereignis Urheber:in sein, im nächsten nicht, in einem anderen kann ein:e Akteur:in Leistungsschutzrechte besitzen, im anderen nicht. Zusammen mit einer Rolle ist eine Vorauswahl gespeichert, ob ein:e Akteur:in wahrscheinlich solche Rechte besitzt. Ist eine Akteurin beispielsweise „Komponist:in“ in einem Ereignis, dann ist sie mit großer Wahrscheinlichkeit auch „Urheber:in“ des Projekts. Ist ein Akteur „Produzent“ eines Films, besitzt er wahrscheinlich Leistungssschutzrechte. Letztlich bestimmt aber die eingebende Person, ob diese Vorauswahl zutrifft oder nicht. 
+Die beiden Felder „steuert 'ist Urheberin'“ und „steuert 'besitzt Leistungsschutzrechte'“ finden sich, ähnlich wie „Rolle“   zwischen Akteur:in und Ereignis. Ein:e Akteur:in kann in einem Ereignis Urheber:in sein, im nächsten nicht, in einem anderen kann ein:e Akteur:in Leistungsschutzrechte besitzen, im anderen nicht. Zusammen mit einer Rolle ist eine Vorauswahl gespeichert, ob ein:e Akteur:in wahrscheinlich solche Rechte besitzt. Ist eine Akteurin beispielsweise „Komponist:in“ in einem Ereignis, dann ist sie mit großer Wahrscheinlichkeit auch „Urheber:in“ des Projekts. Ist ein Akteur „Produzent“ eines Films, besitzt er wahrscheinlich Leistungssschutzrechte. Letztlich bestimmt aber die eingebende Person, ob diese Vorauswahl zutrifft oder nicht. 
 
 Zusätzlich kann angegeben werden, ob nur vermutet wird, dass ein:e Akteur:in in einem Ereignis mitgewirkt hat. Für diesen Fall gibt es das Feld „Ungesicherte Zuschreibung“.
 
