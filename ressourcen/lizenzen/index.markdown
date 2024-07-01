@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Lizenzen
-order: 2.8
+order: 2.9
 ---
 
 Digi-Kunst.nrw hat für den Umgang mit urheberrechtlich und leistungsschutzrechtlich geschütztem Material eine Modularlizenz entwickelt, mit der sich die einliefernde Hochschule bestimmte Rechte von den Rechteinhaber:innen einräumen lassen kann. Es gibt drei Stufen, die aufeinander aufbauen:
