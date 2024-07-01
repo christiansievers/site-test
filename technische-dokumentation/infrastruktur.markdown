@@ -37,19 +37,18 @@ Die eingegeben Daten und hochgeladenen Dateien werden dann zunächst auf einem S
 
 ----
 
-## Speicher der LZV.nrw
+## Speicher der Langzeitverfügbarkeit NRW
 
-Zur Langzeitverfügbarkeit wird das 
-Im minimalsten Fall kann aber auf jedefall der Bitstream erhalten werden, also eine Abfolge von von Nullen und Einsen, die sich in elektronischen Signalen eines Computer wiederspiegeln. Diese Methode kann jede Datei erhalten, selbst wenn die Datei beispielsweise verschlüsselt, beschädigt, oder kein Dateiformat mehr auszumachen ist.
+Zur Langzeitverfügbarkeit wird das erstellte Paket an den Speicher der [Landesinitiative Langzeitverfügbarkeit](https://www.lzv.nrw/) gesendet, die ein Teil des [Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen](https://www.hbz-nrw.de/) ist. Digi-Kunst.nrw ist damit ein sogenannter „SIP-Produzent“ im Lanzeitarchivierungsprozess nach dem Referenzmodell [OAIS](https://www.forschungsdaten.org/index.php/OAI). Im minimalsten Fall kann aber auf jedefall der Bitstream erhalten werden, also eine Abfolge von von Nullen und Einsen, die sich in elektronischen Signalen eines Computer wiederspiegeln. Diese Methode kann jede Datei erhalten, selbst wenn die Datei beispielsweise verschlüsselt, beschädigt, oder kein Dateiformat mehr auszumachen ist.
 
 ----
 
 ## Rosetta-Backend
 
-
-
+Über das [Rosetta-Backend](https://www.lzv.nrw/ueber-lzv/wie-funktioniert-lzv), welches von der Landesinitiative Langzeitverfügbarkeit bereitgestellt wird, kann die Hochschule die Erhaltungsmaßnahmen ihrer digitalen Daten planen und durchführen. Bei Bedarf können die dort eingelieferten Daten auch wieder exportiert werden.
+ 
 ----
 
 ## Dissiminations-Frontend
 
-Das Dissiminations-Frontend ist unsere öffentliche Webseite. 
+Das Dissiminations-Frontend ist unsere öffentliche Webseite. Von hier aus können die Meta- und Mediendaten von Digi-Kunst.nrw durchsucht und angesehen werden. Nicht jedem/jeder Urser:in stehen allerdings alle Mediendaten zur Verfügung. Manche Mediendaten sind erst nach einem Log-In mit [Shibboleth](https://www.shibboleth.net/) und/oder nach vorheriger Anfrage sichtbar. Über eine entsprechende Schnitstellen werden sich Metadaten in gleich mehreren Formaten herunterladen und weiterverwenden lassen. Ebenso können über die angelegten Identifier die Datensätze zitiert werden und es ist immer ersichtlich, wann der Datensatz zuletzt geändert wurde.
