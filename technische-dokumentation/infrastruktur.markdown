@@ -50,7 +50,7 @@ Das erstellte Daten-Paket enthält alle nötigen Informationen, die zur Langzeit
 
 ## Rosetta-Backend
 
-Über das [Rosetta-Backend](https://www.lzv.nrw/ueber-lzv/wie-funktioniert-lzv), welches von der Landesinitiative Langzeitverfügbarkeit bereitgestellt wird, kann die Hochschule dann die Erhaltungsmaßnahmen ihrer digitalen Daten planen und durchführen. Bei Bedarf können die dort eingelieferten Daten auch wieder exportiert werden. Es gilt aber hierbei die Regelungen unserer Partnerinstitution zu beachten.
+Über das [Rosetta-Backend](https://www.lzv.nrw/ueber-lzv/wie-funktioniert-lzv), welches von der Landesinitiative Langzeitverfügbarkeit bereitgestellt wird, kann die Hochschule dann die Erhaltungsmaßnahmen ihrer digitalen Daten planen und durchführen. Bei Bedarf können die dort eingelieferten Daten auch wieder exportiert werden. Weitere Informationen zu diesen Prozessen finden sich im [Wiki der LZV](https://service-wiki.hbz-nrw.de/display/LLZV/Landesweite+LZV+-+Willkommen).
  
 ----
 
