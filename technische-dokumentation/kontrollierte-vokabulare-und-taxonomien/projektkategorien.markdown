@@ -1,13 +1,19 @@
 ---
 layout: digi-kunst-docs
-title: Projektkategorien-Grundset
+title: Projektkategorien
 order: 3.2.2
 ---
 
-Die folgenden 278 Projektkategorien gehören zum Grundset von Digi-Kunst.nrw und können bei Bedarf im Digi-Kunst.nrw-Erfassungsbackend erweitert werden.
+Die Taxonomie der Projektkategorien beschreibt in der ersten Ordnung Gattungen der Kunst, die (materielle, digitale, immaterielle, konzeptuelle) Projekte/Werke/Kunstobjekte beschreiben. Ab der zweiten Ordnung ist der Übergang zu Genres nicht scharf trennbar. 
 
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Projektkategorien-Grundset.xlsx]({{site.baseurl }}/assets/documents/Digi-Kunst.nrw-Projektkategorien-Grundset.xlsx) (58,3 KB)  
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Projektkategorien-Grundset.pdf]({{site.baseurl }}/assets/documents/Digi-Kunst.nrw-Projektkategorien-Grundset.pdf) (220 KB)
+Jedem Projekt kann eine beliebige Anzahl von Kategorien zugewiesen werden. Dadurch ist es möglich, auch Werke oder Projekte zu beschreiben, die weder in die eine noch die andere Kategorie ausschließlich passen. Zu vielen Einträgen gibt es Synonyme, die bei der Erfassung und späteren Suche Verwendung finden. Dadurch kann z.B. eine Suche nach „Bühnenbild“ (Synonym für Film/Setdesign) Datensätze mit „Setdesign" (bevorzugter Terminus) anzeigen. Dies funktioniert sowohl bei der Eingabe als auch beim Retrieval.
+
+Es wurde bewußt eine hierarchische Taxonomie und keine Ontologie verwendet, um die einfache Bedienbarkeit zu gewährleisten. Viele Projektkategorien werden bewußt mehrmals aufgeführt. So kann jeweils der passende Kontext ausgewählt werden. 
+
+Stand 1. Juli 2024
+
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Projektkategorien.xlsx]({{site.baseurl }}/assets/documents/Digi-Kunst.nrw-Projektkategorien.xlsx) (58,3 KB)  
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Projektkategorien.pdf]({{site.baseurl }}/assets/documents/Digi-Kunst.nrw-Projektkategorien.pdf) (220 KB)
 
 | 1. Ebene (deutsch) | 2. Ebene (deutsch) | 3. Ebene (deutsch) | 1. Ebene (englisch) | 2. Ebene (englisch) | 3. Ebene (englisch) | Synonyme | Wikidata-Link | GND-Link | AAT-Link | Filmportal-Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |

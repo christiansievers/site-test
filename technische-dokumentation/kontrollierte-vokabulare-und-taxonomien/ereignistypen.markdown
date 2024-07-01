@@ -1,13 +1,15 @@
 ---
 layout: digi-kunst-docs
-title: Ereignistypen-Grundset
+title: Ereignistypen
 order: 3.2.1
 ---
 
-Ereignistypen spezifizieren, um was für eine Art Ereignis es sich genau handelt. Die folgenden 52 Ereignistypen gehören zum Grundset von Digi-Kunst.nrw und können bei Bedarf im Digi-Kunst.nrw-Erfassungsbackend erweitert werden.
+Ereignistypen spezifizieren die Art des Ereignisses.
 
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Ereignistypen-Grundset.xlsx]({{site.baseurl }}/assets/documents/Digi-Kunst.nrw-Ereignistypen-Grundset.xlsx) (20,3 KB)  
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Ereignistypen-Grundset.pdf]({{site.baseurl }}/assets/documents/Digi-Kunst.nrw-Ereignistypen-Grundset.pdf) (82,1 KB)
+Stand 1. Juli 2024
+
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Ereignistypen.xlsx]({{site.baseurl }}/assets/documents/Digi-Kunst.nrw-Ereignistypen.xlsx) (20,3 KB)  
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Ereignistypen.pdf]({{site.baseurl }}/assets/documents/Digi-Kunst.nrw-Ereignistypen.pdf) (82,1 KB)
 
 
 | Deutscher Name  | Englischer Name | Synonyme | Wikidata-Link | GND-Link | AAT-Link | LIDO-Terminologie-Link |

@@ -1,11 +1,12 @@
 ---
 layout: digi-kunst-docs
-title: Projektarten-Grundset
+title: Projektarten
 order: 3.2.6
 ---
 
 Ein Projekt muss zu mindestens einer und kann zu mehreren Projektarten gehören. Die Projektart bezeichnet den Typ des Projekts im akademischen oder administrativen Kontext. 
 
+Stand 1. Juli 2024
 
 | Deutscher Name der Projektart | Englischer Name der Projektart | Wikidata-Link |
 | ------------- | ------------- | ------------- |

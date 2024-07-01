@@ -1,13 +1,15 @@
 ---
 layout: digi-kunst-docs
-title: Rollen-Grundset
+title: Rollen
 order: 3.2.3
 ---
 
-Die folgenden 282 Rollen gehören zum Grundset von Digi-Kunst.nrw und können bei Bedarf im Digi-Kunst.nrw-Erfassungsbackend erweitert werden. Sie setzen sich zusammen aus allgemeinen Rollen aus Kunst, Musik und Kultur, als auch aus konkreten Rollenangaben, die als Berufs- und Tätigkeitsangaben für die [Forschungsstelle Digitalisierung historischer Tonträger](https://www.rsh-duesseldorf.de/institute/musikwissenschaftliches-institut/forschung/forschungsstellen/digitalisierung-historischer-tontraeger) an der Robert Schumann Hochschule Düsseldorf benötigt werden.
+Die Taxonomie der Rollen beschreibt Tätigkeiten die von Akteur:innen im Rahmen von Ereignissen eingenommen werden können. Zusätzlich enthält die Liste Berufs- und Tätigkeitsangaben, die für biographische Beschreibungen von Akteur:innen benötigt werden.
 
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Rollen-Grundset.xlsx]({{ site.baseurl }}/assets/documents/Digi-Kunst.nrw-Rollen-Grundset.xlsx) (71,9 KB)  
-[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Rollen-Grundset.pdf]({{ site.baseurl }}/assets/documents/Digi-Kunst.nrw-Rollen-Grundset.pdf) (273 KB)
+Stand 1. Juli 2024
+
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Rollen.xlsx]({{ site.baseurl }}/assets/documents/Digi-Kunst.nrw-Rollen.xlsx) (71,9 KB)  
+[<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Digi-Kunst.nrw-Rollen.pdf]({{ site.baseurl }}/assets/documents/Digi-Kunst.nrw-Rollen.pdf) (273 KB)
 
 | 1. Ebene (deutsch) | 2. Ebene (deutsch) | 3. Ebene (deutsch) | 1. Ebene (englisch) | 2. Ebene (englisch) | 3. Ebene (englisch) | wählt "ist Urheber:in" automatisch aus | wählt "besitzt Leistungsschutzrechte" automatisch aus |  Synonyme | Wikidata-Link | GND-Link (männlich) | GND-Link (weiblich) | GND-Link (Gruppe/Körperschaft) | AAT-Link |
 | -------------| -------------| -------------| -------------| -------------| -------------| -------------| -------------| -------------| -------------| -------------|
