@@ -17,7 +17,7 @@ In den folgenden Abschnitten werden die zentralen Einheiten dieses Modells kurz 
 
 ## Erfassungsportal
 
-Das Erfassungsportal besteht aus dem Erfassungs-Backend und dem Admin-Backend. Im Erfassungs-Backend kann man neue [Projekte]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#zentrale-entitäten-projekt-und-ereignis) angelegen sowie bereits bestehende Projekte verwalten. Das Erfassungs-Backend steht allen einliefernden Personen zur Verfügung. Das sind, neben der [Projektleitung]({{ site.baseurl }}/projektstruktur/team.html#gesamtprojektleitung) und unseren [Mediendokumentar:innen]({{ site.baseurl }}/projektstruktur/team.html#mediendokumentarinnen), zunächst ausgewählte Personen an den Hochschulen. In Zukunft soll dieses Backend aber, via [Shibboleth](https://www.shibboleth.net/), auch für Lehrende und Student:innen zugänglich sein. Das Admin-Backend umfasst die Verwaltung kontrollierter Vokabulare und Taxonomien sowie die Verwaltung von verfügbaren Rechte- und Lizenzangaben, die auf Projekte und [Digitale Objekte]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#ereignis-digitale-objekte) angewendet werden können. Dieser Zugriff ist, je nachdem, was veraltet werden muss, auf die Projektleitung und/oder die Mediendokumentar:innen beschränkt.
+Das Erfassungsportal besteht aus dem Erfassungs-Backend und dem Admin-Backend. Im Erfassungs-Backend kann man neue [Projekte]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#zentrale-entitäten-projekt-und-ereignis) angelegen sowie bereits bestehende Projekte verwalten. Das Erfassungs-Backend steht allen einliefernden Personen zur Verfügung. Das sind, neben der [Projektleitung]({{ site.baseurl }}/projektstruktur/team.html#gesamtprojektleitung) und unseren [Mediendokumentar:innen]({{ site.baseurl }}/projektstruktur/team.html#mediendokumentarinnen), zunächst ausgewählte Personen an den Hochschulen. In Zukunft soll dieses Backend aber, via [Shibboleth](https://www.shibboleth.net/), auch für Lehrende und Student:innen zugänglich sein. Das Admin-Backend umfasst die Verwaltung kontrollierter Vokabulare und Taxonomien sowie die Verwaltung von verfügbaren Rechte- und Lizenzangaben, die auf Projekte und [Digitale Objekte]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#ereignis-digitale-objekte) angewendet werden können. Dieser Zugriff ist, je nachdem, was veraltet werden muss, auf die Projektleitung und/oder die Mediendokumentar:innen beschränkt. Außerdem wird man im Admin-Portal Prozesse einsehen und steuern können, die über die Erfassung hinaus gehen.
 
 ----
 
@@ -31,7 +31,7 @@ Die eingegeben Daten und hochgeladenen Dateien werden dann zunächst auf einem S
 
 ----
 
-## Server der LZV.nrw im Hochschulbibliothekszentrum
+## Speicher der LZV.nrw
 
 ----
 
