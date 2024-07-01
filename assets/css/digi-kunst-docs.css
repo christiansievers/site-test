@@ -749,7 +749,6 @@ img {
  }
 
  img:hover {
-   opacity: 0.7;
    cursor: pointer;
  }
 
@@ -765,7 +764,6 @@ img {
  }
  
  .post-content img:hover {
-   opacity: 0.7;
    cursor: pointer;
  }
  
@@ -926,8 +924,8 @@ img {
  }
  
  table th, table td {
-   min-width: 200px;
-   padding: 10px 25px;
+   min-width: 133px;
+   padding: 5px;
    font-size: 80%;
  }
  
