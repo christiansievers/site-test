@@ -4,7 +4,7 @@ title: Infrastruktur
 order: 3.3
 ---
 
-Digi-Kunst.nrw hat gleich mehrere [zentrale Ziele]({{ site.baseurl }}). Damit diese teils sehr vielfätigen Aufgaben zusammen gelingen können, durchlaufen die Informationen und Dateien, die an den Hochschulen vorliegen, gleich eine ganze Reihe von Stationen, bis sie zur Langzeiterhaltung und für die künstlerische, wissenschaftliche wie öffentliche Nutzung aufbereitet sind.
+Digi-Kunst.nrw hat gleich mehrere [zentrale Ziele]({{ site.baseurl }}). Damit diese teils sehr vielfätigen Aufgaben zusammen gelingen können, durchlaufen die Informationen und Dateien, die an den Hochschulen vorliegen, eine ganze Reihe von Stationen, bis sie zur Langzeiterhaltung und für die künstlerische, wissenschaftliche wie öffentliche Nutzung aufbereitet sind.
 
 ----
 
