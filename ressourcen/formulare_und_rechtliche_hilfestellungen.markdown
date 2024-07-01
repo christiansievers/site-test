@@ -1,7 +1,7 @@
 ---
 layout: digi-kunst-docs
 title: Rechtliches (Formulare und Hilfestellungen)
-order: 2.9.1
+order: 2.91
 ---
 
 Informationen und Vorlagen zur Klärung von Lizenzierung und Nutzungsrechten
