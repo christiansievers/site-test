@@ -28,6 +28,12 @@ Ziel von Digi-Kunst.nrw ist es, das digitale künstlerische Erbe der Hochschulen
 
 ----
 
+**Was ist für das Portal archivierungswürdig?**
+
+Eine Bewertung hinsichtlich der Archivwürdigkeit der künstlerischen Arbeiten findet durch Digi-Kunst nicht statt. Die einliefernden Institutionen und Künstler:innen entscheiden unter Berücksichtigung des Urheberrechts selbständig, welche künstlerischen Arbeiten langzeitarchiviert und ggf. darüber hinaus der Öffentlichkeit zur Verfügung gestellt werden. Eine Sicherung ohne eine Veröffentlichung ist möglich.
+
+----
+
 **Verliere ich Rechte an meinen Projekten, wenn ich sie in Digi-Kunst.nrw einliefere?**
 
 Nein. Als Rechteinhaber:in gewähren sie ihrer Hochschule bestimmte Nutzungsrechte an ihrem Projekt, so dass diese es bei Digi-Kunst.nrw einliefern und, wenn das gewünscht ist, auch dort veröffentlichen kann. Zusätzlich gibt es die Möglichkeit, anderen Portalen für Kultur und Wissen (etwa der [Deutschen Digitalen Bibliothek](https://www.deutsche-digitale-bibliothek.de/) das Recht zu geben, es zu veröffentlichen. Diese Rechte können für das ganze Projekt gelten oder auf Datei-Ebene angepasst werden. Alle angegebenen Metadaten zum Projekt werden veröffentlicht, sofern sie nicht durch die DSGVO geschützt oder vertraulich sind. Siehe [Lizenzen]({{ site.baseurl }}/ressourcen/lizenzen).
@@ -36,13 +42,45 @@ Nein. Als Rechteinhaber:in gewähren sie ihrer Hochschule bestimmte Nutzungsrech
 
 **Wo kann man die Werke und Projekte sehen?**
 
-TODO
+Die Präsentationsplattform wird derzeit entwickelt und geht voraussichtlich 2025 online.
 
 ----
 
 **Wie kann ich als Künstler:in meine Werke und Projekte einliefern? Warum sollte ich das tun?**
 
-TODO
+Inhalte folgen zeitnah.
+
+----
+
+**Was ist der Unterschied zwischen Projekt und Ereignis?**
+
+Im Falle eines Projektes müssen eine gewisse Schöpfungshöhe bzw. künstlerische Leistungen vorliegen, und die Schöpfer Rechte durch ihre künstlerische Arbeit erlangt haben. Diese Fragen sind im Urheber- und Leistungsschutzrecht geregelt. Beispiele für Projekte sind Kunstwerke, Inszenierungen, musikalische Kompositionen, ein Film oder ein sonstiges Werk. 
+
+Trifft beides nicht zu, kann etwas als Ereignis erfasst werden. Beispiele für Ereignisse sind Aufführung, Einspielung, musikalische Komposition oder Digitalisierung. 
+
+----
+
+**Welchen Mehrwert generiert die Digi-Kunst.nrw Plattform gegenüber gängigen Bibliothekssystemen?**
+
+Das Portal bietet folgende Vorteile:
+- Selbstständige Erfassung der künstlerischen Arbeiten durch die Künstler 
+- Benutzerfreundliche reduzierte Erfassungsmaske
+- Individuelle Rechteverwaltung
+- Erfassung anhand Normdateien mit Option eines Freitextes
+- Auffindbarkeit der Projekte und Werke in großen Portalen wie [Deutsche Digitale Bibliothek (DDB)](https://www.deutsche-digitale-bibliothek.de/) und [Europeana](https://www.europeana.eu/)
+    
+----
+
+**Ist die Erfassung nur durch fachkundiges Personal möglich?**
+
+Mit Schaffung des Portals wurde auf eine benutzerfreundliche Eingabe berücksichtigt. Hilfstexte und Vorgaben bei einigen Felder ermöglichen es das die Künstler eigenständig ihre künstlerischen Arbeiten eingeben können. Auf Pflichtfelder und Fehlermeldungen wird hingewiesen. 
+
+
+----
+
+**Wie erhalte ich Zugang zum Portal?**
+
+Auf Grund der Rechteverwaltung erhalten Nutzer des Portals einen individuellen Zugang. Bitte wenden sie sich dazu an die [Projektleitung]({{ site.baseurl }}/projektstruktur/team).
 
 ----
 

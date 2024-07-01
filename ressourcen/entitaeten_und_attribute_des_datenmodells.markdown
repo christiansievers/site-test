@@ -12,7 +12,7 @@ Ein Datensatz zu einem Projekt enthält in der Regel einen Titel und die Beschre
 
 Als zweite zentrale Einheit bilden **Ereignisse** die historische Entwicklung eines Projekts ab:
 
-* Es gibt viele Typen von Ereignissen: Mit dem Ereignistyp der geistigen Schöpfung oder der Herstellung entsteht überhaupt erst ein Kunstwerk, später gibt es dann oft die Typen Aufführung, Ausstellung oder Filmpremiere. [TODO Link zu Ereignistypen]
+* Es gibt viele [Typen von Ereignissen]({{ site.baseurl}}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/ereignistypen): Mit dem Ereignis der geistigen Schöpfung oder der Herstellung entsteht überhaupt erst ein Kunstwerk, später gibt es dann oft weitere Ereignisse wie Aufführung, Ausstellung oder Filmpremiere.
 * Ereignisse haben in der Regel einen Beginn und ein Ende und finden an bestimmten Orten statt.
 * Ereignisse werden von verschiedenen Akteur:innen durch- oder aufgeführt, wodurch sich rechtliche Ansprüche ableiten können.
 * Bei manchen Ereignissen wird bestimmte Software und Equipment verwendet.
