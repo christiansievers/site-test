@@ -26,7 +26,7 @@ Im Erfassungs-Backend können neue [Projekte]({{ site.baseurl }}/ressourcen/enti
 
 ## Admin-Backend
 
-Das Admin-Backend umfasst die Verwaltung bestimmter kontrollierter Vokabulare und Taxonomien sowie die Verwaltung von zuweisbaren Rechte- und Lizenzangaben, die auf Projekte und [Digitale Objekte]([{{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#ereignis-digitale-objekte) im Erfassungs-Backend angewendet werden können. Zudem können vom Admin-Portal aus alle zentralen Arbeitsschritte zur Überführung in die Langzeitverfügbarkeit und zur öffentlichen Webpräsenz geplant und durchgeführt werden. Der Zugriff auf das Admin-Backend ist, je nachdem, was dort verwaltet werden muss, auf die Projektleitung und/oder die Mediendokumentar:innen beschränkt.
+Das Admin-Backend umfasst die Verwaltung bestimmter kontrollierter Vokabulare und Taxonomien sowie die Verwaltung von zuweisbaren Rechte- und Lizenzangaben, die auf Projekte und [Digitale Objekte]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#ereignis-digitale-objekte) im Erfassungs-Backend angewendet werden können. Zudem können vom Admin-Portal aus alle zentralen Arbeitsschritte zur Überführung in die Langzeitverfügbarkeit und zur öffentlichen Webpräsenz geplant und durchgeführt werden. Der Zugriff auf das Admin-Backend ist, je nachdem, was dort verwaltet werden muss, auf die Projektleitung und/oder die Mediendokumentar:innen beschränkt.
 
 ----
 
