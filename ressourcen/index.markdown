@@ -26,9 +26,9 @@ Alle wichtigen Begriffe aus dem Projekt
 [Weiterführende Informationen]({{ site.baseurl }}/ressourcen/weiterfuehrende-informationen)\
 Links zu externen Ressourcen
 
-[Rechtliches (Formulare und Hilfestellungen)]({{ site.baseurl }}/ressourcen/formulare_und_rechtliche_hilfestellungen)\
-Informationen und Vorlagen zur Klärung von Lizenzierung und Nutzungsrechten
-
 [Lizenzen]({{ site.baseurl }}/ressourcen/lizenzen)
 
 - [Digi-Kunst-A+B+C (Entwurf)]({{ site.baseurl }}/ressourcen/lizenzen/digi-kunst-a+b+c-1.0)
+
+[Rechtliches (Formulare und Hilfestellungen)]({{ site.baseurl }}/ressourcen/formulare_und_rechtliche_hilfestellungen)\
+Informationen und Vorlagen zur Klärung von Lizenzierung und Nutzungsrechten
