@@ -31,4 +31,4 @@ Informationen und Vorlagen zur Klärung von Lizenzierung und Nutzungsrechten
 
 [Lizenzen]({{ site.baseurl }}/ressourcen/lizenzen)
 
-- [Digi-Kunst-A+B+C (Entwurf)]({{ site.baseurl }}/ressourcen/lizenzen/digi-kunst-a+b+c)
+- [Digi-Kunst-A+B+C (Entwurf)]({{ site.baseurl }}/ressourcen/lizenzen/digi-kunst-a+b+c-1.0)

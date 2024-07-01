@@ -463,7 +463,7 @@ Der Output dieser Tools wird in Gänze gespeichert. Einige Informationen aus die
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
 | JHOVE-Dateistatus | JHOVE Status | 1 | Eine Information, die anzeigt, ob eine Datei valide und/oder wohlgeformt ist |							
-| DROID-PUID | PUID | 1 | Eine aus DROID automatisch ausgelesene ID, die eine Datei in der [PRONOM-Datenbank](https://www.nationalarchives.gov.uk/PRONOM/) von [The National Archives]([https://www.nationalarchives.gov.uk/) identifiziert. |							
+| DROID-PUID | PUID | 1 | Eine aus DROID automatisch ausgelesene ID, die eine Datei in der [PRONOM-Datenbank](https://www.nationalarchives.gov.uk/PRONOM/) von [The National Archives](https://www.nationalarchives.gov.uk/) identifiziert. |							
 | DROID-PUID-Link | PUID Link | 1 | Ein daraus erzeugter Link, z. B.: [https://www.nationalarchives.gov.uk/PRONOM/fmt/134](https://www.nationalarchives.gov.uk/PRONOM/fmt/134)
 | Prüfsumme | Hash/Checksum | 1 | Eine von DROID erzeugte Prüfsumme der Datei (SHA512) |									
 | Dateityp (kurz) | File Type (short) | 1 | Der kurze Name des Dateityps |

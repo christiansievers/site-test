@@ -16,7 +16,7 @@ Bevor mit der Erfassung der Daten begonnen werden kann, empfehlen wir, einige gr
 Professionelle Lösungen sind diese Programme:
 
 - [MediaInfo](https://mediaarea.net/de/MediaInfo) kann benutzt werden, um auch von einer großen Menge von Dateien detaillierte technische Metadaten auszulesen. Das Ergebnis kann einfach geteilt werden und ermöglicht eine genaue Statistik über die in Mediendateien verwendeten Audio-, Video- und Bildcodecs – Informationen, die eine Aussage über die Langzeitstabilität ermöglichen.
-- [DROID](https:www.nationalarchives.gov.ukinformation-managementmanage-informationpolicy-processdigital-continuityfile-profiling-tool-droid), wird vom Nationalarchiv Großbritanniens kostenfrei zur Verfügung gestellt. Es ist weniger bequem zu benutzen aber sehr leistungsstark. Mit DROID ist es auch möglich, Dateitypen zu identifizieren, auf falsche oder fehlende Datei-Suffixe zu prüfen und Prüfsummen zu berechnen (siehe [weiterführende Lektüre zur Langzeitverfügbarkeit]({{ site.baseurl }}/ressourcen/grundkonzepte.html#weiterf%C3%BChrende-lekt%C3%BCre-zur-langzeitverf%C3%BCgbarkeit)).
+- [DROID](https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/) wird vom Nationalarchiv Großbritanniens kostenfrei zur Verfügung gestellt. Es ist weniger bequem zu benutzen aber sehr leistungsstark. Mit DROID ist es auch möglich, Dateitypen zu identifizieren, auf falsche oder fehlende Datei-Suffixe zu prüfen und Prüfsummen zu berechnen (siehe [weiterführende Lektüre zur Langzeitverfügbarkeit]({{ site.baseurl }}/ressourcen/weiterfuehrende-informationen)).
 
 ## Vorstrukturieren der Daten: Pflichtfelder für Metadaten
 
