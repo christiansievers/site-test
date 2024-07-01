@@ -11,5 +11,5 @@ order: 1
 
 [Lenkungskreis]({{ site.baseurl }}/projektstruktur/lenkungskreis)
 
-[Projektgenese]({{ site.baseurl }}/projektstruktur/projektgenese)
+[Entstehungsgeschichte]({{ site.baseurl }}/projektstruktur/entstehungsgeschichte)
 

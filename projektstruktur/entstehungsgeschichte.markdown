@@ -1,6 +1,6 @@
 ---
 layout: digi-kunst-docs
-title: Projektgenese
+title: Entstehungsgeschichte
 order: 1.4
 ---
 
