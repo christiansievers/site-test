@@ -12,7 +12,7 @@ Das Datenmodell definiert, wie die heterogenen Rohinformationen der unterschiedl
 | **Ereignis** | Die wichtigste Entität nach dem Projekt sind die Ereignisse. Hier führen wir die meisten mit dem Projekt verbundenen Informationen zusammen. Ereignisse sind gekennzeichnet durch einen Zeitraum und ggf. einen Ort. Hier findet sich eine Liste der verschiedenen [Ereignistypen]({{ site.baseurl}}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/ereignistypen), die bei der Erfassung benutzt werden können.|
 | **Akteur:innen** | Personen werden in der Entität Akteur:innen erfasst. In Ereignissen haben Akteur:innen eine oder mehrere *Rollen*.|
 |**Digitales Objekt** | Digitale Objekte (Dateien) werden über Ereignisse verzeichnet. Sie sind entweder durch Retrodigitalisierung aus physischen Medien entstanden, oder sie sind born digital. Sie können inhaltlich beschrieben und typisiert werden, und eine Vielzahl von technischen Metadaten wird automatisch ausgelesen, die sich je nach Datei- und Medientyp stark unterscheiden können. |
-| **Weitere Entitäten** | Weitere optionale Entitäten sind u.a. *physisches Objekt*, verwendetes *Equipment und Software* und *Informationsträger* – siehe Diagramm. |
+| **Weitere Entitäten** | Weitere optionale Entitäten sind u.a. *Physisches Objekt*, verwendetes *Equipment und Software* und *Informationsträger* – siehe Diagramm. |
 
 
 Dieses Diagramm zeigt in vereinfachter Form, wie sich die Entitäten und Attribute zueinander verhalten:

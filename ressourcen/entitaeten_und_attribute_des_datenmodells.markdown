@@ -16,9 +16,9 @@ Als zweite zentrale Einheit bilden **Ereignisse** die historische Entwicklung ei
 * Ereignisse haben in der Regel einen Beginn und ein Ende und finden an bestimmten Orten statt.
 * Ereignisse werden von verschiedenen Akteur:innen durch- oder aufgeführt, wodurch sich rechtliche Ansprüche ableiten können.
 * Bei manchen Ereignissen wird bestimmte Software und Equipment verwendet.
-* Bei manchen Ereignissen entstehen bestimmte physische Objekte oder werden verwendet.
+* Bei manchen Ereignissen entstehen bestimmte Physische Objekte oder werden verwendet.
 * Ereignisse manifestieren sich oder werden dokumentiert in Digitalen Objekten (Dateien).
-* Manche digitale Objekte entstehen durch die Retrodigitalisierung eines Informationsträgers.
+* Manche Digitale Objekte entstehen durch die Retrodigitalisierung eines Informationsträgers.
 
 All diese Informationen sind ausschließlich über Ereignisse mit einem Projekt verknüpft. 
 
@@ -188,7 +188,7 @@ Diese können auf zweierlei Arten eingeholt werden:
 * Zum einen kann bereits ein Nutzungsvertrag zwischen den Rechteinhaber:innen und der Hochschule bestehen, mit welchem bereits verschiedene Erhaltungsschritte erlaubt sind. Zum Beispiel kann es sein, dass die Archivierung eines Projekts bereits Bestandteil einer vorherigen Vereinbarung war. In diesen Fällen ist zu klären, ob Digi-Kunst.nrw bereits verschiedene Arbeitsschritte ausführen darf, beispielsweise die Projekte zu verzeichnen und die Dateien in die Langzeitverfügbarkeit zu überführen.
 * Zum anderen kann über Digi-Kunst.nrw ein neuer Lizenzvertrag geschlossen werden, falls noch keiner vorliegt oder der bereits bestehende Lizenzvertrag erweitert werden soll. Digi-Kunst.nrw stellt dafür eine speziell für diesen Zweck erstellte Modularlizenz zur Verfügung. Details hierzu finden sich auf der Seite [Lizenzen]({{ site.baseurl }}/ressourcen/lizenzen).
 
-Es ist möglich, auf Wunsch alle oder nur einzelne digitale Objekte eines Projekts (bzw. eines Ereignisses) zu veröffentlichen. Nicht veröffentlichte digitale Objekte bleiben für die Öffentlichkeit unzugänglich und werden nur in die Langzeitverfügbarkeit-Sicherung des hbz gegeben. Die Metadaten (Titel, Beschreibung, Akteur:innen, usw.) werden, sofern sie keine durch die DSGVO geschützten, persönlichen Informationen beinhalten, frei veröffentlicht.
+Es ist möglich, auf Wunsch alle oder nur einzelne Digitale Objekte eines Projekts (bzw. eines Ereignisses) zu veröffentlichen. Nicht veröffentlichte Digitale Objekte bleiben für die Öffentlichkeit unzugänglich und werden nur in die Langzeitverfügbarkeit-Sicherung des hbz gegeben. Die Metadaten (Titel, Beschreibung, Akteur:innen, usw.) werden, sofern sie keine durch die DSGVO geschützten, persönlichen Informationen beinhalten, frei veröffentlicht.
 
 <pre class="mermaid">
 flowchart TB;
@@ -338,9 +338,9 @@ In einem Ereignis können verschiedene Arten von Equipment & Software zum Einsat
 
 ## Ereignis: Physische Objekte
 
-Die Entität „physische Objekte“ beschreibt physische Bestandteile und Materialien, die Teil eines Projekts sind, z. B. ihre Beschaffenheit oder welche Technik zur Herstellung verwendet wurde.
+Die Entität „Physische Objekte“ beschreibt körperliche Bestandteile und Materialien, die Teil eines Projekts sind, z. B. ihre Beschaffenheit oder welche Technik zur Herstellung verwendet wurde.
 
-In einem Ereignis können beliebig viele physische Objekte beschrieben werden. Dasselbe physische Objekt kann in vielen Projekten vorkommen.
+In einem Ereignis können beliebig viele Physische Objekte beschrieben werden. Dasselbe Physische Objekt kann in vielen Projekten vorkommen.
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
@@ -391,7 +391,7 @@ Informationsträger sind physische Datenträger oder Trägermedien, die digitali
 
 ## Ereignis: Digitale Objekte
 
-Digi-Kunst.nrw definiert ein digitales Objekt als eine Datei oder ein Dateibündel sowie zugehörige inhaltliche Beschreibung und technische Metadaten. Ein Ereignis kann beliebig viele digitale Objekte enthalten, und ein digitales Objekt kann in beliebig vielen Ereignissen auftauchen. Bereits beim Upload werden zentrale Metadaten zur Datei erfasst:
+Digi-Kunst.nrw definiert ein Digitales Objekt als eine Datei oder ein Dateibündel sowie zugehörige inhaltliche Beschreibung und technische Metadaten. Ein Ereignis kann beliebig viele Digitale Objekte enthalten, und ein Digitales Objekt kann in beliebig vielen Ereignissen auftauchen. Bereits beim Upload werden zentrale Metadaten zur Datei erfasst:
 
   * **Wie ist die Datei entstanden?** Ist sie „born digital“ oder ein Retrodigitalisat?
   * **Zu welchem Medientyp gehört die Datei?** 3D, Audio, Bild, Code, Text oder Video?
@@ -404,7 +404,7 @@ Digi-Kunst.nrw definiert ein digitales Objekt als eine Datei oder ein Dateibünd
   * **Soll die Datei öffentlich angezeigt werden oder nicht?**
   * Zudem wird **automatisch ausgelesen, wie groß die Datei ist, zu welchem Dateityp sie gehört und wann sie zuletzt verändert wurde**.
 
-Dies sind die Pflichtangaben, um ein digitales Objekt erfassen zu können: 
+Dies sind die Pflichtangaben, um ein Digitales Objekt erfassen zu können: 
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |

@@ -4,7 +4,7 @@ title: Informationsträgertypen
 order: 3.2.4
 ---
 
-Die folgenden 135 Informationsträgertypen werden benutzt, um physische Aufzeichnungsmedien und Datenträger zu typisieren. Die Aufteilung in Video, Audio, Film, Computer-Datenträger und Schriftstück dient der Orientierung und wurde nicht mit in das System übernommen.
+Die folgenden 135 Informationsträgertypen werden benutzt, um materielle Aufzeichnungsmedien und Datenträger zu typisieren. Die Aufteilung in Video, Audio, Film, Computer-Datenträger und Schriftstück dient der Orientierung und wurde nicht mit in das System übernommen.
 
 Stand 1. Juli 2024
 
