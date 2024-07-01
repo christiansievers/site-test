@@ -15,15 +15,21 @@ In den folgenden Abschnitten werden die zentralen Einheiten dieses Modells kurz 
 
 ----
 
-## Erfassungsportal
+## Erfassungs-Backend
 
-Das Erfassungsportal besteht aus dem Erfassungs-Backend und dem Admin-Backend. Im Erfassungs-Backend kann man neue [Projekte]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#zentrale-entitäten-projekt-und-ereignis) angelegen sowie bereits bestehende Projekte verwalten. Das Erfassungs-Backend steht allen einliefernden Personen zur Verfügung. Das sind, neben der [Projektleitung]({{ site.baseurl }}/projektstruktur/team.html#gesamtprojektleitung) und unseren [Mediendokumentar:innen]({{ site.baseurl }}/projektstruktur/team.html#mediendokumentarinnen), zunächst ausgewählte Personen an den Hochschulen. In Zukunft soll dieses Backend aber, via [Shibboleth](https://www.shibboleth.net/), auch für Lehrende und Student:innen zugänglich sein. Das Admin-Backend umfasst die Verwaltung kontrollierter Vokabulare und Taxonomien sowie die Verwaltung von verfügbaren Rechte- und Lizenzangaben, die auf Projekte und [Digitale Objekte]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#ereignis-digitale-objekte) angewendet werden können. Dieser Zugriff ist, je nachdem, was veraltet werden muss, auf die Projektleitung und/oder die Mediendokumentar:innen beschränkt. Außerdem wird man im Admin-Portal Prozesse einsehen und steuern können, die über die Erfassung hinaus gehen.
+Im Erfassungs-Backend kann man neue [Projekte]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#zentrale-entitäten-projekt-und-ereignis) angelegen sowie bereits bestehende Projekte verwalten. Das Erfassungs-Backend steht allen einliefernden Personen zur Verfügung. Das sind, neben der [Projektleitung]({{ site.baseurl }}/projektstruktur/team.html#gesamtprojektleitung) und unseren [Mediendokumentar:innen]({{ site.baseurl }}/projektstruktur/team.html#mediendokumentarinnen), zunächst ausgewählte Personen an den Hochschulen. In Zukunft soll dieses Backend aber, via [Shibboleth](https://www.shibboleth.net/), auch für Lehrende und Student:innen zugänglich sein.
+
+----
+
+## Admin-Backend
+
+Das Admin-Backend umfasst die Verwaltung bestimmter kontrollierter Vokabulare und Taxonomien sowie die Verwaltung von zuweisbaren Rechte- und Lizenzangaben, die auf Projekte und [Digitale Objekte]({{ site.baseurl }}/ressourcen/entitaeten_und_attribute_des_datenmodells.html#ereignis-digitale-objekte) im Erfassungsbackend angewendet werden können. Außerdem können vom Admin-Portal aus alle zentralen Arbeitsschritte zur Überführung in die Langzeitverfügbarkeit geplant und durchgeführt werden. Der Zugriff auf das Admin-Backend ist, je nachdem, was dort verwaltet werden muss, auf die Projektleitung und/oder die Mediendokumentar:innen beschränkt.
 
 ----
 
 ## Staging-Speicher
 
-Die eingegeben Daten und hochgeladenen Dateien werden dann zunächst auf einem Staging-Speicher gespeichert. Dabei wird darauf geachtet, dass die Dateien auch vollständig hochgeladen werden. Auf diesem Speicher angekommen, werden die Dateien mit einer Prüfsumme versehen, sodass spätere Änderungen an ihnen nachvollziehbar sind. Ebenso wird eine Reihe technsicher Informationen aus ihnen ausgelesen. Beides, die manuell eingegeben und die ausgelesen Daten, werden gemeinsam in einer [relationalen Datenbank](https://www.ibm.com/de-de/topics/relational-databases) gespeichert. Damit einzelne Datensätze in- und außerhalb von Digi-Kunst.nrw identifizierbar sind, werden sie mit [Handles](https://www.handle.net/) versehen. Es ist vorgesehen, auch noch weitere digitale Identifikatoren vergeben zu können, zum Beispiel [DOIs](https://www.doi.org/). Sind alle Dateien und Informationen vollständig vorhanden, kann ein Paket erzeugt werden, das für die Langzeitverfügbarkeit geeignet ist. Dieses Paket wird dann an das Arbeits- und Webrepositorium KA3 weitergeleitet.
+Die eingegeben Daten und hochgeladenen Dateien werden dann zunächst auf einem Staging-Speicher gespeichert. Dabei wird darauf geachtet, dass die Dateien auch vollständig hochgeladen werden. Auf diesem Speicher angekommen, werden die Dateien mit einer Prüfsumme versehen, sodass spätere Änderungen an ihnen nachvollziehbar sind. Ebenso wird eine Reihe technsicher Informationen aus ihnen ausgelesen. Beides, die manuell eingegeben und die ausgelesen Daten, werden dann gemeinsam in einer [relationalen Datenbank](https://www.ibm.com/de-de/topics/relational-databases) gespeichert. Damit einzelne Datensätze in- und außerhalb von Digi-Kunst.nrw identifizierbar sind, werden sie mit [Handles](https://www.handle.net/) versehen. Es ist vorgesehen, auch noch weitere digitale Identifikatoren vergeben zu können, zum Beispiel [DOIs](https://www.doi.org/). Sind alle Dateien und Informationen vollständig vorhanden, kann ein Paket erzeugt werden, das für die Langzeitverfügbarkeit geeignet ist. Dieses Paket wird dann an das Arbeits- und Webrepositorium KA3 weitergeleitet.
 
 ----
 
@@ -33,11 +39,17 @@ Die eingegeben Daten und hochgeladenen Dateien werden dann zunächst auf einem S
 
 ## Speicher der LZV.nrw
 
+Zur Langzeitverfügbarkeit wird das 
+Im minimalsten Fall kann aber auf jedefall der Bitstream erhalten werden, also eine Abfolge von von Nullen und Einsen, die sich in elektronischen Signalen eines Computer wiederspiegeln. Diese Methode kann jede Datei erhalten, selbst wenn die Datei beispielsweise verschlüsselt, beschädigt, oder kein Dateiformat mehr auszumachen ist.
+
 ----
 
 ## Rosetta-Backend
+
+
 
 ----
 
 ## Dissiminations-Frontend
 
+Das Dissiminations-Frontend ist unsere öffentliche Webseite. 
