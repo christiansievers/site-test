@@ -365,7 +365,7 @@ In einem Ereignis können beliebig viele Physische Objekte beschrieben werden. D
 
 ## Ereignis: Informationsträger
 
-Informationsträger sind physische Datenträger oder Trägermedien, die digitalisiert wurden oder eine andere Rolle im Ereignis spielen, wie z. B. eine Schallplatte, eine Diskette, ein Tonband, oder eine Festplatte. Informationsträger werden durch [die Informationsträgertypen]({{ site.baseurl }}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/informationstraegertypen) kategorisiert. Zu einem Informationsträger können die folgenden Informationen erfasst werden:
+Informationsträger sind materielle Datenträger oder Trägermedien, die digitalisiert wurden oder eine andere Rolle im Ereignis spielen, wie z. B. eine Schallplatte, eine Diskette, ein Tonband oder eine Festplatte. Informationsträger werden durch [die Informationsträgertypen]({{ site.baseurl }}/technische-dokumentation/kontrollierte-vokabulare-und-taxonomien/informationstraegertypen) kategorisiert. Zu einem Informationsträger können die folgenden Informationen erfasst werden:
 
 | Deutscher Feldname | Englischer Feldname | Kardinalität | Kommentar |
 | ------------- | ------------- | ------------- | ------------- |
