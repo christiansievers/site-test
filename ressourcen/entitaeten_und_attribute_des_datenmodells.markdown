@@ -376,6 +376,18 @@ Informationsträger sind physische Datenträger oder Trägermedien, die digitali
 | Produkt-ID-Typ | Product ID Type | 0-u | Eine Auswahl aus der Entität "Nummernart". Z. B. "Bestellnummer", "ISBN", "Seriennummer" oder "Matritzennummer" |
 | Produkt-ID-Wert | Product ID Value | [1] | Zu jeder Auswahl ein dazugehöriger Wert |
 | Externe Inventar-Signaturnummer | External Inventory Number | 1-u | Eine Pflichtangabe, die den Informationsträger beim Einlieferer identifiziert. Bei Bedarf können es auch mehrere Nummern sein | 
+| Besitzer:in                  | Owner                        | 0-u | Metadaten werden nicht veröffentlicht und gehen ausschließlich in die Langzeitverfügbarkeit/Rosetta                                                                       |
+| Eigentümer:in                | Legal Rights Holder          | 0-u | Freitext-Feld z.b. "von 1950-1990 Frau Meyer, ab 1990 Herr Schulze" (Metadaten werden nicht veröffentlicht und gehen ausschließlich in die Langzeitverfügbarkeit/Rosetta) |
+| Provenienz                   | Provenance                   | 0-1 | Freitext-Feld z.b. "von 1950-1990 Frau Meyer, ab 1990 Herr Schulze" (Metadaten werden nicht veröffentlicht und gehen ausschließlich in die Langzeitverfügbarkeit/Rosetta) |
+| Deutsche Beschreibung        | German Description           | 0-1 | Freitext|
+| Englische Beschreibung       | English Description          | 0-1 | Freitext|
+| Deutscher Kommentar          | German Commentary            | 0-1 | Freitext|
+| Englischer Kommentar         | English Commentary           | 0-1 | Freitext|
+| Interner Kommentar           | Internal Commentary          | 0-1 | Freitext|
+| Maße                         | Measurements                 | 0-1 | Freitext|
+| Materialschlagwort           | Material Keyword             | 0-u | Verzeichnung über Schlagwort-Entität|
+| Erhaltungszustand (deutsch)  | Conservation State (German)  | 0-1 | z.B. im Original vorhanden, zerstört, verschollen                                                                                                                         |
+| Erhaltungszustand (englisch) | Conservation State (English) | 0-1 ||
 | Aufbewahrungsort | Depository | 0-1 | Ein Ort aus der Orte-Entität. Der derzeitige oder letztbekannte Aufbewahrungsort |
 | Informationsträgereigenschaft | Information Storage Medium Property | 0-u | Eine Auswahl aus der Entität "Informationsträgereigenschaft", z. B. „Bildfrequenz“, „Abspielgeschwindigkeit“ oder „Tonformat“ |									
 | Informationsträgereigenschaft-Wert | Information Storage Medium Property Value | [1] | Zu jeder Auswahl ein dazugehöriger Wert |
