@@ -36,9 +36,9 @@ Die hochgeladenen Dateien werden zunächst auf einem Staging-Speicher gespeicher
 
 ----
 
-## Arbeits- und Webrepositorium & KA3
+## Web- und Arbeitsrepositorium & KA3
 
-Das Arbeits- und Webrepositorium ist der zentrale Knotenpunkt, an dem alle Daten und Dateien, die bei Digi-Kunst.nrw erfasst werden, zusammenlaufen und von dem sie aus auch wieder weiterverarbeitet werden können. Damit dieser Workload gestemmt und gesteuert werden kann, benutzt Digi-Kunst.nrw das von Christoph Stollwerk speziell für die Archivierung von audio-visuellen Kulturarchivalien entwickelte Repositoriumssystem [KA3](https://ka3.uni-koeln.de/). KA3 ermöglicht es, dass diese Daten nicht nur für einen Zweck, sondern vielfältig und austauschfähig verwendet werden können. So ist dieses Repositorium zum einen Quelle für die öffentliche Webseite, zum anderen bietet es eine Schnittstelle zu den Strukturen der Langzeitverfügbarkeit im [Hochschulbibliothekszentrum NRW](https://www.hbz-nrw.de/).
+Das Web- und Arbeitsrepositorium ist der zentrale Knotenpunkt, an dem alle Daten und Dateien, die bei Digi-Kunst.nrw erfasst werden, zusammenlaufen und von dem sie aus auch wieder weiterverarbeitet werden können. Damit dieser Workload gestemmt und gesteuert werden kann, benutzt Digi-Kunst.nrw das von Christoph Stollwerk speziell für die Archivierung von audio-visuellen Kulturarchivalien entwickelte Repositoriumssystem [KA3](https://ka3.uni-koeln.de/). KA3 ermöglicht es, dass diese Daten nicht nur für einen Zweck, sondern vielfältig und austauschfähig verwendet werden können. So ist dieses Repositorium zum einen Quelle für die öffentliche Webseite, zum anderen bietet es eine Schnittstelle zu den Strukturen der Langzeitverfügbarkeit im [Hochschulbibliothekszentrum NRW](https://www.hbz-nrw.de/).
 
 ----
 
