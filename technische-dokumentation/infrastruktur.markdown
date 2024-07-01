@@ -4,17 +4,12 @@ title: Infrastruktur
 order: 3.3
 ---
 
-Digi-Kunst.nrw hat gleich mehrere zentrale Aufgaben:
-
-* Die Überführung der Daten in die Langzeitsverfügbarkeits-Speicherstrukturen des Landes Nordrhein-Westfalen,
-* die Schaffung einer benutzerfreundlichen Web-Oberfläche für die künstlerische, wissenschaftliche und öffentliche Nutzung sowie die
-* multimedial erfahrbare Dokumentation des exzellenten Niveaus von Kultur und Wissenschaft in NRW.
-
-Damit diese teils sehr heterogenen Ziele alle gleichermaßen gelingen können, benötigt Digi-Kunst.nrw eine ganze Reihe von System und Stationen bei sich und unseren Partnern, bis die Informationen und Dateien, die an den Hochschulen vorliegen, langzeitverfügbar und ebenso künstlerisch, wissenschaftlich und öffentlich nutzbar sind.
+Digi-Kunst.nrw hat gleich mehrere [zentrale Ziele]({{ site.baseurl }}). Damit diese teils sehr vielfätigen Aufgaben zusammen gelingen können, durchlaufen die Informationen und Dateien, die an den Hochschulen vorliegen, gleich eine ganze Reihe von Stationen, bis sie zur Langzeiterhaltung und für die künstlerische, wissenschaftliche wie öffentliche Nutzung aufbereitet sind.
 
 ----
 
 ## Strukturdiagramm
+
 Dieses Strukturdiagramm veranschaulicht den logischen Aufbau der derzeitigen Projektinfrastruktur und zeigt die Zusammenhänge von Systemkomponenten, Nutzer:innen, angebundenen Diensten und externen Institutionen.
 
 [![Digi-Kunst-Organigramm Stand Mai 2024]({{ site.baseurl }}/assets/images/2023-08-04_Strukturdiagramm.png 'Das Strukturdiagramm veranschaulicht den logischen Aufbau der intendierten Projektinfrastruktur')]({{ site.baseurl }}/assets/images/2023-08-04_Strukturdiagramm.png)
