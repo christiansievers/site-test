@@ -498,9 +498,8 @@ body {
  .main-content {
    flex: 4;
    min-height: 65vh;
-   overflow-x: visible;
+   overflow-x: auto;
    margin-bottom: 1%;
-   max-width: 1200px;
  }
  
  .post-content {
@@ -758,7 +757,7 @@ img {
    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
    margin-left: auto;
    margin-right: auto;
-   max-width: 100%;
+   max-width: 95%;
    vertical-align: middle;
    margin-top: 2%;
    margin-bottom: 2%;
@@ -770,6 +769,8 @@ img {
  
  @media screen and (max-width: 1380px) {
    .post-content img {
+     max-width: 95%;
+     vertical-align: middle;
      margin-top: 8%;
      margin-bottom: 8%;
    }
@@ -805,12 +806,6 @@ img {
  /*---- Videos ----*/
  
  video {
-   display: block;
-   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
-   margin-left: auto;
-   margin-right: auto;
-   max-width: 100%;
-   vertical-align: middle;
    margin-top: 4%;
    margin-bottom: 4%;
  }
